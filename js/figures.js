@@ -21,7 +21,7 @@
 
   function loadRegistry() {
     if (registry) return Promise.resolve(registry);
-    return fetch("data/figures.json?v=20261009b").then(function (r) { return r.json(); }).then(function (j) {
+    return fetch("data/figures.json?v=20261009c").then(function (r) { return r.json(); }).then(function (j) {
       registry = j; return j;
     });
   }

@@ -1488,3 +1488,63 @@ body.fab-tuck .coach-fab { transform: translateY(140%); opacity: 0; pointer-even
 .gallery-card .fig-btn, .figures-gallery .fig-btn { min-height: 40px; }
 .ex-actions { display: grid; grid-template-columns: 1fr; gap: 8px; margin-top: 8px; }
 .ex-actions .btn { width: 100%; margin: 0; }
+
+/* ── 問教練：AI 設定（自備 Gemini 金鑰）2026-10-09c ── */
+.coach-settings-btn { position: relative; }
+.coach-settings-btn.is-on::after {
+  content: ""; position: absolute; top: 4px; right: 4px; width: 8px; height: 8px;
+  border-radius: 50%; background: var(--accent-2);
+}
+.coach-settings {
+  flex-shrink: 0;
+  max-height: 46vh;
+  overflow-y: auto;
+  padding: 10px 14px 12px;
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in srgb, var(--accent) 6%, var(--bg-elev));
+  display: flex; flex-direction: column; gap: 8px;
+  font-size: .88rem;
+}
+.coach-settings[hidden] { display: none; }
+.coach-settings-title { margin: 0; font-size: .95rem; }
+.coach-switch { display: flex; align-items: center; gap: 10px; font-weight: 600; cursor: pointer; min-height: 36px; }
+.coach-switch input { width: 22px; height: 22px; accent-color: var(--accent-2); }
+.coach-switch input:disabled + span { opacity: .6; }
+.coach-field-label { font-size: .8rem; color: var(--muted); margin-bottom: -4px; }
+.coach-key-row { display: flex; gap: 6px; align-items: center; }
+.coach-ai-key, .coach-ai-model {
+  flex: 1; min-width: 0; min-height: 40px; padding: 8px 10px;
+  border-radius: 10px; border: 1px solid var(--border);
+  background: var(--bg); color: var(--text); font: inherit; font-size: 16px; /* 16px 避免 iOS 自動放大 */
+}
+.coach-ai-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.coach-ai-btns .btn { flex: 1 1 0; min-height: 40px; padding: 8px 10px; }
+.coach-ai-status { margin: 0; min-height: 1.2em; font-size: .82rem; color: var(--muted); }
+.coach-ai-status.is-ok { color: var(--ok); }
+.coach-ai-status.is-warn { color: var(--warn); }
+.coach-ai-status.is-err { color: var(--danger); }
+.coach-ai-privacy {
+  margin: 0; font-size: .8rem; line-height: 1.5; padding: 8px 10px; border-radius: 10px;
+  background: color-mix(in srgb, var(--warn) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--warn) 35%, transparent);
+}
+.coach-ai-howto summary { cursor: pointer; font-weight: 600; min-height: 32px; display: flex; align-items: center; }
+.coach-ai-howto ol { margin: 6px 0; padding-left: 1.3em; line-height: 1.6; }
+.coach-ai-howto a { color: var(--accent); word-break: break-all; }
+.coach-ai-howto p { margin: 4px 0 0; }
+.coach-ai-label {
+  display: inline-block; font-size: .72rem; color: var(--muted);
+  border: 1px dashed var(--border); border-radius: 999px; padding: 2px 8px;
+}
+.coach-ai-error { color: var(--warn); font-size: .85rem; }
+.coach-bubble ul, .coach-bubble ol { margin: 0 0 8px; padding-left: 1.25em; }
+.coach-bubble li { margin: 2px 0; }
+.coach-bubble code { font-size: .85em; padding: 0 4px; border-radius: 4px; background: var(--bg); }
+.coach-typing { color: var(--muted); }
+.coach-typing span { animation: coachDot 1.2s infinite; opacity: .2; }
+.coach-typing span:nth-child(2) { animation-delay: .2s; }
+.coach-typing span:nth-child(3) { animation-delay: .4s; }
+@keyframes coachDot { 0%, 100% { opacity: .2; } 50% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .coach-typing span { animation: none; opacity: 1; } }
+.coach-send:disabled { opacity: .6; }
+.coach-panel.settings-open .coach-chips { display: none; }

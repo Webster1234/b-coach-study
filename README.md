@@ -20,7 +20,7 @@
 - **考過的人這樣說**：公開心得整理的高／中優先必背重點（`data/exam-focus.json`），可連到課文與速記；標有「考過常提」
 - **小練習翻卡**：預設只抽 `basic` 基礎卡（功能／白話問法）
 - **正式刷題**：可選「小練習」（可看提示、答錯立刻解析）或「正式計分考」
-- **問教練**（右下角🏋️）：站內教練聊天，用名詞小辭典／課文／卡片／速記回答；更難的問題可回 Grok Bot 找健身🏋️
+- **問教練**（右下角🏋️）：站內教練聊天，用名詞小辭典／課文／卡片／速記回答；可選 ⚙️ 貼上自己的免費 Gemini 金鑰改用 AI 回答（見下方「問教練 AI 設定」）
 
 ## 功能一覽
 
@@ -31,7 +31,7 @@
 5. **測驗**：45 題模擬選擇題或由基礎卡出題；練習／計分兩模式、錯題本  
 6. **章節一覽**：有對應課文的章節會先開課文  
 7. **名詞小辭典**：搜尋／分類瀏覽；課文內可點名詞
-8. **問教練**：右下角浮動按鈕，站內檢索回答（辭典優先，無外部 LLM）  
+8. **問教練**：右下角浮動按鈕，站內檢索回答（辭典優先）；選用自備 Gemini 金鑰的 AI 回答  
 9. **課文表格**：`lessons.json` 課文可帶 `tables:[{caption,headers,rows,note}]`，顯示為可讀文字版表格（手機自動改直式），給圖片表格做無障礙對照  
 
 ## 路徑
@@ -128,3 +128,12 @@ python3 /workspace/b-coach-study/scripts/enrich_cards.py
 - 練習：答錯顯示原因＋圖＋「回課文看這段」；「只出我學過的課」篩選。
 - 新增 localStorage `bcs_ux_v1`（導覽、字體、讀過的課、上次位置、每日活動）；原有 key 不變。
 - 新檔：`js/ux.js`（導覽、設定、搜尋）。稽核報告：`/workspace/figwork/ux-audit.md`。
+
+## 問教練 AI 設定（選用・自備 Gemini 金鑰，2026-10-09c）
+- 問教練右上 **⚙️** → 「AI 設定」：貼上 Gemini API 金鑰 →「儲存」→「測試」。開關「用 AI 回答」可隨時關閉；可選模型（預設 `gemini-2.5-flash`，404 時自動改用 `gemini-2.0-flash` → `gemini-1.5-flash`）。
+- 免費金鑰：<https://aistudio.google.com/apikey>（Google 帳號登入 → Create API key → 複製 AIza 開頭那串）。
+- 流程（RAG）：先用站內檢索（辭典／課文／卡片／速記／考過的人說）取前 6 段、約 3500 字內，連同最近 6 則對話送到 Gemini `generateContent`；回答用安全 markdown 顯示（先 escape，只支援粗體／條列／換行），下方保留站內相關連結與「AI 回答，可能有錯，考試以講義為準」。
+- 課文「🤔 還不懂 → 問教練」會附上該課內容；練習解析「問教練這題」會附上題目、選項、正確答案、解析。
+- 金鑰錯誤（400/403）、額度用完（429）、斷網、逾時（25 秒）、安全阻擋時，顯示中文提示並**自動改用站內回答**。沒有金鑰＝跟以前一樣的站內回答。
+- **隱私**：網站與 repo 內**沒有任何金鑰**。金鑰只存在使用者自己瀏覽器的 `localStorage`（`bcs_gemini_key`；另有 `bcs_gemini_model`、`bcs_ai_on`），以 `x-goog-api-key` 標頭直接傳給 `generativelanguage.googleapis.com`，不經本站伺服器、不寫入 console。不要在公用電腦儲存；按「清除」即刪除。免費版提問可能被 Google 用於改善模型，勿輸入個資。
+- 程式：`js/coach-chat.js`（`buildGeminiRequest`、`callGemini`、`renderSafeMarkdown`；測試入口 `BCoachChat._ai`）。

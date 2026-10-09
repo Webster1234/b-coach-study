@@ -210,12 +210,12 @@
 
   async function loadData() {
     const [cards, exam, lessons, mnemonics, examFocus, glossary] = await Promise.all([
-      fetch("data/cards.json?v=20261009b").then((r) => r.json()),
-      fetch("data/exam-questions.json?v=20261009b").then((r) => r.json()),
-      fetch("data/lessons.json?v=20261009b").then((r) => r.json()),
-      fetch("data/mnemonics.json?v=20261009b").then((r) => r.json()),
-      fetch("data/exam-focus.json?v=20261009b").then((r) => r.json()),
-      fetch("data/glossary.json?v=20261009b").then((r) => r.json()),
+      fetch("data/cards.json?v=20261009c").then((r) => r.json()),
+      fetch("data/exam-questions.json?v=20261009c").then((r) => r.json()),
+      fetch("data/lessons.json?v=20261009c").then((r) => r.json()),
+      fetch("data/mnemonics.json?v=20261009c").then((r) => r.json()),
+      fetch("data/exam-focus.json?v=20261009c").then((r) => r.json()),
+      fetch("data/glossary.json?v=20261009c").then((r) => r.json()),
     ]);
     state.cardsData = cards;
     state.examData = exam;
@@ -1296,7 +1296,7 @@
       if (f) { f.scrollIntoView({ behavior: "smooth", block: "center" }); f.classList.remove("flash"); void f.offsetWidth; f.classList.add("flash"); }
     }));
     $("#btn-ask-coach-lesson").addEventListener("click", () => {
-      if (window.BCoachChat && window.BCoachChat.ask) window.BCoachChat.ask(les.title.replace(/（.*?）/g, "") + " 是在講什麼？");
+      if (window.BCoachChat && window.BCoachChat.ask) window.BCoachChat.ask(les.title.replace(/（.*?）/g, "") + " 是在講什麼？", { lessonId: les.id });
     });
     $("#btn-lesson-top").addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
     box.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -1854,7 +1854,10 @@
     const ask = exp.querySelector("[data-ex-ask]");
     if (ask) ask.addEventListener("click", () => {
       const t = findTermsInText(item.q + " " + item.options[item.answer], 1)[0];
-      if (window.BCoachChat && window.BCoachChat.ask) window.BCoachChat.ask(t ? t.term + " 是什麼？" : item.q);
+      if (window.BCoachChat && window.BCoachChat.ask) window.BCoachChat.ask(t ? t.term + " 是什麼？" : item.q, {
+        extra: "題目：" + item.q + "\n選項：" + (item.options || []).map((o, i) => String.fromCharCode(65 + i) + ". " + o).join("　") +
+          "\n正確答案：" + (item.options || [])[item.answer] + (item.explain ? "\n解析：" + item.explain : ""),
+      });
     });
     const exb = exp.querySelector("[data-ex-lesson]");
     if (exb) exb.addEventListener("click", () => openLesson(exb.getAttribute("data-ex-lesson"), "quiz", { focus: item.q + " " + item.options[item.answer] + " " + (item.explain || "") }));

@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0f1419" />
   <meta name="description" content="World Gym B 級健身教練考試｜解剖體力學離線複習・新手友善" />
   <title>B 級教練複習站｜新手友善</title>
-  <link rel="stylesheet" href="css/style.css?v=20261009b" />
+  <link rel="stylesheet" href="css/style.css?v=20261009c" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>" />
 </head>
 <body>
@@ -491,8 +491,41 @@
         <h2 id="coach-title">健身教練（站內）</h2>
         <p class="coach-sub">用站內辭典・課文・卡片・速記回答</p>
       </div>
+      <button type="button" class="icon-btn coach-settings-btn" id="coach-settings-btn" aria-label="AI 設定" aria-expanded="false" aria-controls="coach-settings" title="AI 設定">⚙️</button>
       <button type="button" class="icon-btn" id="coach-close" aria-label="關閉">✕</button>
     </header>
+    <section id="coach-settings" class="coach-settings" aria-label="AI 設定" hidden>
+      <h3 class="coach-settings-title">⚙️ AI 設定（選用・免費）</h3>
+      <label class="coach-switch">
+        <input type="checkbox" id="coach-ai-toggle" disabled />
+        <span>用 AI 回答（Gemini）</span>
+      </label>
+      <label class="coach-field-label" for="coach-ai-key">Gemini API 金鑰</label>
+      <div class="coach-key-row">
+        <input type="password" id="coach-ai-key" class="coach-ai-key" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="text" placeholder="貼上 AIza 開頭的金鑰" />
+        <button type="button" class="icon-btn coach-ai-show" id="coach-ai-show" aria-label="顯示金鑰">👁</button>
+      </div>
+      <div class="coach-ai-btns">
+        <button type="button" class="btn primary" id="coach-ai-save">儲存</button>
+        <button type="button" class="btn ghost" id="coach-ai-test">測試</button>
+        <button type="button" class="btn ghost" id="coach-ai-clear">清除</button>
+      </div>
+      <p id="coach-ai-status" class="coach-ai-status" role="status" aria-live="polite"></p>
+      <label class="coach-field-label" for="coach-ai-model">模型</label>
+      <select id="coach-ai-model" class="coach-ai-model"></select>
+      <p class="coach-ai-privacy">🔒 <strong>金鑰只存在這台裝置的瀏覽器；不要在公用電腦儲存。</strong>金鑰只會直接傳給 Google（generativelanguage.googleapis.com），不會傳到本站或其他地方。沒有金鑰也能照常用站內回答。</p>
+      <details class="coach-ai-howto">
+        <summary>📝 怎麼拿免費金鑰？（約 3 分鐘）</summary>
+        <ol>
+          <li>打開 <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener noreferrer">aistudio.google.com/apikey</a>，用你的 Google 帳號登入。</li>
+          <li>第一次會跳出使用條款，勾選同意後繼續。</li>
+          <li>按「<b>Create API key</b>（建立 API 金鑰）」；如果要你選專案，選預設的或新建一個就好。</li>
+          <li>按複製，拿到一串 <b>AIza</b> 開頭的英文數字。</li>
+          <li>回到這裡貼上 → 按「<b>儲存</b>」→ 再按「<b>測試</b>」，看到 ✅ 就完成了。</li>
+        </ol>
+        <p class="coach-muted">免費版有每分鐘／每天次數上限，用完會自動改用站內回答，稍等就恢復。免費版的提問 Google 可能拿去改善模型，不要輸入個人隱私或病歷。金鑰外流的話，回同一頁把它刪掉再建一把新的。</p>
+      </details>
+    </section>
     <div id="coach-messages" class="coach-messages" aria-live="polite"></div>
     <div id="coach-chips" class="coach-chips" aria-label="建議問題"></div>
     <div class="coach-compose">
@@ -502,11 +535,11 @@
     <p class="coach-footer-note">用站內辭典・課文・卡片・速記回答。更難的問題可回 Grok Bot 找健身🏋️。</p>
   </div>
 
-  <script src="js/sm2.js?v=20261009b"></script>
-  <script src="js/storage.js?v=20261009b"></script>
-  <script src="js/figures.js?v=20261009b"></script>
-  <script src="js/app.js?v=20261009b"></script>
-  <script src="js/coach-chat.js?v=20261009b"></script>
-  <script src="js/ux.js?v=20261009b"></script>
+  <script src="js/sm2.js?v=20261009c"></script>
+  <script src="js/storage.js?v=20261009c"></script>
+  <script src="js/figures.js?v=20261009c"></script>
+  <script src="js/app.js?v=20261009c"></script>
+  <script src="js/coach-chat.js?v=20261009c"></script>
+  <script src="js/ux.js?v=20261009c"></script>
 </body>
 </html>

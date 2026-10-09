@@ -1,4 +1,4 @@
-/* B Coach Study — 站內教練聊天（純前端檢索，無外部 LLM） */
+/* B Coach Study — 站內教練聊天（純前端檢索；可選自備 Gemini 金鑰的 AI 回答） */
 (function () {
   "use strict";
 
@@ -325,7 +325,8 @@
     return api && typeof api.getState === "function" ? api.getState() : null;
   }
 
-  function search(query) {
+  function search(query, limit) {
+    const LIMIT = limit || 5;
     const st = getState();
     if (!st) return [];
     const tokens = tokenize(query);
@@ -484,12 +485,12 @@
     };
     if (hits[0]) push(hits[0]);
     ["glossary", "lesson", "mnemonic", "exam", "card"].forEach((kind) => {
-      if (out.length >= 5) return;
+      if (out.length >= LIMIT) return;
       const h = hits.find((x) => x.kind === kind && x.score >= 8);
       push(h);
     });
     for (const h of hits) {
-      if (out.length >= 5) break;
+      if (out.length >= LIMIT) break;
       push(h);
     }
     return out;
@@ -802,6 +803,247 @@
     };
   }
 
+  /* ───────────────────────── Gemini（自備金鑰，選用） ─────────────────────────
+   * 金鑰只存在本機 localStorage（bcs_gemini_key），只直接傳給
+   * generativelanguage.googleapis.com；不寫進網站檔案、不 console 輸出。 */
+  const AI_KEYS = { key: "bcs_gemini_key", model: "bcs_gemini_model", on: "bcs_ai_on" };
+  const AI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/";
+  const AI_DEFAULT_MODEL = "gemini-2.5-flash";
+  const AI_FALLBACKS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"];
+  const AI_MODELS = [
+    { id: "gemini-2.5-flash", label: "gemini-2.5-flash（預設・推薦）" },
+    { id: "gemini-2.5-flash-lite", label: "gemini-2.5-flash-lite（更快・額度多）" },
+    { id: "gemini-2.0-flash", label: "gemini-2.0-flash" },
+    { id: "gemini-1.5-flash", label: "gemini-1.5-flash（舊版）" },
+  ];
+  const AI_TIMEOUT_MS = 25000;
+  const AI_MAX_CONTEXT = 3500;
+  const AI_MAX_SNIPPETS = 6;
+  const AI_HISTORY_TURNS = 6;
+  const AI_SYSTEM =
+    "你是 World Gym B 級健身教練考試的新手家教；用繁體中文（台灣用語）、白話、先結論、短句；" +
+    "專有名詞第一次出現要解釋；用生活例子；以提供的站內資料為主，若資料沒有可用一般運動科學知識但要標註「（站內講義未寫，供參考）」；" +
+    "不確定就說不確定；不給醫療診斷；結尾可給一個記憶口訣。" +
+    "回答請控制在 250 字左右，可用 **粗體** 和條列（- 開頭）；不要用表格、不要用標題符號 #。";
+
+  const aiHistory = []; // { role: "user"|"model", text }
+  let aiBusy = false;
+
+  function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); return true; } catch (e) { return false; } }
+  function lsDel(k) { try { localStorage.removeItem(k); } catch (e) { /* ignore */ } }
+
+  function aiGetKey() { return (lsGet(AI_KEYS.key) || "").trim(); }
+  function aiGetModel() {
+    const m = lsGet(AI_KEYS.model);
+    return AI_MODELS.some((x) => x.id === m) ? m : AI_DEFAULT_MODEL;
+  }
+  function aiEnabled() { return !!aiGetKey() && lsGet(AI_KEYS.on) !== "0"; }
+
+  /** 給 AI 的站內片段（純文字） */
+  function snippetText(h, tokens) {
+    const j = (arr, n) => (arr || []).filter(Boolean).slice(0, n).join("；");
+    if (h.kind === "glossary") {
+      return "【名詞】" + h.title + (h.aliases && h.aliases.length ? "（又稱：" + h.aliases.slice(0, 4).join("、") + "）" : "") +
+        "：" + (h.oneLiner || "") + (h.explain && h.explain.length ? "\n" + j(h.explain, 4) : "") +
+        (h.example ? "\n例子：" + h.example : "");
+    }
+    if (h.kind === "lesson") {
+      // 挑課文中最相關的段落
+      const paras = (h.body || []).map((p, i) => ({ p: String(p), i: i, s: scoreText(p, tokens, 1) }));
+      const best = paras.filter((x) => x.s > 0).sort((a, b) => b.s - a.s).slice(0, 3).sort((a, b) => a.i - b.i);
+      const chosen = (best.length ? best : paras.slice(0, 2)).map((x) => x.p);
+      return "【課文】" + h.title + "：" + (h.summary || "") + "\n" + chosen.join("\n") +
+        (h.pitfalls && h.pitfalls.length ? "\n易錯：" + j(h.pitfalls, 2) : "");
+    }
+    if (h.kind === "card") {
+      return "【卡片】問：" + h.title + "\n答：" + (h.answer || "") + (h.plain && h.plain !== h.answer ? "\n白話：" + h.plain : "") +
+        (h.mnemonic ? "\n口訣：" + h.mnemonic : "");
+    }
+    if (h.kind === "mnemonic") {
+      return "【速記】" + h.title + "：" + (h.trick || "") + (h.detail ? "\n" + h.detail : "");
+    }
+    if (h.kind === "exam") {
+      return "【考過的人說】" + h.title + "：" + (h.why || "") + (h.pitfalls && h.pitfalls.length ? "\n易錯：" + j(h.pitfalls, 2) : "");
+    }
+    return h.title || "";
+  }
+
+  /** 組合 ≤ AI_MAX_CONTEXT 字的站內資料 */
+  function buildContext(query, hits, extra) {
+    const tokens = tokenize(query);
+    const parts = [];
+    let used = 0;
+    const add = (t) => {
+      if (!t) return;
+      let s = String(t).trim();
+      const room = AI_MAX_CONTEXT - used;
+      if (room < 80) return;
+      const cap = Math.min(room, 900);
+      if (s.length > cap) s = s.slice(0, cap - 1) + "…";
+      parts.push(s);
+      used += s.length + 2;
+    };
+    if (extra) add(extra);
+    (hits || []).slice(0, AI_MAX_SNIPPETS).forEach((h) => add(snippetText(h, tokens)));
+    return parts.join("\n\n");
+  }
+
+  /** 建立 Gemini generateContent 請求本文（純函式，可單元測試） */
+  function buildGeminiRequest(opts) {
+    const o = opts || {};
+    const model = o.model || AI_DEFAULT_MODEL;
+    const contents = [];
+    (o.history || []).slice(-AI_HISTORY_TURNS).forEach((t) => {
+      if (!t || !t.text) return;
+      const role = t.role === "model" ? "model" : "user";
+      // Gemini 要求 user/model 交替；同角色連續就合併
+      const last = contents[contents.length - 1];
+      if (last && last.role === role) last.parts[0].text += "\n" + t.text;
+      else contents.push({ role: role, parts: [{ text: String(t.text).slice(0, 1200) }] });
+    });
+    if (contents.length && contents[0].role !== "user") contents.shift();
+    const ctx = o.context ? "【站內資料（優先根據這些回答）】\n" + o.context : "【站內資料】（這題站內沒找到相關內容）";
+    const userText = ctx + "\n\n【學員問題】\n" + String(o.question || "");
+    const last = contents[contents.length - 1];
+    if (last && last.role === "user") last.parts[0].text += "\n\n" + userText;
+    else contents.push({ role: "user", parts: [{ text: userText }] });
+    const generationConfig = {
+      temperature: o.temperature != null ? o.temperature : 0.4,
+      maxOutputTokens: o.maxOutputTokens || 800,
+    };
+    // 2.5 flash 系列預設會「思考」並吃掉輸出額度；關掉讓回答完整又快
+    if (/^gemini-2\.5-flash/.test(model)) generationConfig.thinkingConfig = { thinkingBudget: 0 };
+    return {
+      url: AI_ENDPOINT + encodeURIComponent(model) + ":generateContent",
+      body: {
+        systemInstruction: { parts: [{ text: o.system || AI_SYSTEM }] },
+        contents: contents,
+        generationConfig: generationConfig,
+      },
+    };
+  }
+
+  function aiError(type, msg, status) {
+    const e = new Error(msg || type);
+    e.aiType = type;
+    e.status = status || 0;
+    return e;
+  }
+
+  function friendlyAiError(e) {
+    const t = e && e.aiType;
+    if (t === "key") return "🔑 金鑰無效或沒有權限。請到 ⚙️ AI 設定重新貼上金鑰再按「測試」。";
+    if (t === "quota") return "⏳ 免費額度暫時用完，稍等一下或改用站內回答。";
+    if (t === "timeout") return "⌛ AI 回應太久（超過 25 秒），先給你站內回答。";
+    if (t === "network") return "📶 連不上 AI（可能沒網路或被擋），先給你站內回答。";
+    if (t === "safety") return "🛡️ 這題被 AI 的安全機制擋下，換個說法試試，先給你站內回答。";
+    if (t === "model") return "🤖 找不到可用的模型，請到 ⚙️ AI 設定換一個模型。";
+    if (t === "server") return "🛠️ AI 伺服器忙碌中，稍後再試，先給你站內回答。";
+    if (t === "empty") return "🤔 AI 這次沒有給出回答，先給你站內回答。";
+    return "⚠️ AI 暫時無法回答，先給你站內回答。";
+  }
+
+  /** 呼叫一次 Gemini；404 模型不存在時依序改用備援模型 */
+  async function callGemini(reqOpts, signal) {
+    const key = aiGetKey();
+    if (!key) throw aiError("key", "no key");
+    const first = reqOpts.model || aiGetModel();
+    const chain = [first].concat(AI_FALLBACKS.filter((m) => m !== first));
+    let lastErr = null;
+    for (const model of chain) {
+      const req = buildGeminiRequest(Object.assign({}, reqOpts, { model: model }));
+      let res;
+      try {
+        res = await fetch(req.url, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "x-goog-api-key": key },
+          body: JSON.stringify(req.body),
+          signal: signal,
+          referrerPolicy: "no-referrer",
+          credentials: "omit",
+          cache: "no-store",
+        });
+      } catch (err) {
+        if (err && err.name === "AbortError") throw aiError("timeout", "timeout");
+        throw aiError("network", "network");
+      }
+      let data = null;
+      try { data = await res.json(); } catch (e) { data = null; }
+      if (!res.ok) {
+        const emsg = (data && data.error && (data.error.message || data.error.status)) || "";
+        const detail = JSON.stringify((data && data.error && data.error.details) || "");
+        if (res.status === 404) { lastErr = aiError("model", emsg, 404); continue; }
+        if (res.status === 403 || res.status === 401) throw aiError("key", emsg, res.status);
+        if (res.status === 400) {
+          if (/api[ _-]?key|API_KEY|permission|credential/i.test(emsg + detail)) throw aiError("key", emsg, 400);
+          if (/model|not found|not supported/i.test(emsg)) { lastErr = aiError("model", emsg, 400); continue; }
+          throw aiError("key", emsg, 400);
+        }
+        if (res.status === 429) throw aiError("quota", emsg, 429);
+        if (res.status >= 500) throw aiError("server", emsg, res.status);
+        throw aiError("other", emsg, res.status);
+      }
+      if (data && data.promptFeedback && data.promptFeedback.blockReason) throw aiError("safety", data.promptFeedback.blockReason);
+      const cand = data && data.candidates && data.candidates[0];
+      const text = cand && cand.content && (cand.content.parts || []).map((p) => p.text || "").join("").trim();
+      const fr = cand && cand.finishReason;
+      if (!text) {
+        if (fr && /SAFETY|PROHIBITED|BLOCKLIST|SPII|RECITATION/.test(fr)) throw aiError("safety", fr);
+        throw aiError("empty", fr || "empty");
+      }
+      return { text: text, model: model, truncated: fr === "MAX_TOKENS", fellBack: model !== first };
+    }
+    throw lastErr || aiError("model", "no model");
+  }
+
+  /** 安全 markdown：先 escape，再處理粗體、條列、換行 */
+  function renderSafeMarkdown(src) {
+    const inline = (s) =>
+      escapeHtml(s)
+        .replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>")
+        .replace(/`([^`\n]+?)`/g, "<code>$1</code>")
+        .replace(/(^|[^*])\*([^*\n]+?)\*(?!\*)/g, "$1<em>$2</em>");
+    const lines = String(src || "").replace(/\r\n?/g, "\n").split("\n");
+    const out = [];
+    let list = null; // { tag, items }
+    let para = [];
+    const flushPara = () => { if (para.length) { out.push("<p>" + para.map(inline).join("<br>") + "</p>"); para = []; } };
+    const flushList = () => { if (list) { out.push("<" + list.tag + ">" + list.items.map((i) => "<li>" + inline(i) + "</li>").join("") + "</" + list.tag + ">"); list = null; } };
+    lines.forEach((raw) => {
+      const line = raw.replace(/\s+$/, "");
+      const ul = line.match(/^\s*[-*•・]\s+(.*)$/);
+      const ol = line.match(/^\s*\d+[.)、]\s+(.*)$/);
+      const hd = line.match(/^\s*#{1,6}\s+(.*)$/);
+      if (!line.trim()) { flushPara(); flushList(); return; }
+      if (ul || ol) {
+        flushPara();
+        const tag = ul ? "ul" : "ol";
+        if (list && list.tag !== tag) flushList();
+        if (!list) list = { tag: tag, items: [] };
+        list.items.push((ul || ol)[1]);
+        return;
+      }
+      flushList();
+      if (hd) { flushPara(); out.push("<p><strong>" + inline(hd[1].replace(/\*\*/g, "")) + "</strong></p>"); return; }
+      para.push(line.trim());
+    });
+    flushPara(); flushList();
+    return out.join("");
+  }
+
+  function htmlToText(html) {
+    const d = document.createElement("div");
+    d.innerHTML = html;
+    return (d.textContent || "").replace(/\s+/g, " ").trim();
+  }
+
+  function pushHistory(role, text) {
+    if (!text) return;
+    aiHistory.push({ role: role, text: String(text).slice(0, 1200) });
+    while (aiHistory.length > AI_HISTORY_TURNS + 2) aiHistory.shift();
+  }
+
   function appendMessage(role, html, links, footerHtml) {
     const list = els.messages;
     const div = document.createElement("div");
@@ -834,6 +1076,7 @@
     }
     list.appendChild(div);
     list.scrollTop = list.scrollHeight;
+    return div;
   }
 
   function followLink(lnk) {
@@ -857,17 +1100,218 @@
     }
   }
 
-  function handleSend(text) {
+  function localAnswer(q) {
+    const hits = search(q);
+    const result = pickBest(hits);
+    return buildAnswer(q, result);
+  }
+
+  /** ctx（可選）：{ lessonId } 或 { extra: "題目/選項/解析文字" }，讓 AI 先看這段 */
+  function handleSend(text, ctx) {
     const q = String(text || "").trim();
-    if (!q) return;
+    if (!q || aiBusy) return;
     appendMessage("user", "<p>" + escapeHtml(q) + "</p>");
     els.input.value = "";
     autoResize();
 
-    const hits = search(q);
-    const result = pickBest(hits);
-    const ans = buildAnswer(q, result);
-    appendMessage("bot", ans.html, ans.links, ans.footer || "");
+    const ans = localAnswer(q);
+    if (!aiEnabled()) {
+      appendMessage("bot", ans.html, ans.links, ans.footer || "");
+      pushHistory("user", q);
+      pushHistory("model", htmlToText(ans.html).slice(0, 600));
+      return;
+    }
+    askAi(q, ans, ctx || null);
+  }
+
+  async function askAi(q, localAns, ctx) {
+    aiBusy = true;
+    setBusy(true);
+    const typing = appendMessage("bot", '<p class="coach-typing" aria-label="打字中">打字中<span>.</span><span>.</span><span>.</span></p>');
+    // RAG：站內檢索 → 前 6 段 → 3500 字內
+    let extra = "";
+    if (ctx && ctx.lessonId && api && api.getLesson) {
+      const les = api.getLesson(ctx.lessonId);
+      if (les) {
+        extra = snippetText({ kind: "lesson", title: les.title, summary: les.summary, body: les.body, pitfalls: les.pitfalls }, tokenize(q + " " + les.title));
+        extra = "（學員正在讀這一課）\n" + extra;
+      }
+    } else if (ctx && ctx.extra) {
+      extra = "（學員正在做這一題）\n" + String(ctx.extra);
+    }
+    const hits = search(q, AI_MAX_SNIPPETS).filter((h) => h.score >= 4);
+    const context = buildContext(q, hits, extra);
+    const history = aiHistory.slice(-AI_HISTORY_TURNS);
+    const ctrl = typeof AbortController !== "undefined" ? new AbortController() : null;
+    const timer = setTimeout(() => { if (ctrl) ctrl.abort(); }, AI_TIMEOUT_MS);
+    try {
+      const r = await callGemini({ question: q, context: context, history: history, model: aiGetModel() }, ctrl ? ctrl.signal : undefined);
+      typing.remove();
+      let html = renderSafeMarkdown(r.text);
+      if (r.truncated) html += '<p class="coach-muted">（回答太長被截斷，可以說「繼續」）</p>';
+      const label =
+        '<span class="coach-ai-label">🤖 AI 回答，可能有錯，考試以講義為準' +
+        (r.fellBack ? "（改用 " + escapeHtml(r.model) + "）" : "") + "</span>";
+      const links = (localAns.links || []).filter((l) => l.kind !== "view");
+      appendMessage("bot", html, links, label).classList.add("coach-msg-ai");
+      pushHistory("user", q);
+      pushHistory("model", r.text);
+    } catch (err) {
+      typing.remove();
+      if (err && err.aiType === "key" || err && err.aiType === "model") setAiStatus(friendlyAiError(err), "err");
+      appendMessage("bot", '<p class="coach-ai-error">' + escapeHtml(friendlyAiError(err)) + "</p>" + localAns.html, localAns.links, localAns.footer || "");
+      pushHistory("user", q);
+      pushHistory("model", htmlToText(localAns.html).slice(0, 600));
+    } finally {
+      clearTimeout(timer);
+      aiBusy = false;
+      setBusy(false);
+    }
+  }
+
+  function setBusy(b) {
+    if (els.send) {
+      els.send.disabled = !!b;
+      els.send.textContent = b ? "…" : "送出";
+    }
+    if (els.messages) els.messages.setAttribute("aria-busy", b ? "true" : "false");
+  }
+
+  /* ── AI 設定面板 ── */
+  function maskKey(k) { return k ? "已儲存（…" + k.slice(-4) + "）" : ""; }
+
+  function setAiStatus(msg, kind) {
+    if (!els.aiStatus) return;
+    els.aiStatus.textContent = msg || "";
+    els.aiStatus.className = "coach-ai-status" + (kind ? " is-" + kind : "");
+  }
+
+  function refreshAiUi() {
+    const key = aiGetKey();
+    const on = aiEnabled();
+    if (els.aiToggle) {
+      els.aiToggle.checked = on;
+      els.aiToggle.disabled = !key;
+    }
+    if (els.aiKey) {
+      els.aiKey.placeholder = key ? maskKey(key) + " — 要換就貼新的" : "貼上 AIza 開頭的金鑰";
+    }
+    if (els.aiClear) els.aiClear.disabled = !key;
+    if (els.aiTest) els.aiTest.disabled = !key && !(els.aiKey && els.aiKey.value.trim());
+    if (els.aiModel) els.aiModel.value = aiGetModel();
+    if (els.sub) els.sub.textContent = on ? "🤖 AI 回答（Gemini）＋站內資料" : "用站內辭典・課文・卡片・速記回答";
+    if (els.title) els.title.textContent = on ? "健身教練（AI）" : "健身教練（站內）";
+    if (els.footNote) {
+      els.footNote.textContent = on
+        ? "AI 會先查站內資料再回答；可能有錯，考試以講義為準。按 ⚙️ 可關閉 AI。"
+        : "用站內辭典・課文・卡片・速記回答。按 ⚙️ 可開啟免費 AI 回答。";
+    }
+    if (els.settingsBtn) els.settingsBtn.classList.toggle("is-on", on);
+  }
+
+  function toggleSettings(force) {
+    if (!els.settings) return;
+    const show = force != null ? !!force : els.settings.hidden;
+    els.settings.hidden = !show;
+    if (els.panel) els.panel.classList.toggle("settings-open", show);
+    if (els.settingsBtn) els.settingsBtn.setAttribute("aria-expanded", show ? "true" : "false");
+    if (show) {
+      refreshAiUi();
+      if (els.aiKey && !aiGetKey()) setTimeout(() => els.aiKey.focus(), 50);
+    }
+  }
+
+  function saveKey() {
+    const v = (els.aiKey.value || "").replace(/\s+/g, "");
+    if (!v) { setAiStatus("請先貼上金鑰再按儲存。", "warn"); return false; }
+    if (v.length < 20) { setAiStatus("這串看起來太短，請確認有完整複製。", "warn"); return false; }
+    if (!lsSet(AI_KEYS.key, v)) { setAiStatus("無法儲存（瀏覽器可能是無痕模式或封鎖儲存）。", "err"); return false; }
+    lsSet(AI_KEYS.on, "1");
+    els.aiKey.value = "";
+    refreshAiUi();
+    setAiStatus(/^AIza/.test(v) ? "✅ 已儲存，AI 回答已開啟。可按「測試」確認能用。" : "已儲存，但 Gemini 金鑰通常以 AIza 開頭，建議按「測試」確認。", /^AIza/.test(v) ? "ok" : "warn");
+    return true;
+  }
+
+  function clearKey() {
+    lsDel(AI_KEYS.key);
+    lsDel(AI_KEYS.on);
+    if (els.aiKey) els.aiKey.value = "";
+    aiHistory.length = 0;
+    refreshAiUi();
+    setAiStatus("已清除金鑰，改回站內回答。", "ok");
+  }
+
+  async function testKey() {
+    if (els.aiKey && els.aiKey.value.trim()) { if (!saveKey()) return; }
+    if (!aiGetKey()) { setAiStatus("請先貼上金鑰並儲存。", "warn"); return; }
+    setAiStatus("測試中…", "");
+    els.aiTest.disabled = true;
+    const ctrl = typeof AbortController !== "undefined" ? new AbortController() : null;
+    const timer = setTimeout(() => { if (ctrl) ctrl.abort(); }, AI_TIMEOUT_MS);
+    try {
+      const r = await callGemini({
+        question: "請只回覆兩個字：可以",
+        context: "",
+        history: [],
+        model: aiGetModel(),
+        maxOutputTokens: 20,
+        temperature: 0,
+      }, ctrl ? ctrl.signal : undefined);
+      setAiStatus("✅ 測試成功（" + r.model + "）！現在問問題會用 AI 回答。", "ok");
+    } catch (err) {
+      setAiStatus("❌ 測試失敗：" + friendlyAiError(err).replace(/，?先給你站內回答。?/, "。"), "err");
+    } finally {
+      clearTimeout(timer);
+      refreshAiUi();
+    }
+  }
+
+  function bindAiSettings() {
+    els.settingsBtn = document.getElementById("coach-settings-btn");
+    els.settings = document.getElementById("coach-settings");
+    els.aiToggle = document.getElementById("coach-ai-toggle");
+    els.aiKey = document.getElementById("coach-ai-key");
+    els.aiSave = document.getElementById("coach-ai-save");
+    els.aiClear = document.getElementById("coach-ai-clear");
+    els.aiTest = document.getElementById("coach-ai-test");
+    els.aiModel = document.getElementById("coach-ai-model");
+    els.aiStatus = document.getElementById("coach-ai-status");
+    els.aiShow = document.getElementById("coach-ai-show");
+    els.sub = document.querySelector("#coach-panel .coach-sub");
+    els.title = document.getElementById("coach-title");
+    els.footNote = document.querySelector("#coach-panel .coach-footer-note");
+    if (!els.settings) return;
+    if (els.aiModel && !els.aiModel.options.length) {
+      AI_MODELS.forEach((m) => {
+        const o = document.createElement("option");
+        o.value = m.id;
+        o.textContent = m.label;
+        els.aiModel.appendChild(o);
+      });
+    }
+    els.settingsBtn && els.settingsBtn.addEventListener("click", () => toggleSettings());
+    els.aiSave && els.aiSave.addEventListener("click", saveKey);
+    els.aiClear && els.aiClear.addEventListener("click", clearKey);
+    els.aiTest && els.aiTest.addEventListener("click", testKey);
+    els.aiKey && els.aiKey.addEventListener("input", refreshAiUi);
+    els.aiKey && els.aiKey.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); saveKey(); } });
+    els.aiShow && els.aiShow.addEventListener("click", () => {
+      const pw = els.aiKey.type === "password";
+      els.aiKey.type = pw ? "text" : "password";
+      els.aiShow.textContent = pw ? "🙈" : "👁";
+      els.aiShow.setAttribute("aria-label", pw ? "隱藏金鑰" : "顯示金鑰");
+    });
+    els.aiToggle && els.aiToggle.addEventListener("change", () => {
+      lsSet(AI_KEYS.on, els.aiToggle.checked ? "1" : "0");
+      refreshAiUi();
+      setAiStatus(els.aiToggle.checked ? "AI 回答已開啟。" : "AI 回答已關閉，改用站內回答（金鑰仍保留）。", "ok");
+    });
+    els.aiModel && els.aiModel.addEventListener("change", () => {
+      lsSet(AI_KEYS.model, els.aiModel.value);
+      setAiStatus("已改用 " + els.aiModel.value + "。", "ok");
+    });
+    refreshAiUi();
   }
 
   function setOpen(v) {
@@ -897,6 +1341,7 @@
     els.close = document.getElementById("coach-close");
     els.chips = document.getElementById("coach-chips");
     if (!els.fab || !els.panel) return;
+    bindAiSettings();
 
     els.fab.addEventListener("click", () => setOpen(true));
     els.close.addEventListener("click", () => setOpen(false));
@@ -933,7 +1378,10 @@
       appendMessage(
         "bot",
         "<p>嗨！我是<strong>站內教練</strong>🏋️，會用本站<strong>名詞小辭典</strong>、課文、卡片、速記來回答。</p>" +
-          "<p>不懂的詞直接問，例如「內旋是什麼？」「矢狀面」。</p>"
+          "<p>不懂的詞直接問，例如「內旋是什麼？」「矢狀面」。</p>" +
+          (aiEnabled()
+            ? "<p class='coach-hint'>🤖 AI 回答已開啟（用你自己的 Gemini 金鑰）。</p>"
+            : "<p class='coach-hint'>想要更像真人家教的回答？按右上 ⚙️ 貼上免費 Gemini 金鑰。</p>")
       );
     }
   }
@@ -953,9 +1401,22 @@
       setOpen(true);
       if (prefill && els.input) { els.input.value = prefill; autoResize(); }
     },
-    ask: function (q) {
+    ask: function (q, ctx) {
       setOpen(true);
-      handleSend(q);
+      handleSend(q, ctx);
+    },
+    openSettings: function () {
+      setOpen(true);
+      toggleSettings(true);
+    },
+    // 測試用（不含金鑰）
+    _ai: {
+      buildGeminiRequest: buildGeminiRequest,
+      buildContext: buildContext,
+      renderSafeMarkdown: renderSafeMarkdown,
+      friendlyAiError: friendlyAiError,
+      callGemini: callGemini,
+      KEYS: AI_KEYS,
     },
   };
 
