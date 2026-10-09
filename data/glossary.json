@@ -1,0 +1,7563 @@
+{
+  "meta": {
+    "title": "B Coach 名詞小辭典",
+    "lang": "zh-TW",
+    "count": 217,
+    "highYieldCount": 182,
+    "categories": [
+      "方位平面",
+      "動作",
+      "骨骼關節",
+      "肌肉概念",
+      "常見考點",
+      "其他",
+      "訓練動作",
+      "訓練科學"
+    ],
+    "note": "給完全沒學過解剖的新手：白話一句話＋生活比喻＋相關連結。含講義 p.73–74 關節動作名詞加深。",
+    "updated": "2026-10-08",
+    "exerciseNote": "含側平舉等訓練動作名詞（對 L18）",
+    "landmarkNote": "含 L19 肩膀骨頭摸得到哪：肩峰／喙突／盂窩／肩胛棘等觸診名詞",
+    "l20Note": "L20 加深：肩帶六＋肩關節八動作名詞（照鏡子／易混／圖）",
+    "wgMuscleTrainingNote": "訓練科學類：1RM、%1RM、HRR／MHR／RHR／THR、Karvonen（補充公式）、能量系統、FITT-VP 等（對 L21–L24）"
+  },
+  "terms": [
+    {
+      "id": "term-anatomical-position",
+      "term": "解剖學姿勢",
+      "aliases": [
+        "anatomical position",
+        "標準姿勢"
+      ],
+      "category": "方位平面",
+      "oneLiner": "描述身體方位時大家約定好的「標準站姿」。",
+      "explain": [
+        "想像你立正站好：臉朝前、雙腳併攏、手臂自然垂在兩側，但掌心朝前（不是平常自然垂著掌心朝大腿）。",
+        "之後說「前／後／內／外」都以這個姿勢為準，才不會各說各話。"
+      ],
+      "example": "平常自然站著掌心朝大腿；解剖學姿勢要把掌心轉到朝前。",
+      "relatedIds": [
+        "term-anterior",
+        "term-posterior",
+        "term-medial",
+        "term-lateral"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-anat-pose"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-sagittal-plane",
+      "term": "矢狀面",
+      "aliases": [
+        "sagittal plane",
+        "正中矢狀面"
+      ],
+      "category": "方位平面",
+      "oneLiner": "把身體切成「左、右」兩半的那一刀切面；屈伸多在這裡。",
+      "explain": [
+        "想像一把隱形刀從前往後、把身體分成左邊和右邊。",
+        "深蹲、彎腰、手臂前後擺，主要都發生在矢狀面。"
+      ],
+      "example": "做深蹲時，大腿前後摺疊，就是矢狀面的屈伸。",
+      "relatedIds": [
+        "term-flexion",
+        "term-extension",
+        "term-frontal-plane",
+        "term-transverse-plane",
+        "term-axis"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-planes",
+        "mn-plane-axis"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/planes.svg",
+        "caption": "矢狀面＝切成左／右"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-planes-3d.svg",
+          "caption": "三個平面（3D＋動作例子）｜藍＝矢狀面（切左右：前平舉、深蹲）、綠＝額狀面（切前後：側平舉）、黃＝水平面（切上下：轉身、夾胸）。",
+          "figId": "anim-planes-3d",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-frontal-plane",
+      "term": "額狀面",
+      "aliases": [
+        "冠狀面",
+        "frontal plane",
+        "coronal plane"
+      ],
+      "category": "方位平面",
+      "oneLiner": "把身體切成「前、後」兩半的切面；外展內收、側彎多在這裡。",
+      "explain": [
+        "也叫冠狀面。想像從左到右切一刀，身體分成前面一塊、後面一塊。",
+        "側平舉、側彎、劈腿往兩側開，多在額狀面。"
+      ],
+      "example": "側平舉把手臂往兩側打開，就是額狀面的外展。",
+      "relatedIds": [
+        "term-abduction",
+        "term-adduction",
+        "term-lateral-flexion",
+        "term-sagittal-plane"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-planes"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/planes.svg",
+        "caption": "額狀面＝切成前／後（側平舉）"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-planes-3d.svg",
+          "caption": "三個平面（3D＋動作例子）｜藍＝矢狀面（切左右：前平舉、深蹲）、綠＝額狀面（切前後：側平舉）、黃＝水平面（切上下：轉身、夾胸）。",
+          "figId": "anim-planes-3d",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-transverse-plane",
+      "term": "水平面",
+      "aliases": [
+        "橫切面",
+        "transverse plane",
+        "horizontal plane"
+      ],
+      "category": "方位平面",
+      "oneLiner": "把身體切成「上、下」兩半的切面；旋轉多在這裡。",
+      "explain": [
+        "想像一刀橫切過肚臍高度，上面半身、下面半身。",
+        "轉身、肩內外旋、髖內外旋，常發生在水平面。"
+      ],
+      "example": "站著轉頭看旁邊的人，頸椎旋轉就在水平面。",
+      "relatedIds": [
+        "term-internal-rotation",
+        "term-external-rotation",
+        "term-rotation"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-planes"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/planes.svg",
+        "caption": "水平面＝切成上／下"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-planes-3d.svg",
+          "caption": "三個平面（3D＋動作例子）｜藍＝矢狀面（切左右：前平舉、深蹲）、綠＝額狀面（切前後：側平舉）、黃＝水平面（切上下：轉身、夾胸）。",
+          "figId": "anim-planes-3d",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-axis",
+      "term": "軸",
+      "aliases": [
+        "axis",
+        "運動軸"
+      ],
+      "category": "方位平面",
+      "oneLiner": "動作像繞著一根隱形棍子在轉，那根棍子就是軸。",
+      "explain": [
+        "平面像切面，軸像轉軸：動作發生在某個平面時，其實是繞「垂直於該平面」的軸在轉。",
+        "新手先記：屈伸↔矢狀面、外展內收↔額狀面、旋轉↔水平面即可。"
+      ],
+      "example": "門繞鉸鏈軸開合；手臂屈伸就像繞過關節的橫軸在轉。",
+      "relatedIds": [
+        "term-sagittal-plane",
+        "term-frontal-plane",
+        "term-transverse-plane"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-plane-axis"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-planes-3d.svg",
+          "caption": "三個平面（3D＋動作例子）｜藍＝矢狀面（切左右：前平舉、深蹲）、綠＝額狀面（切前後：側平舉）、黃＝水平面（切上下：轉身、夾胸）。",
+          "figId": "anim-planes-3d",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-anterior",
+      "term": "前",
+      "aliases": [
+        "anterior",
+        "腹側",
+        "ventral"
+      ],
+      "category": "方位平面",
+      "oneLiner": "比較靠近身體前面／胸口肚皮那一側。",
+      "explain": [
+        "以解剖學姿勢為準：臉、胸口、膝蓋前方都叫「前」。",
+        "相對詞是「後」。"
+      ],
+      "example": "股四頭肌在大腿前面；臀大肌在後面。",
+      "relatedIds": [
+        "term-posterior",
+        "term-anatomical-position"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-direction"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-posterior",
+      "term": "後",
+      "aliases": [
+        "posterior",
+        "背側",
+        "dorsal"
+      ],
+      "category": "方位平面",
+      "oneLiner": "比較靠近身體背面／背部那一側。",
+      "explain": [
+        "背、屁股、小腿肚那一側多半叫「後」。",
+        "相對詞是「前」。"
+      ],
+      "example": "背闊肌在背部；肱三頭肌在手臂後面。",
+      "relatedIds": [
+        "term-anterior"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-direction"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-superior",
+      "term": "上",
+      "aliases": [
+        "superior",
+        "cranial"
+      ],
+      "category": "方位平面",
+      "oneLiner": "比較靠近頭、比較高的位置。",
+      "explain": [
+        "頭相對軀幹是「上」；肩膀相對手肘也是「上」。",
+        "相對詞是「下」。"
+      ],
+      "example": "肩峰在鎖骨的外上方。",
+      "relatedIds": [
+        "term-inferior"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [],
+      "highYield": false
+    },
+    {
+      "id": "term-inferior",
+      "term": "下",
+      "aliases": [
+        "inferior",
+        "caudal"
+      ],
+      "category": "方位平面",
+      "oneLiner": "比較靠近腳、比較低的位置。",
+      "explain": [
+        "腳相對膝蓋是「下」；骨盆相對胸廓也是「下」。",
+        "相對詞是「上」。"
+      ],
+      "example": "跟骨在腳的下方。",
+      "relatedIds": [
+        "term-superior"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [],
+      "highYield": false
+    },
+    {
+      "id": "term-proximal",
+      "term": "近端",
+      "aliases": [
+        "proximal"
+      ],
+      "category": "方位平面",
+      "oneLiner": "比較靠近軀幹或附著點的那一端。",
+      "explain": [
+        "手臂上：肩膀端是近端，手指端是遠端。",
+        "記法：近＝靠近身體中心。"
+      ],
+      "example": "肱骨近端靠近肩關節；遠端靠近手肘。",
+      "relatedIds": [
+        "term-distal"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-direction"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-distal",
+      "term": "遠端",
+      "aliases": [
+        "distal"
+      ],
+      "category": "方位平面",
+      "oneLiner": "比較遠離軀幹、比較靠近末梢的那一端。",
+      "explain": [
+        "手指、腳趾通常是遠端。",
+        "記法：遠＝離身體中心比較遠。"
+      ],
+      "example": "橈骨遠端靠近手腕；近端靠近手肘。",
+      "relatedIds": [
+        "term-proximal"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-direction"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-medial",
+      "term": "內側",
+      "aliases": [
+        "medial"
+      ],
+      "category": "方位平面",
+      "oneLiner": "比較靠近身體正中線（鼻梁往下那條線）的一側。",
+      "explain": [
+        "兩腳併攏時，兩腿互相靠近的那一面是內側。",
+        "相對詞是「外側」。解剖姿勢掌心朝前時：小指側偏內側、拇指側偏外側。"
+      ],
+      "example": "小腿：脛骨偏內側、腓骨偏外側。",
+      "relatedIds": [
+        "term-lateral",
+        "term-anatomical-position"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-direction",
+        "mn-tibia-fibula"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-lateral",
+      "term": "外側",
+      "aliases": [
+        "lateral"
+      ],
+      "category": "方位平面",
+      "oneLiner": "比較遠離正中線、比較靠身體兩邊的一側。",
+      "explain": [
+        "耳朵相對鼻子是外側；肩膀外側的三角肌中束負責外展。",
+        "相對詞是「內側」。"
+      ],
+      "example": "髂脛束走在大腿外側，ITBS 常痛在膝外側。",
+      "relatedIds": [
+        "term-medial",
+        "term-itb"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-direction"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-superficial",
+      "term": "淺層",
+      "aliases": [
+        "superficial",
+        "淺"
+      ],
+      "category": "方位平面",
+      "oneLiner": "比較靠近皮膚表面的構造。",
+      "explain": [
+        "摸得到、看得到輪廓的肌肉常是淺層。",
+        "相對詞是「深層」。"
+      ],
+      "example": "腹直肌比較淺；腹橫肌比較深，像內層腰帶。",
+      "relatedIds": [
+        "term-deep",
+        "term-transversus-abdominis"
+      ],
+      "lessonIds": [
+        "L15"
+      ],
+      "mnemonicIds": [
+        "mn-abs-layers"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-deep",
+      "term": "深層",
+      "aliases": [
+        "deep",
+        "深"
+      ],
+      "category": "方位平面",
+      "oneLiner": "比較靠近身體內部、離皮膚較遠的構造。",
+      "explain": [
+        "深層肌常負責穩定，不一定練出「線條」。",
+        "相對詞是「淺層」。"
+      ],
+      "example": "髖深層外旋肌群藏在臀大肌下面；熱身不足較易受傷。",
+      "relatedIds": [
+        "term-superficial",
+        "term-piriformis"
+      ],
+      "lessonIds": [
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-hip-deep-warm"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-ipsilateral",
+      "term": "同側",
+      "aliases": [
+        "ipsilateral"
+      ],
+      "category": "方位平面",
+      "oneLiner": "跟某個參考點在「同一邊」的意思。",
+      "explain": [
+        "例如「同側旋轉」＝身體跟那隻手／腳在同一側一起轉。",
+        "相對詞是「對側」。"
+      ],
+      "example": "右手摸右耳是同側；右手摸左耳是對側。",
+      "relatedIds": [
+        "term-contralateral"
+      ],
+      "lessonIds": [],
+      "mnemonicIds": [],
+      "highYield": false
+    },
+    {
+      "id": "term-contralateral",
+      "term": "對側",
+      "aliases": [
+        "contralateral"
+      ],
+      "category": "方位平面",
+      "oneLiner": "跟某個參考點在「相反邊」的意思。",
+      "explain": [
+        "許多步態與核心穩定會講對側協調（例如右手與左腳）。",
+        "相對詞是「同側」。"
+      ],
+      "example": "走路時右手前擺、左腳往前，就是對側搭配。",
+      "relatedIds": [
+        "term-ipsilateral"
+      ],
+      "lessonIds": [],
+      "mnemonicIds": [],
+      "highYield": false
+    },
+    {
+      "id": "term-scapular-plane",
+      "term": "肩胛平面",
+      "aliases": [
+        "scapular plane",
+        "肩胛面"
+      ],
+      "category": "方位平面",
+      "oneLiner": "約在身體前方 30～45° 的「斜前方」平面，舉手臂較自然。",
+      "explain": [
+        "不完全是純額狀面側平舉，也不在正前方。",
+        "很多肩部訓練建議在肩胛平面做，較友善。"
+      ],
+      "example": "啞鈴側平舉略偏前方，常是肩胛平面。",
+      "relatedIds": [
+        "term-abduction",
+        "term-frontal-plane"
+      ],
+      "lessonIds": [
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-scapular-plane"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-flexion",
+      "term": "屈曲",
+      "aliases": [
+        "flexion",
+        "屈",
+        "肩屈曲"
+      ],
+      "category": "動作",
+      "oneLiner": "關節角度變小；在肩＝手臂往前舉。",
+      "explain": [
+        "肩屈曲：手臂往身體前方抬（前平舉）。照鏡子：側面看手臂往前。易混：≠外展（往旁邊）；≠聳肩上提。講義肩屈曲主力：三角前束、肱二頭、胸大鎖骨段。L20 肩關節①。"
+      ],
+      "example": "前平舉；向前舉手按開關。",
+      "relatedIds": [
+        "term-extension",
+        "term-sagittal-plane",
+        "term-abduction",
+        "term-glenohumeral"
+      ],
+      "lessonIds": [
+        "L02",
+        "L20",
+        "L12",
+        "L17",
+        "L18"
+      ],
+      "mnemonicIds": [
+        "mn-planes",
+        "mn-l20-gh-eight-life"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-joint-8.svg",
+        "caption": "① 屈曲：手臂往前舉"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-flex-ext.svg",
+          "caption": "肩關節 屈曲／伸展｜側面看：手臂往前往上＝屈曲；往後帶＝伸展。矢狀面。",
+          "figId": "anim-shoulder-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/anim/anim-elbow-flex-ext.svg",
+          "caption": "肘關節 屈曲／伸展｜側面看：彎起手肘＝屈曲（彎舉）；伸直＝伸展（三頭下壓）。",
+          "figId": "anim-elbow-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/anim/anim-hip-flex-ext.svg",
+          "caption": "髖關節 屈曲／伸展｜側面看：大腿往前抬＝屈曲；往後擺＝伸展。矢狀面。",
+          "figId": "anim-hip-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-extension",
+      "term": "伸展",
+      "aliases": [
+        "extension",
+        "伸",
+        "肩伸展"
+      ],
+      "category": "動作",
+      "oneLiner": "關節角度變大；在肩＝手臂往後帶。",
+      "explain": [
+        "肩伸展：手臂往身體後方。易混：常伴隨後縮，但後縮是肩帶、伸展是手臂。主力：闊背、大圓、後三角、三頭長頭。L20②。"
+      ],
+      "example": "手往後遞東西。",
+      "relatedIds": [
+        "term-flexion",
+        "term-retraction",
+        "term-glenohumeral"
+      ],
+      "lessonIds": [
+        "L02",
+        "L20",
+        "L12",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-planes",
+        "mn-l20-gh-eight-life"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-joint-8.svg",
+        "caption": "② 伸展：手臂往後帶"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-flex-ext.svg",
+          "caption": "肩關節 屈曲／伸展｜側面看：手臂往前往上＝屈曲；往後帶＝伸展。矢狀面。",
+          "figId": "anim-shoulder-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/anim/anim-elbow-flex-ext.svg",
+          "caption": "肘關節 屈曲／伸展｜側面看：彎起手肘＝屈曲（彎舉）；伸直＝伸展（三頭下壓）。",
+          "figId": "anim-elbow-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/anim/anim-hip-flex-ext.svg",
+          "caption": "髖關節 屈曲／伸展｜側面看：大腿往前抬＝屈曲；往後擺＝伸展。矢狀面。",
+          "figId": "anim-hip-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-abduction",
+      "term": "外展",
+      "aliases": [
+        "abduction",
+        "側舉",
+        "肩外展"
+      ],
+      "category": "動作",
+      "oneLiner": "肢段往外側打開；在肩＝側平舉從下往兩側抬。",
+      "explain": [
+        "肩外展：手臂從垂著往兩側上抬。易混：①≠水平外展（肩高再往後開）；②≠肩帶外展／前引（肩胛往前）。主力：棘上＋三角中束。L20③、L18側平舉。"
+      ],
+      "example": "側平舉像鳥展翅。",
+      "relatedIds": [
+        "term-adduction",
+        "term-frontal-plane",
+        "term-gluteus-medius",
+        "term-lateral-raise",
+        "term-horizontal-abduction",
+        "term-protraction"
+      ],
+      "lessonIds": [
+        "L02",
+        "L18",
+        "L20",
+        "L12",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-planes",
+        "mn-l20-abd-vs-habd",
+        "mn-ex-lateral-raise"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-joint-8.svg",
+        "caption": "③ 外展：側平舉路徑"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-abd-add.svg",
+          "caption": "肩關節 外展／內收（側平舉）｜正面看：手臂從側面抬起＝外展（側平舉）；放回身體＝內收。額狀面。",
+          "figId": "anim-shoulder-abd-add",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/anim/anim-hip-abd-add.svg",
+          "caption": "髖關節 外展／內收｜正面看：腿往側邊打開＝外展；往中間夾回＝內收。額狀面。",
+          "figId": "anim-hip-abd-add",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-adduction",
+      "term": "內收",
+      "aliases": [
+        "adduction",
+        "肩內收"
+      ],
+      "category": "動作",
+      "oneLiner": "肢段往中線收回；在肩＝手臂從外側夾回身側。",
+      "explain": [
+        "肩內收：張開的手臂往身體夾回。易混：≠水平內收（肩高往胸前夾）；≠肩帶內收／後縮（夾背）。主力：小圓、闊背、大圓。L20④。"
+      ],
+      "example": "側平舉慢慢放下；腋下夾雨傘。",
+      "relatedIds": [
+        "term-abduction",
+        "term-adductors",
+        "term-horizontal-adduction",
+        "term-retraction"
+      ],
+      "lessonIds": [
+        "L02",
+        "L16",
+        "L20",
+        "L12",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-planes",
+        "mn-l20-gh-eight-life"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-joint-8.svg",
+        "caption": "④ 內收：往身體夾回"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-abd-add.svg",
+          "caption": "肩關節 外展／內收（側平舉）｜正面看：手臂從側面抬起＝外展（側平舉）；放回身體＝內收。額狀面。",
+          "figId": "anim-shoulder-abd-add",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/anim/anim-hip-abd-add.svg",
+          "caption": "髖關節 外展／內收｜正面看：腿往側邊打開＝外展；往中間夾回＝內收。額狀面。",
+          "figId": "anim-hip-abd-add",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-internal-rotation",
+      "term": "內轉（內旋）",
+      "aliases": [
+        "internal rotation",
+        "medial rotation",
+        "內旋",
+        "內轉",
+        "肩內轉",
+        "髖內轉"
+      ],
+      "category": "動作",
+      "oneLiner": "肢段繞長軸往中線轉；在肩＝上臂往肚臍方向轉。",
+      "explain": [
+        "肘貼腰彎 90°，前臂從朝前轉成朝肚子。易混：≠前臂旋前（倒水掌心朝下）。主力：肩胛下、闊背、大圓、胸大。L20⑦。"
+      ],
+      "example": "門檔外旋的反向；手往肚臍擺。",
+      "relatedIds": [
+        "term-external-rotation",
+        "term-transverse-plane",
+        "term-pronation",
+        "term-subscapularis",
+        "term-glenohumeral"
+      ],
+      "lessonIds": [
+        "L02",
+        "L12",
+        "L16",
+        "L17",
+        "L20"
+      ],
+      "mnemonicIds": [
+        "mn-planes",
+        "mn-lecture-shoulder-er-ir",
+        "mn-l20-ir-er-vs-pronate"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-joint-8.svg",
+        "caption": "⑦ 內轉：上臂往中線"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-rotation.svg",
+          "caption": "肩關節 內轉／外轉｜從頭頂看：手肘貼身體彎 90°，前臂往外打開＝外轉、往肚子轉＝內轉（上臂繞自己長軸轉）。",
+          "figId": "anim-shoulder-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/anim/anim-hip-rotation.svg",
+          "caption": "髖關節 內轉／外轉｜正面看右腿：膝蓋（白點）和腳尖一起轉向外＝外轉、轉向內＝內轉。",
+          "figId": "anim-hip-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-external-rotation",
+      "term": "外轉（外旋）",
+      "aliases": [
+        "external rotation",
+        "lateral rotation",
+        "外旋",
+        "外轉",
+        "肩外轉",
+        "髖外轉"
+      ],
+      "category": "動作",
+      "oneLiner": "肢段繞長軸往外側轉；在肩＝上臂往外開。",
+      "explain": [
+        "肘貼腰彎 90°，前臂往外擺。易混：≠前臂旋後（托碗）。主力：棘下、小圓。L20⑧。"
+      ],
+      "example": "彈力帶肩膀外旋。",
+      "relatedIds": [
+        "term-internal-rotation",
+        "term-infraspinatus",
+        "term-piriformis",
+        "term-supination",
+        "term-teres-minor",
+        "term-glenohumeral"
+      ],
+      "lessonIds": [
+        "L02",
+        "L12",
+        "L16",
+        "L17",
+        "L20"
+      ],
+      "mnemonicIds": [
+        "mn-sits",
+        "mn-lecture-shoulder-er-ir",
+        "mn-lecture-hip-six",
+        "mn-l20-ir-er-vs-pronate"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-joint-8.svg",
+        "caption": "⑧ 外轉：上臂往外側"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-rotation.svg",
+          "caption": "肩關節 內轉／外轉｜從頭頂看：手肘貼身體彎 90°，前臂往外打開＝外轉、往肚子轉＝內轉（上臂繞自己長軸轉）。",
+          "figId": "anim-shoulder-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/anim/anim-hip-rotation.svg",
+          "caption": "髖關節 內轉／外轉｜正面看右腿：膝蓋（白點）和腳尖一起轉向外＝外轉、轉向內＝內轉。",
+          "figId": "anim-hip-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-horizontal-abduction",
+      "term": "水平外展",
+      "aliases": [
+        "horizontal abduction",
+        "horizontal extension",
+        "反向飛鳥動作",
+        "水平伸展"
+      ],
+      "category": "動作",
+      "oneLiner": "手臂約肩高，再往後打開（反向飛鳥）。",
+      "explain": [
+        "先到肩高再往後。易混：≠側平舉外展（從下往上抬）。主力：三角後束。L20⑥。"
+      ],
+      "example": "反向飛鳥；肩高往後攤開。",
+      "relatedIds": [
+        "term-horizontal-adduction",
+        "term-abduction",
+        "term-deltoid",
+        "term-reverse-fly",
+        "term-extension"
+      ],
+      "lessonIds": [
+        "L02",
+        "L12",
+        "L17",
+        "L18",
+        "L20"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-horiz-add",
+        "mn-l20-abd-vs-habd",
+        "mn-l20-horiz-need-height"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-joint-8.svg",
+        "caption": "⑥ 水平外展：肩高往後開"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-horizontal.svg",
+          "caption": "肩關節 水平內收／水平外展｜從頭頂看：手臂先抬到肩高，往胸前夾＝水平內收（夾胸）；往後打開＝水平外展（反向飛鳥）。",
+          "figId": "anim-shoulder-horizontal",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-horizontal-adduction",
+      "term": "水平內收",
+      "aliases": [
+        "horizontal adduction",
+        "horizontal flexion",
+        "夾胸動作",
+        "水平屈曲"
+      ],
+      "category": "動作",
+      "oneLiner": "手臂約肩高，再從外側往胸前夾（夾胸）。",
+      "explain": [
+        "關鍵：先到約肩高，在水平面往中線。易混：從垂著往前舉＝屈曲，不是水平內收。主力：胸大、三角前。L20⑤、L18夾胸。口訣：沒到肩高就不要叫水平。"
+      ],
+      "example": "夾胸；肩高環抱。",
+      "relatedIds": [
+        "term-horizontal-abduction",
+        "term-pectoralis-major",
+        "term-adduction",
+        "term-chest-fly",
+        "term-bench-press",
+        "term-flexion"
+      ],
+      "lessonIds": [
+        "L02",
+        "L03",
+        "L12",
+        "L17",
+        "L18",
+        "L20"
+      ],
+      "mnemonicIds": [
+        "mn-push-pull",
+        "mn-lecture-horiz-add",
+        "mn-l20-horiz-need-height"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-joint-8.svg",
+        "caption": "⑤ 水平內收：肩高往胸前"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-horizontal.svg",
+          "caption": "肩關節 水平內收／水平外展｜從頭頂看：手臂先抬到肩高，往胸前夾＝水平內收（夾胸）；往後打開＝水平外展（反向飛鳥）。",
+          "figId": "anim-shoulder-horizontal",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-circumduction",
+      "term": "環轉",
+      "aliases": [
+        "circumduction"
+      ],
+      "category": "動作",
+      "oneLiner": "肢段末端畫圓，像在空中畫圈子。",
+      "explain": [
+        "其實是屈、伸、外展、內收等動作依序組合出來的圓弧路徑。",
+        "肩、髖這類球窩關節較容易做。"
+      ],
+      "example": "手臂畫大圓暖身，就是肩關節環轉。",
+      "relatedIds": [
+        "term-ball-and-socket",
+        "term-flexion",
+        "term-abduction"
+      ],
+      "lessonIds": [
+        "L02"
+      ],
+      "mnemonicIds": [],
+      "highYield": false
+    },
+    {
+      "id": "term-pronation",
+      "term": "旋前",
+      "aliases": [
+        "pronation",
+        "前臂旋前",
+        "掌心朝下"
+      ],
+      "category": "動作",
+      "oneLiner": "前臂旋轉讓掌心朝下（倒水），〔對講義〕主力：旋前圓肌、旋前方肌。",
+      "explain": [
+        "手肘彎成約 90° 最好想像：掌心從「托碗朝上」轉成「倒水朝下」＝旋前。",
+        "這是橈尺關節的動作：橈骨繞著尺骨轉，讓手掌翻面——不是肩膀把整條手臂往內轉。",
+        "〔對講義〕主力肌：旋前圓肌、旋前方肌。易混：旋前 ≠ 肩／髖內轉（內旋）。"
+      ],
+      "example": "倒完瓶裡的水、用電腦滑鼠時掌心常偏下，都有旋前。",
+      "relatedIds": [
+        "term-supination",
+        "term-radioulnar",
+        "term-internal-rotation"
+      ],
+      "lessonIds": [
+        "L14",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-pronators-two",
+        "mn-radio-ulnar-twist",
+        "mn-lecture-pronate-pour"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/elbow-forearm.svg",
+        "caption": "旋前＝掌心轉下"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-forearm-pro-sup.svg",
+          "caption": "前臂 旋前／旋後｜從上往下看右手：掌心轉向下＝旋前（橈骨繞過尺骨）；轉向上＝旋後。只轉前臂。",
+          "figId": "anim-forearm-pro-sup",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-supination",
+      "term": "旋後",
+      "aliases": [
+        "supination",
+        "前臂旋後",
+        "掌心朝上",
+        "托碗"
+      ],
+      "category": "動作",
+      "oneLiner": "前臂旋轉讓掌心朝上（托碗），〔對講義〕主力：肱二頭肌、旋後肌。",
+      "explain": [
+        "掌心從朝下轉成朝上＝旋後，像右手托著一碗熱湯怕灑出來。",
+        "肱二頭肌在「旋後＋屈肘」時特別有存在感；另外還有旋後肌專職幫忙。",
+        "〔對講義〕旋後 ≠ 肩／髖外轉。一個轉掌心，一個轉整條上臂／大腿。"
+      ],
+      "example": "請別人把東西放你手心、或啞鈴彎舉到頂刻意讓掌心朝自己，都有旋後。",
+      "relatedIds": [
+        "term-pronation",
+        "term-biceps",
+        "term-radioulnar"
+      ],
+      "lessonIds": [
+        "L14",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-supinator",
+        "mn-lecture-supinate-bowl"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/elbow-forearm.svg",
+        "caption": "旋後＝掌心轉上"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-forearm-pro-sup.svg",
+          "caption": "前臂 旋前／旋後｜從上往下看右手：掌心轉向下＝旋前（橈骨繞過尺骨）；轉向上＝旋後。只轉前臂。",
+          "figId": "anim-forearm-pro-sup",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-dorsiflexion",
+      "term": "背屈",
+      "aliases": [
+        "dorsiflexion",
+        "足背屈",
+        "勾腳尖",
+        "腳尖抬頭"
+      ],
+      "category": "動作",
+      "oneLiner": "腳尖往上勾、腳背靠近小腿；〔對講義〕主力：脛骨前肌。",
+      "explain": [
+        "把腳背（腳的上面）往小腿前面拉近＝背屈，口訣「腳尖抬頭」。",
+        "走路時腳尖要抬起來才不會绊到地，主要靠小腿前外側的脛骨前肌。",
+        "相對是蹠屈／跖屈（踮腳）。方向記反是超常見新手坑。"
+      ],
+      "example": "坐著把腳尖用力往膝蓋方向勾；或跨步時前腳腳尖上抬。",
+      "relatedIds": [
+        "term-plantarflexion",
+        "term-ankle"
+      ],
+      "lessonIds": [
+        "L05",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-ankle",
+        "mn-lecture-dorsi-up"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/knee-ankle.svg",
+        "caption": "背屈＝腳尖抬頭"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-ankle-df-pf.svg",
+          "caption": "踝關節 背屈／蹠屈｜側面看：腳尖往上勾＝背屈（脛前肌）；腳尖往下壓＝蹠屈（腓腸、比目魚）。",
+          "figId": "anim-ankle-df-pf",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-plantarflexion",
+      "term": "蹠屈",
+      "aliases": [
+        "plantarflexion",
+        "足底屈",
+        "踮腳",
+        "跖屈",
+        "腳尖點地"
+      ],
+      "category": "動作",
+      "oneLiner": "腳尖往下指、踮腳；〔對講義〕主力：比目魚肌、腓腸肌。",
+      "explain": [
+        "腳底板把地面推開、腳尖點地＝蹠屈（講義也常寫「跖屈」，同一件事）。",
+        "小腿後側：腓腸肌（淺層、常跨膝）＋比目魚肌（深層、膝彎也能出力）一起踮腳。",
+        "口訣：背屈＝腳尖抬頭；蹠屈＝腳尖點地。"
+      ],
+      "example": "提踵（踮腳尖）、跳躍起跳、走路腳跟離地推蹬。",
+      "relatedIds": [
+        "term-dorsiflexion",
+        "term-gastrocnemius",
+        "term-soleus",
+        "term-ankle"
+      ],
+      "lessonIds": [
+        "L05",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-ankle",
+        "mn-calf-knee",
+        "mn-lecture-plantar-tip"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/knee-ankle.svg",
+        "caption": "蹠屈＝腳尖點地／提踵"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-ankle-df-pf.svg",
+          "caption": "踝關節 背屈／蹠屈｜側面看：腳尖往上勾＝背屈（脛前肌）；腳尖往下壓＝蹠屈（腓腸、比目魚）。",
+          "figId": "anim-ankle-df-pf",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-inversion",
+      "term": "內翻",
+      "aliases": [
+        "inversion"
+      ],
+      "category": "動作",
+      "oneLiner": "腳底板朝向對側腳／中線翻（腳底「對內看」）。",
+      "explain": [
+        "踝關節複雜動作之一；過度內翻容易傷外側韌帶（常見扭傷方向）。",
+        "相對概念常對「外翻」。"
+      ],
+      "example": "腳踝「翻船」常是腳掌內翻著地。",
+      "relatedIds": [
+        "term-eversion"
+      ],
+      "lessonIds": [
+        "L05"
+      ],
+      "mnemonicIds": [],
+      "highYield": true
+    },
+    {
+      "id": "term-eversion",
+      "term": "外翻",
+      "aliases": [
+        "eversion"
+      ],
+      "category": "動作",
+      "oneLiner": "腳底板朝向外側翻（腳底「對外看」）。",
+      "explain": [
+        "比內翻少見為扭傷主方向，但仍是踝的重要動作方向。",
+        "相對是內翻。"
+      ],
+      "example": "把腳掌外側緣抬起、腳底朝外，就是外翻方向。",
+      "relatedIds": [
+        "term-inversion"
+      ],
+      "lessonIds": [
+        "L05"
+      ],
+      "mnemonicIds": [],
+      "highYield": false
+    },
+    {
+      "id": "term-lateral-flexion",
+      "term": "側屈",
+      "aliases": [
+        "lateral flexion",
+        "側彎",
+        "脊柱側屈"
+      ],
+      "category": "動作",
+      "oneLiner": "軀幹或脖子往左或往右彎；〔對講義〕脊柱側屈主力常寫腰方肌。",
+      "explain": [
+        "側屈＝側彎，發生在額狀面，像把手伸向小腿外側。",
+        "〔對講義〕脊柱側屈＝腰方肌。旋轉（轉身）才是腹內外斜肌——側彎≠轉身。",
+        "單側站不穩時，對側腰方肌有時會代償幫忙穩骨盆（影片／課也常提）。"
+      ],
+      "example": "站姿側彎伸展；側平板時軀幹抗側屈。",
+      "relatedIds": [
+        "term-frontal-plane",
+        "term-quadratus-lumborum",
+        "term-rotation"
+      ],
+      "lessonIds": [
+        "L15",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-ql-supported",
+        "mn-lecture-spine-side-vs-spin"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-spine-lateral-flexion.svg",
+          "caption": "脊柱 側屈｜正面看：身體往左右彎＝側屈（腰方肌）。額狀面。",
+          "figId": "anim-spine-lateral-flexion",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-rotation",
+      "term": "旋轉",
+      "aliases": [
+        "rotation",
+        "軀幹旋轉",
+        "脊柱旋轉",
+        "轉身"
+      ],
+      "category": "動作",
+      "oneLiner": "繞垂直軸轉身；〔對講義〕脊柱旋轉＝腹內、外斜肌。",
+      "explain": [
+        "想像肚臍對準的方向轉去左邊或右邊＝脊柱旋轉。",
+        "〔對講義〕主力：腹內斜肌、腹外斜肌（扭毛巾）。",
+        "易混：側屈是左右彎腰，旋轉是轉身看後方——動作平面與感覺都不同。"
+      ],
+      "example": "坐著開車回頭看後座、俄羅斯轉體、砍木動作。",
+      "relatedIds": [
+        "term-transverse-plane",
+        "term-internal-rotation",
+        "term-lateral-flexion",
+        "term-obliques"
+      ],
+      "lessonIds": [
+        "L15",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lumbar-rotate",
+        "mn-lecture-spine-side-vs-spin"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-spine-rotation.svg",
+          "caption": "脊柱 旋轉｜從頭頂看：骨盆不動、上半身轉＝旋轉（腹內、外斜肌）。水平面。",
+          "figId": "anim-spine-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-elevation",
+      "term": "上提（肩帶）",
+      "aliases": [
+        "elevation",
+        "上提",
+        "提肩",
+        "聳肩",
+        "肩帶上提"
+      ],
+      "category": "動作",
+      "oneLiner": "肩帶上提＝把肩膀往耳朵端上去（聳肩）。",
+      "explain": [
+        "動的是肩胛／肩帶，不是手臂往上舉。照鏡子：兩肩往上、脖子變短。生活：提重物不自覺聳肩。易混：≠肩關節屈曲／外展。講義主力：提肩胛肌、斜方肌上部。詳見 L20①、圖 shoulder-girdle-6。"
+      ],
+      "example": "冷到縮脖子聳肩；提超重購物袋。",
+      "relatedIds": [
+        "term-depression",
+        "term-trapezius",
+        "term-shoulder-girdle",
+        "term-levator-scapulae"
+      ],
+      "lessonIds": [
+        "L13",
+        "L17",
+        "L20"
+      ],
+      "mnemonicIds": [
+        "mn-scap-moves",
+        "mn-levator-earlobe",
+        "mn-lecture-girdle-vs-gh",
+        "mn-l20-girdle-six-life"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-girdle-6.svg",
+        "caption": "① 上提：聳肩・肩胛往上"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-scap-elev-dep.svg",
+          "caption": "肩帶 上提／下壓｜背面看肩胛骨：聳肩＝上提；沉肩＝下壓。動的是肩胛骨，不是手臂球頭。",
+          "figId": "anim-scap-elev-dep",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-depression",
+      "term": "下壓（肩帶）",
+      "aliases": [
+        "depression",
+        "下壓",
+        "下降",
+        "沉肩",
+        "肩帶下壓"
+      ],
+      "category": "動作",
+      "oneLiner": "肩帶下壓＝肩膀往下遠離耳朵（沉肩）。",
+      "explain": [
+        "把肩胛往下壓穩。照鏡子：肩膀離耳朵、脖子看起來較長。生活：教練說「沉肩再推」。易混：≠手臂往下的肩伸展；≠下轉（下轉是旋轉回來）。講義主力：胸小肌、斜方肌下部。L20②。"
+      ],
+      "example": "肩膀往褲袋方向壓下去再開始側平舉。",
+      "relatedIds": [
+        "term-elevation",
+        "term-pectoralis-minor",
+        "term-trapezius",
+        "term-downward-rotation",
+        "term-shoulder-girdle"
+      ],
+      "lessonIds": [
+        "L13",
+        "L17",
+        "L20"
+      ],
+      "mnemonicIds": [
+        "mn-scap-moves",
+        "mn-lecture-girdle-vs-gh",
+        "mn-l20-girdle-six-life"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-girdle-6.svg",
+        "caption": "② 下壓：沉肩・往口袋方向"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-scap-elev-dep.svg",
+          "caption": "肩帶 上提／下壓｜背面看肩胛骨：聳肩＝上提；沉肩＝下壓。動的是肩胛骨，不是手臂球頭。",
+          "figId": "anim-scap-elev-dep",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-protraction",
+      "term": "前引（肩帶外展）",
+      "aliases": [
+        "protraction",
+        "前伸",
+        "前引",
+        "外展肩胛",
+        "肩帶外展",
+        "肩胛前伸",
+        "肩胛前引"
+      ],
+      "category": "動作",
+      "oneLiner": "前引＝擁抱前伸：肩胛往前繞肋骨滑出去。",
+      "explain": [
+        "講義寫「肩帶外展」。照鏡子：背變圓、肩往前。生活：擁抱、推牆、伏地挺身頂端。易混：≠肩關節外展（側平舉）。主力：前鋸肌。口訣：前引＝擁抱前伸。L20④。"
+      ],
+      "example": "伸手擁抱時肩膀往前送。",
+      "relatedIds": [
+        "term-retraction",
+        "term-serratus-anterior",
+        "term-shoulder-girdle",
+        "term-abduction"
+      ],
+      "lessonIds": [
+        "L13",
+        "L17",
+        "L20",
+        "L18"
+      ],
+      "mnemonicIds": [
+        "mn-scap-moves",
+        "mn-serratus-bullet",
+        "mn-lecture-girdle-vs-gh",
+        "mn-l20-protract-hug"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-girdle-6.svg",
+        "caption": "④ 前引：擁抱前伸・肩胛往前"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-scap-retr-prot.svg",
+          "caption": "肩帶 後縮（內收）／前引（外展）｜背面看：兩塊肩胛往脊椎夾＝後縮（夾背）；往外往前滑開＝前引（推圓背）。",
+          "figId": "anim-scap-retr-prot",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-retraction",
+      "term": "後縮（肩帶內收）",
+      "aliases": [
+        "retraction",
+        "內收肩胛",
+        "夾背",
+        "後縮",
+        "肩帶內收",
+        "肩胛後收",
+        "肩胛後縮"
+      ],
+      "category": "動作",
+      "oneLiner": "後縮＝夾背：兩塊肩胛往脊椎靠攏。",
+      "explain": [
+        "講義寫「肩帶內收」，口語常說後縮／夾背。照鏡子：胸口打開、上背較平。生活：挺胸站直、划船夾背。易混：≠肩關節內收（手臂往身體夾）。主力：斜方中＋菱形。口訣：後縮＝夾背。L20③。"
+      ],
+      "example": "想像背後夾一支筆。",
+      "relatedIds": [
+        "term-protraction",
+        "term-rhomboids",
+        "term-trapezius",
+        "term-shoulder-girdle",
+        "term-adduction"
+      ],
+      "lessonIds": [
+        "L13",
+        "L17",
+        "L20",
+        "L18"
+      ],
+      "mnemonicIds": [
+        "mn-scapula",
+        "mn-scap-moves",
+        "mn-lecture-girdle-vs-gh",
+        "mn-l20-retract-pinch"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-girdle-6.svg",
+        "caption": "③ 後縮：夾背・肩胛往脊椎"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-scap-retr-prot.svg",
+          "caption": "肩帶 後縮（內收）／前引（外展）｜背面看：兩塊肩胛往脊椎夾＝後縮（夾背）；往外往前滑開＝前引（推圓背）。",
+          "figId": "anim-scap-retr-prot",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-upward-rotation",
+      "term": "上轉（肩胛）",
+      "aliases": [
+        "upward rotation",
+        "上旋",
+        "上轉",
+        "肩帶上轉",
+        "肩胛上旋"
+      ],
+      "category": "動作",
+      "oneLiner": "上轉＝舉手開門：肩胛下角往外上，讓手臂舉過頭。",
+      "explain": [
+        "手臂舉高時肩胛會轉，盂窩比較朝上。照鏡子：舉過肩時摸下角外移。易混：不是「手臂自己轉」的外轉；外轉是肱骨旋轉。主力：前鋸＋斜方上／下。口訣：上轉＝舉手開門。L20⑤。"
+      ],
+      "example": "舉手拿高櫃上的杯子。",
+      "relatedIds": [
+        "term-protraction",
+        "term-serratus-anterior",
+        "term-trapezius",
+        "term-scapulohumeral-rhythm",
+        "term-downward-rotation",
+        "term-shoulder-girdle",
+        "term-abduction"
+      ],
+      "lessonIds": [
+        "L13",
+        "L17",
+        "L20",
+        "L18"
+      ],
+      "mnemonicIds": [
+        "mn-scap-upward",
+        "mn-lecture-scap-up-rot",
+        "mn-l20-up-rot-door"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-girdle-6.svg",
+        "caption": "⑤ 上轉：舉手開門・下角外上"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-scap-rotation.svg",
+          "caption": "肩帶 上轉／下轉｜手舉過頭時肩胛下角往外上轉＝上轉；手放下轉回來＝下轉。手臂舉高＝肩關節＋肩胛一起動（肩肱節律）。",
+          "figId": "anim-scap-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-anterior-pelvic-tilt",
+      "term": "骨盆前傾",
+      "aliases": [
+        "anterior pelvic tilt",
+        "APT"
+      ],
+      "category": "動作",
+      "oneLiner": "骨盆像把「盆口」往前倒，常伴隨腰椎更凹。",
+      "explain": [
+        "想像骨盆是一盆水：水往前潑＝前傾。",
+        "髖屈肌緊、腹肌／臀肌相對無力時較常見（下交叉相關）。"
+      ],
+      "example": "站著時肚子比較凸、腰椎很凹，可能有骨盆前傾傾向（需專業評估）。",
+      "relatedIds": [
+        "term-posterior-pelvic-tilt",
+        "term-lower-cross",
+        "term-iliopsoas"
+      ],
+      "lessonIds": [
+        "L05",
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-lower-cross",
+        "mn-iliacus-tilt"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-posterior-pelvic-tilt",
+      "term": "骨盆後傾",
+      "aliases": [
+        "posterior pelvic tilt",
+        "PPT"
+      ],
+      "category": "動作",
+      "oneLiner": "骨盆像把「盆口」往後倒，腰椎較變平。",
+      "explain": [
+        "想像盆裡的水往後潑＝後傾。",
+        "捲腹到底、橋式有時會用到後傾來保護腰椎。"
+      ],
+      "example": "仰臥把腰平貼地板、屁股微微捲起，常是骨盆後傾方向。",
+      "relatedIds": [
+        "term-anterior-pelvic-tilt"
+      ],
+      "lessonIds": [
+        "L04",
+        "L05"
+      ],
+      "mnemonicIds": [
+        "mn-lower-cross"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-ball-and-socket",
+      "term": "球窩關節",
+      "aliases": [
+        "球狀關節",
+        "ball and socket"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "圓頭裝進凹窩，能多方向大幅活動（如肩、髖）。",
+      "explain": [
+        "活動度大，但穩定度相對挑戰也大，需要肌肉與韌帶幫忙。",
+        "可做屈伸、外展內收、旋轉、環轉。"
+      ],
+      "example": "肩關節（盂肱）、髖關節都是球窩關節。",
+      "relatedIds": [
+        "term-mobility-stability",
+        "term-hinge-joint"
+      ],
+      "lessonIds": [
+        "L02",
+        "L11"
+      ],
+      "mnemonicIds": [
+        "mn-joint-types"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-hinge-joint",
+      "term": "鉸鏈關節",
+      "aliases": [
+        "屈戌關節",
+        "hinge joint"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "主要像門板一樣開合，以屈伸為主（如肘、膝大致如此）。",
+      "explain": [
+        "活動方向較單一，穩定度通常較球窩好懂。",
+        "膝其實還有一點旋轉，但教學上常先當鉸鏈理解。"
+      ],
+      "example": "手肘彎伸舉啞鈴，就像鉸鏈開合。",
+      "relatedIds": [
+        "term-ball-and-socket",
+        "term-flexion"
+      ],
+      "lessonIds": [
+        "L02"
+      ],
+      "mnemonicIds": [
+        "mn-joint-types"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-elbow-flex-ext.svg",
+          "caption": "肘關節 屈曲／伸展｜側面看：彎起手肘＝屈曲（彎舉）；伸直＝伸展（三頭下壓）。",
+          "figId": "anim-elbow-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-gliding-joint",
+      "term": "滑動關節",
+      "aliases": [
+        "平面關節",
+        "gliding joint",
+        "plane joint"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "兩塊較平坦的骨面互相滑移，動作幅度通常較小。",
+      "explain": [
+        "常見於腕骨之間、部分脊椎小面關節等。",
+        "像兩本厚書疊在一起輕輕錯位滑動。"
+      ],
+      "example": "手腕細微調整角度時，腕骨間常有滑動。",
+      "relatedIds": [
+        "term-hinge-joint"
+      ],
+      "lessonIds": [
+        "L02",
+        "L11"
+      ],
+      "mnemonicIds": [
+        "mn-joint-types"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-mobility-stability",
+      "term": "活動度與穩定度權衡",
+      "aliases": [
+        "mobility stability trade-off",
+        "穩定度",
+        "活動度"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "關節能動很大，通常就要更多肌肉來「顧穩定」。",
+      "explain": [
+        "肩很能舉能轉，但也較容易不穩或夾擠；髖窩較深，骨性穩定相對好一些。",
+        "訓練常要：該活動的地方有活動度，該穩定的地方有控制。"
+      ],
+      "example": "只拉柔韌卻練不了肩胛穩定，過頭推舉容易聳肩代償。",
+      "relatedIds": [
+        "term-ball-and-socket",
+        "term-compensation"
+      ],
+      "lessonIds": [
+        "L02",
+        "L06"
+      ],
+      "mnemonicIds": [],
+      "highYield": true
+    },
+    {
+      "id": "term-active-rom",
+      "term": "主動活動度",
+      "aliases": [
+        "active ROM",
+        "AROM",
+        "主動關節活動度"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "自己出力能讓關節走到的活動範圍。",
+      "explain": [
+        "不用別人幫忙，肌肉自己收縮把肢段抬起來。",
+        "通常比被動活動度小一點。"
+      ],
+      "example": "自己把手臂向前舉到最高，就是肩屈曲的主動活動度。",
+      "relatedIds": [
+        "term-passive-rom"
+      ],
+      "lessonIds": [
+        "L02"
+      ],
+      "mnemonicIds": [],
+      "highYield": false
+    },
+    {
+      "id": "term-passive-rom",
+      "term": "被動活動度",
+      "aliases": [
+        "passive ROM",
+        "PROM",
+        "被動關節活動度"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "靠外力（教練、重力、另一隻手）協助能走到的範圍。",
+      "explain": [
+        "肌肉不用當主力，軟組織被拉開的極限常更靠近被動端。",
+        "主動到不了、被動到得了，有時代表肌力或控制不足。"
+      ],
+      "example": "用另一隻手把僵硬的肩膀再往上推一點，多出來的是被動範圍。",
+      "relatedIds": [
+        "term-active-rom"
+      ],
+      "lessonIds": [
+        "L02"
+      ],
+      "mnemonicIds": [],
+      "highYield": false
+    },
+    {
+      "id": "term-open-chain",
+      "term": "開放鏈",
+      "aliases": [
+        "open kinetic chain",
+        "開鏈"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "肢段末端可以自由活動（腳或手沒有固定在地面／器械上）。",
+      "explain": [
+        "遠端可動，常較好單獨練某一肌群。",
+        "相對是「閉鎖鏈」。"
+      ],
+      "example": "坐姿伸膝（腿踢機）、二頭彎舉都是開放鏈。",
+      "relatedIds": [
+        "term-closed-chain"
+      ],
+      "lessonIds": [
+        "L06"
+      ],
+      "mnemonicIds": [
+        "mn-open-closed"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-closed-chain",
+      "term": "閉鎖鏈",
+      "aliases": [
+        "closed kinetic chain",
+        "閉鏈"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "肢段末端固定（如腳踩地、手撐地），身體在動。",
+      "explain": [
+        "多關節一起參與，較接近日常與運動姿勢。",
+        "相對是開放鏈。"
+      ],
+      "example": "深蹲、伏地挺身、引體向上都是閉鎖鏈。",
+      "relatedIds": [
+        "term-open-chain"
+      ],
+      "lessonIds": [
+        "L06"
+      ],
+      "mnemonicIds": [
+        "mn-open-closed"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-origin",
+      "term": "起點",
+      "aliases": [
+        "origin",
+        "肌起點"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "肌肉較靠近軀幹、或傳統上較「固定」的附著端（教學慣用說法）。",
+      "explain": [
+        "課本常寫：起點相對穩定、止點被拉向起點。",
+        "實際動作中兩端都可能動，所以把它當「地圖標記」即可。"
+      ],
+      "example": "肱二頭肌起於肩胛，止於橈骨；彎舉時前臂被拉向肩膀。",
+      "relatedIds": [
+        "term-insertion",
+        "term-agonist"
+      ],
+      "lessonIds": [
+        "L03"
+      ],
+      "mnemonicIds": [
+        "mn-origin-insert-rule"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-insertion",
+      "term": "止點",
+      "aliases": [
+        "insertion",
+        "肌止點"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "肌肉另一端附著處，常被拉向起點而產生動作。",
+      "explain": [
+        "公開考照心得多考「動作→關節／平面／肌肉」，少見整本默寫起止點座標。",
+        "新手先記功能，再把起止點連到「收縮時關節怎麼動」。"
+      ],
+      "example": "三角肌止於肱骨三角肌粗隆，收縮可外展手臂。",
+      "relatedIds": [
+        "term-origin"
+      ],
+      "lessonIds": [
+        "L03",
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-origin-insert-rule"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-labrum",
+      "term": "盂唇",
+      "aliases": [
+        "labrum",
+        "glenoid labrum",
+        "關節盂唇",
+        "肩盂唇"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "貼在盂窩邊緣的軟骨「杯緣」，把淺碗加深一點，幫忙穩定肩關節。",
+      "explain": [
+        "盂窩本來就像淺碗，盂唇像碗口加高的一圈杯緣（軟骨纖維環），讓肱骨頭坐得穩一點。",
+        "摸不到（在關節裡面），但考試常問「作用＝加深盂窩、增加穩定」。",
+        "訓練提醒：動作力線歪歪的、失控甩動，長期較容易磨損這圈杯緣——所以教動作要對齊與控制。"
+      ],
+      "example": "臥推、過頭推若肩膀過度外開又失控，教練會提醒保護肩關節／盂唇結構。",
+      "relatedIds": [
+        "term-glenoid",
+        "term-glenohumeral",
+        "term-ball-and-socket"
+      ],
+      "lessonIds": [
+        "L19",
+        "L11",
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-labrum",
+        "mn-glenoid-shallow-bowl"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-tendon",
+      "term": "肌腱",
+      "aliases": [
+        "tendon"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "把肌肉接到骨頭上的「繩子」。",
+      "explain": [
+        "肌肉收縮拉力經肌腱傳給骨頭，才產生動作。",
+        "相對：韌帶多是骨連骨。"
+      ],
+      "example": "阿基里斯腱連接小腿肌與跟骨。",
+      "relatedIds": [
+        "term-ligament"
+      ],
+      "lessonIds": [
+        "L11"
+      ],
+      "mnemonicIds": [
+        "mn-tendon-ligament"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-ligament",
+      "term": "韌帶",
+      "aliases": [
+        "ligament"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "連接骨頭與骨頭、限制過度活動的組織。",
+      "explain": [
+        "比較像關節的「安全帶」，不是主力發動動作。",
+        "扭傷常傷韌帶。"
+      ],
+      "example": "膝內側副韌帶限制膝蓋過度外翻。",
+      "relatedIds": [
+        "term-tendon"
+      ],
+      "lessonIds": [
+        "L11"
+      ],
+      "mnemonicIds": [
+        "mn-tendon-ligament"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-radioulnar",
+      "term": "橈尺關節",
+      "aliases": [
+        "radioulnar joint",
+        "radioulnar",
+        "橈尺",
+        "前臂關節"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "橈骨與尺骨之間的關節，專管旋前／旋後（翻掌）。",
+      "explain": [
+        "前臂有兩根骨頭：外側橈骨、內側尺骨（解剖姿勢掌心朝前時）。",
+        "它們之間的橈尺關節讓你能倒水（旋前）與托碗（旋後）。",
+        "〔對講義〕旋前＝旋前圓／方肌；旋後＝肱二頭＋旋後肌。"
+      ],
+      "example": "開瓶蓋、轉門把時前臂常在旋前旋後。",
+      "relatedIds": [
+        "term-pronation",
+        "term-supination"
+      ],
+      "lessonIds": [
+        "L14",
+        "L11",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-ulna-radius",
+        "mn-radio-ulnar-twist",
+        "mn-lecture-pronate-pour"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-forearm-pro-sup.svg",
+          "caption": "前臂 旋前／旋後｜從上往下看右手：掌心轉向下＝旋前（橈骨繞過尺骨）；轉向上＝旋後。只轉前臂。",
+          "figId": "anim-forearm-pro-sup",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-glenohumeral",
+      "term": "肩關節（盂肱）",
+      "aliases": [
+        "GH",
+        "GH joint",
+        "glenohumeral",
+        "glenohumeral joint",
+        "狹義肩",
+        "盂肱",
+        "盂肱關節",
+        "肩關節"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "肱骨頭在盂窩裡轉的關節＝常說的肩關節本體。",
+      "explain": [
+        "八動作：屈、伸、外展、內收、水平內收、水平外展、內轉、外轉。動的是手臂球頭。≠肩帶六動作。超細講見 L20；圖 shoulder-joint-8。"
+      ],
+      "example": "側平舉、前平舉、夾胸、肩外旋都是肩關節動作。",
+      "relatedIds": [
+        "term-ball-and-socket",
+        "term-rotator-cuff",
+        "term-glenoid",
+        "term-humerus-head",
+        "term-labrum",
+        "term-acromion",
+        "term-scapula",
+        "term-shoulder-girdle",
+        "term-abduction",
+        "term-horizontal-adduction"
+      ],
+      "lessonIds": [
+        "L12",
+        "L11",
+        "L17",
+        "L19",
+        "L20"
+      ],
+      "mnemonicIds": [
+        "mn-shoulder-complex",
+        "mn-lecture-girdle-vs-gh",
+        "mn-l20-gh-eight-life"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-girdle-vs-joint.svg",
+        "caption": "右＝肩關節（球頭轉）"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-flex-ext.svg",
+          "caption": "肩關節 屈曲／伸展｜側面看：手臂往前往上＝屈曲；往後帶＝伸展。矢狀面。",
+          "figId": "anim-shoulder-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/anim/anim-shoulder-abd-add.svg",
+          "caption": "肩關節 外展／內收（側平舉）｜正面看：手臂從側面抬起＝外展（側平舉）；放回身體＝內收。額狀面。",
+          "figId": "anim-shoulder-abd-add",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/diagrams/shoulder-girdle-vs-joint.svg",
+          "caption": "右＝肩關節（球頭轉）"
+        }
+      ]
+    },
+    {
+      "id": "term-hip-joint",
+      "term": "髖關節",
+      "aliases": [
+        "hip joint",
+        "髖"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "股骨頭與骨盆髖臼的球窩關節，承重且要穩又要動。",
+      "explain": [
+        "窩比肩深，骨性穩定相對好，但仍需臀肌等控制。",
+        "屈伸、外展內收、旋轉都能做。"
+      ],
+      "example": "深蹲、弓箭步、臀推都以髖關節為核心樞紐之一。",
+      "relatedIds": [
+        "term-ball-and-socket",
+        "term-gluteus-maximus"
+      ],
+      "lessonIds": [
+        "L16",
+        "L11"
+      ],
+      "mnemonicIds": [
+        "mn-hip-three"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-hip-flex-ext.svg",
+          "caption": "髖關節 屈曲／伸展｜側面看：大腿往前抬＝屈曲；往後擺＝伸展。矢狀面。",
+          "figId": "anim-hip-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-ankle",
+      "term": "踝關節",
+      "aliases": [
+        "ankle",
+        "距骨小腿關節"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "小腿與足部之間的關節，主司背屈／跖屈，並與足內外翻協同。",
+      "explain": [
+        "活動度不足時，深蹲可能代償腳外八或翹腳跟。",
+        "扭傷常見。"
+      ],
+      "example": "深蹲時膝蓋向前、小腿前傾需要足夠踝背屈。",
+      "relatedIds": [
+        "term-dorsiflexion",
+        "term-plantarflexion"
+      ],
+      "lessonIds": [
+        "L05",
+        "L11"
+      ],
+      "mnemonicIds": [
+        "mn-ankle"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-ankle-df-pf.svg",
+          "caption": "踝關節 背屈／蹠屈｜側面看：腳尖往上勾＝背屈（脛前肌）；腳尖往下壓＝蹠屈（腓腸、比目魚）。",
+          "figId": "anim-ankle-df-pf",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-pes-anserine",
+      "term": "鵝足",
+      "aliases": [
+        "pes anserinus",
+        "SGT"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "膝內側三條肌腱匯合處，像鵝的腳蹼。",
+      "explain": [
+        "SGT：縫匠、股薄、半腱。",
+        "該處滑囊不適時會痛在膝內下方。"
+      ],
+      "example": "摸膝蓋內側下方軟軟的肌腱匯合區，約略是鵝足。",
+      "relatedIds": [
+        "term-sartorius",
+        "term-hamstrings"
+      ],
+      "lessonIds": [
+        "L05",
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-pes-anserine"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-concentric",
+      "term": "向心收縮",
+      "aliases": [
+        "concentric",
+        "縮短收縮"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "肌肉出力且長度變短，把重量「拉起來」。",
+      "explain": [
+        "肌力大於阻力時，起止點靠近。",
+        "相對常見對照：離心、等長。"
+      ],
+      "example": "二頭彎舉往上舉的階段＝肱二頭向心。",
+      "relatedIds": [
+        "term-eccentric",
+        "term-isometric"
+      ],
+      "lessonIds": [
+        "L07"
+      ],
+      "mnemonicIds": [
+        "mn-contraction"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-eccentric",
+      "term": "離心收縮",
+      "aliases": [
+        "eccentric",
+        "拉長收縮"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "肌肉仍出力但被拉長，把重量「慢慢放下去」。",
+      "explain": [
+        "阻力大於肌力時，起止點被拉開，但肌肉在剎車。",
+        "較易造成延遲性痠痛（DOMS），也常用於肌力與控制訓練。"
+      ],
+      "example": "彎舉時慢慢放下啞鈴＝離心；下蹲過程股四也在離心控制。",
+      "relatedIds": [
+        "term-concentric",
+        "term-doms"
+      ],
+      "lessonIds": [
+        "L07"
+      ],
+      "mnemonicIds": [
+        "mn-contraction",
+        "mn-doms-eccentric"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-isometric",
+      "term": "等長收縮",
+      "aliases": [
+        "isometric",
+        "靜態收縮"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "肌肉出力但長度幾乎不變，關節角度固定。",
+      "explain": [
+        "對抗阻力但不產生明顯位移。",
+        "適合穩定訓練或疼痛時的入門收縮。"
+      ],
+      "example": "棒式（plank）、牆坐就是等長。",
+      "relatedIds": [
+        "term-concentric",
+        "term-eccentric"
+      ],
+      "lessonIds": [
+        "L07"
+      ],
+      "mnemonicIds": [
+        "mn-contraction"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-agonist",
+      "term": "主動肌",
+      "aliases": [
+        "agonist",
+        "主力肌",
+        "prime mover"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "這個動作主要負責出力的那條（群）肌肉。",
+      "explain": [
+        "也叫主力肌。同一個動作在不同角度，主力可能微調。",
+        "旁邊還有協助肌、對面有拮抗肌、附近有穩定肌。"
+      ],
+      "example": "肘屈曲時肱肌／肱二頭是主動肌角色。",
+      "relatedIds": [
+        "term-synergist",
+        "term-antagonist",
+        "term-stabilizer"
+      ],
+      "lessonIds": [
+        "L07"
+      ],
+      "mnemonicIds": [
+        "mn-agonist-team"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-synergist",
+      "term": "協助肌",
+      "aliases": [
+        "synergist",
+        "協同肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "幫忙主動肌完成動作、或微調方向的肌肉。",
+      "explain": [
+        "不是唯一主角，但少了它動作會變怪或變弱。",
+        "與主動肌同一隊。"
+      ],
+      "example": "彎舉時肱橈肌可協助肘屈。",
+      "relatedIds": [
+        "term-agonist"
+      ],
+      "lessonIds": [
+        "L07"
+      ],
+      "mnemonicIds": [
+        "mn-agonist-team"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-antagonist",
+      "term": "拮抗肌",
+      "aliases": [
+        "antagonist"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "與主動肌作用相反、常在對面的肌肉。",
+      "explain": [
+        "主動肌縮時，拮抗肌通常被拉長或適度放鬆。",
+        "成對出現：二頭↔三頭、股四↔腿後。"
+      ],
+      "example": "伸膝時股四頭是主動、腿後腱是拮抗。",
+      "relatedIds": [
+        "term-agonist"
+      ],
+      "lessonIds": [
+        "L07"
+      ],
+      "mnemonicIds": [
+        "mn-agonist-team",
+        "mn-quad-ham"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-stabilizer",
+      "term": "穩定肌",
+      "aliases": [
+        "stabilizer",
+        "固定肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "固定某個關節或骨段，讓主動肌能安心做事。",
+      "explain": [
+        "不一定產生大動作，但少了它就容易晃、聳肩、塌腰。",
+        "核心、肩袖、臀中常扮演穩定角色。"
+      ],
+      "example": "過頭推舉時，肩袖與核心穩定肌幫你把軌道顧好。",
+      "relatedIds": [
+        "term-agonist",
+        "term-rotator-cuff",
+        "term-gluteus-medius"
+      ],
+      "lessonIds": [
+        "L07",
+        "L04"
+      ],
+      "mnemonicIds": [
+        "mn-agonist-team"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-multi-joint-muscle",
+      "term": "多關節肌",
+      "aliases": [
+        "雙關節肌",
+        "biarticular",
+        "multi-joint"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "一條肌肉跨過兩個（或以上）關節，能影響多個關節。",
+      "explain": [
+        "好處是傳力效率；限制是「長度張力」與主動／被動不足。",
+        "例如股直肌跨髖與膝；股四其餘三頭主要管膝。"
+      ],
+      "example": "股直肌是股四裡唯一雙關節；縫匠肌也跨髖膝。",
+      "relatedIds": [
+        "term-length-tension",
+        "term-rectus-femoris",
+        "term-sartorius"
+      ],
+      "lessonIds": [
+        "L16",
+        "L05"
+      ],
+      "mnemonicIds": [
+        "mn-rectus-fem-bi"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-length-tension",
+      "term": "長度張力關係",
+      "aliases": [
+        "length-tension relationship",
+        "長度張力"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "肌肉太短或太長，都比較使不上力；中間長度通常較佳。",
+      "explain": [
+        "像橡皮筋：太鬆沒力、拉太極也怪。",
+        "多關節肌在某關節縮短、另一關節又縮短時，可能主動不足。"
+      ],
+      "example": "髖完全屈曲又膝完全伸直時，股直肌被拉得很長，感覺緊。",
+      "relatedIds": [
+        "term-multi-joint-muscle"
+      ],
+      "lessonIds": [
+        "L07"
+      ],
+      "mnemonicIds": [],
+      "highYield": true
+    },
+    {
+      "id": "term-doms",
+      "term": "延遲性痠痛",
+      "aliases": [
+        "DOMS",
+        "delayed onset muscle soreness"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "練後 24～72 小時才明顯的痠痛，常跟離心有關。",
+      "explain": [
+        "不是立即的「抽筋痛」，也不是受傷的尖銳痛。",
+        "可作為刺激參考，但不是唯一進步指標。"
+      ],
+      "example": "第一次下山健行後隔天大腿前面超痠，常是離心造成的 DOMS。",
+      "relatedIds": [
+        "term-eccentric"
+      ],
+      "lessonIds": [
+        "L07"
+      ],
+      "mnemonicIds": [
+        "mn-doms-eccentric"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-force-couple",
+      "term": "力偶",
+      "aliases": [
+        "force couple"
+      ],
+      "category": "常見考點",
+      "oneLiner": "兩股（或多股）力方向不同，卻一起讓骨頭「轉」到想要的方向。",
+      "explain": [
+        "像兩人從不同方向推轉盤，結果轉起來更順。",
+        "肩胛上旋：上斜方、下斜方、前鋸肌常被當力偶來教。"
+      ],
+      "example": "手臂上舉時，肩胛上旋力偶讓盂窩跟著轉，減少夾擠。",
+      "relatedIds": [
+        "term-upward-rotation",
+        "term-serratus-anterior"
+      ],
+      "lessonIds": [
+        "L13"
+      ],
+      "mnemonicIds": [
+        "mn-scap-upward"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-moment-arm",
+      "term": "力矩（簡說）",
+      "aliases": [
+        "力矩",
+        "moment",
+        "torque",
+        "力臂"
+      ],
+      "category": "常見考點",
+      "oneLiner": "「力 × 力臂」：同樣的力，離關節軸越遠，轉的效果越大。",
+      "explain": [
+        "啞鈴在手上，手臂越水平前平舉，阻力力矩越大，越吃力。",
+        "教練用它解釋為什麼某些角度特別難。"
+      ],
+      "example": "側平舉舉到與肩同高最硬，因阻力力臂最大。",
+      "relatedIds": [
+        "term-lever"
+      ],
+      "lessonIds": [
+        "L06"
+      ],
+      "mnemonicIds": [
+        "mn-lever"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-lever",
+      "term": "槓桿",
+      "aliases": [
+        "lever"
+      ],
+      "category": "常見考點",
+      "oneLiner": "骨頭像桿子、關節像支點、肌肉像施力，來移動阻力。",
+      "explain": [
+        "人體多數是「費力但換速度／幅度」的槓桿安排。",
+        "記住：支點、施力、阻力三個角色即可。"
+      ],
+      "example": "點頭時寰枕關節像支點，頭部重量是阻力。",
+      "relatedIds": [
+        "term-moment-arm"
+      ],
+      "lessonIds": [
+        "L06"
+      ],
+      "mnemonicIds": [
+        "mn-lever",
+        "mn-fre-body"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-q-angle",
+      "term": "Q 角",
+      "aliases": [
+        "Q angle",
+        "quadriceps angle",
+        "Q角"
+      ],
+      "category": "常見考點",
+      "oneLiner": "股四頭拉力線與髕腱方向的夾角，影響膝蓋受力方向。",
+      "explain": [
+        "大約常落在約 10～20°，女性因骨盆較寬平均值常較大。",
+        "過大／控制不良時，可能與膝內扣、髕股不適等討論有關。"
+      ],
+      "example": "蹲下時膝蓋往內塌，常被拿來跟髖外展肌無力、Q 角一起討論。",
+      "relatedIds": [
+        "term-gluteus-medius",
+        "term-compensation"
+      ],
+      "lessonIds": [
+        "L05",
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-q-angle"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-compensation",
+      "term": "代償",
+      "aliases": [
+        "compensation"
+      ],
+      "category": "常見考點",
+      "oneLiner": "該出力的地方不夠力或不夠穩，旁邊肌肉「插隊幫忙」硬完成動作。",
+      "explain": [
+        "短期能動，長期可能變成錯誤模式或局部過勞。",
+        "教練常看：聳肩推舉、腰代腿硬拉、膝蓋內扣深蹲。"
+      ],
+      "example": "側平舉一直聳肩，可能是上斜方代償中束／肩袖控制不足。",
+      "relatedIds": [
+        "term-stabilizer",
+        "term-gluteus-medius"
+      ],
+      "lessonIds": [
+        "L06"
+      ],
+      "mnemonicIds": [
+        "mn-gmed-chain"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-upper-cross",
+      "term": "上交叉症候群",
+      "aliases": [
+        "upper crossed syndrome",
+        "上交叉"
+      ],
+      "category": "常見考點",
+      "oneLiner": "一種常見姿勢模式：胸前與上頸後側偏緊，深頸屈肌與肩胛穩定肌偏弱。",
+      "explain": [
+        "看起來常是頭前伸、圓肩。",
+        "名稱來自緊與弱的肌肉在身體兩側「交叉」分布（示意概念）。"
+      ],
+      "example": "整天滑手機後脖子前伸、肩膀內捲，就很像上交叉傾向。",
+      "relatedIds": [
+        "term-protraction",
+        "term-pectoralis-minor"
+      ],
+      "lessonIds": [
+        "L03",
+        "L13"
+      ],
+      "mnemonicIds": [
+        "mn-upper-cross"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-lower-cross",
+      "term": "下交叉症候群",
+      "aliases": [
+        "lower crossed syndrome",
+        "下交叉"
+      ],
+      "category": "常見考點",
+      "oneLiner": "髖屈肌與腰豎脊偏緊、腹肌與臀肌偏弱的常見模式。",
+      "explain": [
+        "常伴隨骨盆前傾、腰椎過伸外表。",
+        "同樣是「緊與弱交叉」的示意概念，需個別評估。"
+      ],
+      "example": "久坐後站起來腰很凹、屁股後翹，可能有下交叉相關因素。",
+      "relatedIds": [
+        "term-anterior-pelvic-tilt",
+        "term-iliopsoas"
+      ],
+      "lessonIds": [
+        "L05",
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-lower-cross"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-itbs",
+      "term": "髂脛束症候群",
+      "aliases": [
+        "ITBS",
+        "iliotibial band syndrome"
+      ],
+      "category": "常見考點",
+      "oneLiner": "膝外側或大腿外側過度負荷相關的常見跑步／騎車不適模式。",
+      "explain": [
+        "常要看髖穩定（臀中）、TFL 張力、訓練量，不只砸筋膜槍打 ITB。",
+        "持續疼痛應尋求專業。"
+      ],
+      "example": "跑量突增後下坡膝外側痛，教練常想到 ITBS。",
+      "relatedIds": [
+        "term-itb",
+        "term-tfl",
+        "term-gluteus-medius"
+      ],
+      "lessonIds": [
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-itbs-tfl"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-impingement",
+      "term": "肩夾擠（簡說）",
+      "aliases": [
+        "impingement",
+        "肩峰下夾擠"
+      ],
+      "category": "常見考點",
+      "oneLiner": "肩峰下空間的組織在舉手時被擠壓而產生的不適相關概念。",
+      "explain": [
+        "空間裡可能有棘上肌腱、滑囊等。",
+        "與姿勢、肩胛上旋、訓練技術都有關；疼痛持續要請專業。"
+      ],
+      "example": "側平舉舉太高又聳肩卡住痛，有人會講夾擠相關。",
+      "relatedIds": [
+        "term-supraspinatus",
+        "term-upward-rotation",
+        "term-acromion",
+        "term-coracoacromial-arch"
+      ],
+      "lessonIds": [
+        "L12",
+        "L19"
+      ],
+      "mnemonicIds": [
+        "mn-impingement-contents"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-rotator-cuff",
+      "term": "旋轉肌袖",
+      "aliases": [
+        "SITS",
+        "rotator cuff",
+        "肩袖"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "包住肱骨頭的四條小肌，像動態韌帶穩定肩關節。",
+      "explain": [
+        "SITS：棘上、棘下、小圓、肩胛下。",
+        "主力不是練「大圈肌肉」替代得了的穩定與微調。"
+      ],
+      "example": "彈力帶外旋常指向肩袖功能。",
+      "relatedIds": [
+        "term-supraspinatus",
+        "term-infraspinatus",
+        "term-teres-minor",
+        "term-subscapularis"
+      ],
+      "lessonIds": [
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-sits",
+        "mn-sits-dynamic-lig"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-rotator-back.svg",
+          "caption": "旋轉袖（背面）：棘上・棘下・小圓肌｜左肩深層背面：橘字＝旋轉袖（棘上、棘下、小圓；肩胛下肌在前面那張）。三角肌已切開才看得到。",
+          "figId": "os-rotator-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anatomy/os-rotator-front.svg",
+          "caption": "肩關節深層（前面）：肩胛下肌・前鋸肌｜左肩深層前外側看：肩胛下肌（旋轉袖唯一在前面的）、前鋸肌、大圓肌。",
+          "figId": "os-rotator-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-shoulder-rotation.svg",
+          "caption": "肩關節 內轉／外轉｜從頭頂看：手肘貼身體彎 90°，前臂往外打開＝外轉、往肚子轉＝內轉（上臂繞自己長軸轉）。",
+          "figId": "anim-shoulder-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-supraspinatus",
+      "term": "棘上肌",
+      "aliases": [
+        "supraspinatus"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "肩袖一員；幫忙啟動肩外展、穩定肱骨頭。",
+      "explain": [
+        "走在肩峰下方空間，夾擠話題常提到它。",
+        "SITS 的第一個 S。"
+      ],
+      "example": "手臂剛開始往側邊舉起的啟動，棘上肌很重要。",
+      "relatedIds": [
+        "term-rotator-cuff",
+        "term-abduction"
+      ],
+      "lessonIds": [
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-sits",
+        "mn-impingement-contents"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-rotator-back.svg",
+          "caption": "旋轉袖（背面）：棘上・棘下・小圓肌｜左肩深層背面：橘字＝旋轉袖（棘上、棘下、小圓；肩胛下肌在前面那張）。三角肌已切開才看得到。",
+          "figId": "os-rotator-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-infraspinatus",
+      "term": "棘下肌",
+      "aliases": [
+        "infraspinatus"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "肩袖一員；肩外旋的主力之一。",
+      "explain": [
+        "在肩胛骨後面棘下窩。",
+        "SITS 的 I。"
+      ],
+      "example": "側躺彈力帶外旋常練到棘下肌。",
+      "relatedIds": [
+        "term-external-rotation",
+        "term-rotator-cuff"
+      ],
+      "lessonIds": [
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-sits"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-rotator-back.svg",
+          "caption": "旋轉袖（背面）：棘上・棘下・小圓肌｜左肩深層背面：橘字＝旋轉袖（棘上、棘下、小圓；肩胛下肌在前面那張）。三角肌已切開才看得到。",
+          "figId": "os-rotator-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-shoulder-rotation.svg",
+          "caption": "肩關節 內轉／外轉｜從頭頂看：手肘貼身體彎 90°，前臂往外打開＝外轉、往肚子轉＝內轉（上臂繞自己長軸轉）。",
+          "figId": "anim-shoulder-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-teres-minor",
+      "term": "小圓肌",
+      "aliases": [
+        "teres minor"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "肩袖一員；協助肩外旋與穩定。",
+      "explain": [
+        "和棘下肌常一起被練到外旋。",
+        "SITS 的 T。不要跟大圓肌搞混。"
+      ],
+      "example": "外旋訓練時，小圓與棘下常一起工作。",
+      "relatedIds": [
+        "term-infraspinatus",
+        "term-rotator-cuff"
+      ],
+      "lessonIds": [
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-sits",
+        "mn-teres-lat-bros"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-rotator-back.svg",
+          "caption": "旋轉袖（背面）：棘上・棘下・小圓肌｜左肩深層背面：橘字＝旋轉袖（棘上、棘下、小圓；肩胛下肌在前面那張）。三角肌已切開才看得到。",
+          "figId": "os-rotator-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-shoulder-rotation.svg",
+          "caption": "肩關節 內轉／外轉｜從頭頂看：手肘貼身體彎 90°，前臂往外打開＝外轉、往肚子轉＝內轉（上臂繞自己長軸轉）。",
+          "figId": "anim-shoulder-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-subscapularis",
+      "term": "肩胛下肌",
+      "aliases": [
+        "subscapularis"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "肩袖一員；肩內旋主力，貼在肩胛骨前面。",
+      "explain": [
+        "SITS 的第二個 S，位置在前。",
+        "從前面把肱骨頭「抱住」。"
+      ],
+      "example": "手肘靠腰、前臂往肚臍方向內旋，有肩胛下肌參與。",
+      "relatedIds": [
+        "term-internal-rotation",
+        "term-rotator-cuff"
+      ],
+      "lessonIds": [
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-sits",
+        "mn-sits-place"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-rotator-front.svg",
+          "caption": "肩關節深層（前面）：肩胛下肌・前鋸肌｜左肩深層前外側看：肩胛下肌（旋轉袖唯一在前面的）、前鋸肌、大圓肌。",
+          "figId": "os-rotator-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-shoulder-rotation.svg",
+          "caption": "肩關節 內轉／外轉｜從頭頂看：手肘貼身體彎 90°，前臂往外打開＝外轉、往肚子轉＝內轉（上臂繞自己長軸轉）。",
+          "figId": "anim-shoulder-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-deltoid",
+      "term": "三角肌",
+      "aliases": [
+        "deltoid",
+        "肩膀肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "肩膀外層大肌，分前中後三束，包住肩關節。",
+      "explain": [
+        "前束：屈曲／水平內收；中束：外展；後束：水平外展／伸。",
+        "練肩外形常看它，但仍需肩袖與肩胛穩定。"
+      ],
+      "example": "側平舉主打中束；反向飛鳥主打後束。",
+      "relatedIds": [
+        "term-abduction",
+        "term-horizontal-abduction"
+      ],
+      "lessonIds": [
+        "L03",
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-deltoid",
+        "mn-delt-three-wg"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-pec-lat-deltoid.svg",
+          "caption": "胸大肌・闊背肌・三角肌｜推的主力胸大肌在胸前、拉的主力闊背肌在背側面、三角肌包住肩頭。",
+          "figId": "os-pec-lat-deltoid",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-pectoralis-major",
+      "term": "胸大肌",
+      "aliases": [
+        "pectoralis major",
+        "胸肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "胸口大肌，主司推、夾（水平內收）與肩內旋等。",
+      "explain": [
+        "不同纖維走向：調整凳子角度可偏上胸／中下胸刺激。",
+        "推類動作主力之一。"
+      ],
+      "example": "臥推、伏地挺身、夾胸都大量用到胸大肌。",
+      "relatedIds": [
+        "term-horizontal-adduction",
+        "term-internal-rotation"
+      ],
+      "lessonIds": [
+        "L03"
+      ],
+      "mnemonicIds": [
+        "mn-push-pull",
+        "mn-pec-angle"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-pec-lat-deltoid.svg",
+          "caption": "胸大肌・闊背肌・三角肌｜推的主力胸大肌在胸前、拉的主力闊背肌在背側面、三角肌包住肩頭。",
+          "figId": "os-pec-lat-deltoid",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-pectoralis-minor",
+      "term": "胸小肌",
+      "aliases": [
+        "pectoralis minor"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "在胸大肌深處，連到肩胛喙突；緊時易圓肩、下角翹。",
+      "explain": [
+        "會拉肩胛向前下。",
+        "上交叉話題常提到它偏緊。"
+      ],
+      "example": "圓肩族群常被建議放鬆／伸展胸小（需個別評估）。",
+      "relatedIds": [
+        "term-upper-cross",
+        "term-protraction"
+      ],
+      "lessonIds": [
+        "L13"
+      ],
+      "mnemonicIds": [
+        "mn-pec-minor-135",
+        "mn-pec-minor-angle"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-shoulder-girdle-front.svg",
+          "caption": "肩帶肌肉（前面）：前鋸肌・胸小肌｜左肩帶前外側看：前鋸肌像鋸齒貼在肋骨側面、胸小肌從肋骨拉到喙突（胸大肌已切開）。",
+          "figId": "os-shoulder-girdle-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-latissimus-dorsi",
+      "term": "闊背肌",
+      "aliases": [
+        "latissimus dorsi",
+        "背闊肌",
+        "闊背"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "背部大片肌肉，主司拉、肩伸、內收與內旋。",
+      "explain": [
+        "「背拉」動作常是它與其他背肌一起。",
+        "過緊／過度內旋策略可能加重圓肩外觀。"
+      ],
+      "example": "引體向上、划船、下拉都大量用闊背。",
+      "relatedIds": [
+        "term-internal-rotation",
+        "term-retraction"
+      ],
+      "lessonIds": [
+        "L03"
+      ],
+      "mnemonicIds": [
+        "mn-push-pull",
+        "mn-lat-round-shoulder",
+        "mn-teres-lat-bros"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-pec-lat-deltoid.svg",
+          "caption": "胸大肌・闊背肌・三角肌｜推的主力胸大肌在胸前、拉的主力闊背肌在背側面、三角肌包住肩頭。",
+          "figId": "os-pec-lat-deltoid",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-trapezius",
+      "term": "斜方肌",
+      "aliases": [
+        "trapezius",
+        "斜方"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "從頸到胸椎的大肌，分上中下，管肩胛上提、後縮、上旋等。",
+      "explain": [
+        "上斜方常代償聳肩；中下斜方對姿勢與上旋很重要。",
+        "不要只練聳肩。"
+      ],
+      "example": "面拉、Y 字上舉常練中下斜方與肩胛控制。",
+      "relatedIds": [
+        "term-elevation",
+        "term-retraction",
+        "term-upward-rotation"
+      ],
+      "lessonIds": [
+        "L13"
+      ],
+      "mnemonicIds": [
+        "mn-trap-three"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-shoulder-girdle-back.svg",
+          "caption": "肩帶肌肉（背面）：斜方肌・菱形肌｜背面看：斜方肌在最外層，菱形肌在它底下（夾背主力）。",
+          "figId": "os-shoulder-girdle-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-serratus-anterior",
+      "term": "前鋸肌",
+      "aliases": [
+        "serratus anterior",
+        "子彈肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "貼在肋骨側邊，像手指狀；推肩胛前引並參與上旋，抗翼狀肩胛。",
+      "explain": [
+        "伏地挺身頂端「推圓」常感受到它。",
+        "翼狀肩胛原因不只前鋸，但常被提到。"
+      ],
+      "example": "scapular push-up 常用來喚醒前鋸。",
+      "relatedIds": [
+        "term-protraction",
+        "term-upward-rotation"
+      ],
+      "lessonIds": [
+        "L13"
+      ],
+      "mnemonicIds": [
+        "mn-serratus-bullet",
+        "mn-winging-not-only"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-rotator-front.svg",
+          "caption": "肩關節深層（前面）：肩胛下肌・前鋸肌｜左肩深層前外側看：肩胛下肌（旋轉袖唯一在前面的）、前鋸肌、大圓肌。",
+          "figId": "os-rotator-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anatomy/os-shoulder-girdle-front.svg",
+          "caption": "肩帶肌肉（前面）：前鋸肌・胸小肌｜左肩帶前外側看：前鋸肌像鋸齒貼在肋骨側面、胸小肌從肋骨拉到喙突（胸大肌已切開）。",
+          "figId": "os-shoulder-girdle-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-scap-retr-prot.svg",
+          "caption": "肩帶 後縮（內收）／前引（外展）｜背面看：兩塊肩胛往脊椎夾＝後縮（夾背）；往外往前滑開＝前引（推圓背）。",
+          "figId": "anim-scap-retr-prot",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-rhomboids",
+      "term": "菱形肌",
+      "aliases": [
+        "rhomboid",
+        "菱形"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "在肩胛與脊椎之間，主司肩胛後縮。",
+      "explain": [
+        "圓肩時可能被拉長、顯得無力。",
+        "划船夾背會用到。"
+      ],
+      "example": "坐姿划船把肩胛骨往中間收，菱形肌在工作。",
+      "relatedIds": [
+        "term-retraction"
+      ],
+      "lessonIds": [
+        "L13"
+      ],
+      "mnemonicIds": [
+        "mn-rhomboid-long-tight"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-shoulder-girdle-back.svg",
+          "caption": "肩帶肌肉（背面）：斜方肌・菱形肌｜背面看：斜方肌在最外層，菱形肌在它底下（夾背主力）。",
+          "figId": "os-shoulder-girdle-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-scap-retr-prot.svg",
+          "caption": "肩帶 後縮（內收）／前引（外展）｜背面看：兩塊肩胛往脊椎夾＝後縮（夾背）；往外往前滑開＝前引（推圓背）。",
+          "figId": "anim-scap-retr-prot",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-biceps",
+      "term": "肱二頭肌",
+      "aliases": [
+        "biceps brachii",
+        "二頭肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "手臂前面兩頭肌；肘屈、前臂旋後，長頭還跨肩。",
+      "explain": [
+        "彎舉明星肌，但肘屈真正主力常還有肱肌。",
+        "長頭肌腱走在肩部結節間溝。"
+      ],
+      "example": "啞鈴彎舉、引體向上都有二頭參與。",
+      "relatedIds": [
+        "term-supination",
+        "term-flexion"
+      ],
+      "lessonIds": [
+        "L14"
+      ],
+      "mnemonicIds": [
+        "mn-biceps-triceps",
+        "mn-bi-two-heads"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-upperarm-front.svg",
+          "caption": "上臂前面：肱二頭肌・肱肌｜屈肘肌：肱二頭肌（長頭／短頭）在表層，肱肌在它底下靠手肘。",
+          "figId": "os-upperarm-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-elbow-flex-ext.svg",
+          "caption": "肘關節 屈曲／伸展｜側面看：彎起手肘＝屈曲（彎舉）；伸直＝伸展（三頭下壓）。",
+          "figId": "anim-elbow-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-triceps",
+      "term": "肱三頭肌",
+      "aliases": [
+        "triceps brachii",
+        "三頭肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "手臂後面三頭肌；肘伸主力，長頭還跨肩。",
+      "explain": [
+        "推的動作常需要它把肘伸直。",
+        "長頭在手臂上舉時被拉長較明顯。"
+      ],
+      "example": "窄握推、繩索下壓、過頭伸展都練三頭。",
+      "relatedIds": [
+        "term-extension"
+      ],
+      "lessonIds": [
+        "L14"
+      ],
+      "mnemonicIds": [
+        "mn-biceps-triceps",
+        "mn-tri-three-heads"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-upperarm-back.svg",
+          "caption": "上臂後面：肱三頭肌｜伸肘肌：肱三頭肌（長頭、外側頭；內側頭在深層）。",
+          "figId": "os-upperarm-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-elbow-flex-ext.svg",
+          "caption": "肘關節 屈曲／伸展｜側面看：彎起手肘＝屈曲（彎舉）；伸直＝伸展（三頭下壓）。",
+          "figId": "anim-elbow-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-brachialis",
+      "term": "肱肌",
+      "aliases": [
+        "brachialis"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "二頭深處的肘屈主力肌，不太管旋前旋後。",
+      "explain": [
+        "不管掌心朝哪，它都屈肘。",
+        "想把「手臂厚度」練起來常提到它。"
+      ],
+      "example": "錘式彎舉、反握彎舉很吃肱肌。",
+      "relatedIds": [
+        "term-biceps",
+        "term-flexion"
+      ],
+      "lessonIds": [
+        "L14"
+      ],
+      "mnemonicIds": [
+        "mn-brachialis-prime"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/elbow-forearm.svg",
+        "caption": "肱肌＝肘屈主力"
+      },
+      "figures": [
+        {
+          "src": "assets/anatomy/os-upperarm-front.svg",
+          "caption": "上臂前面：肱二頭肌・肱肌｜屈肘肌：肱二頭肌（長頭／短頭）在表層，肱肌在它底下靠手肘。",
+          "figId": "os-upperarm-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-elbow-flex-ext.svg",
+          "caption": "肘關節 屈曲／伸展｜側面看：彎起手肘＝屈曲（彎舉）；伸直＝伸展（三頭下壓）。",
+          "figId": "anim-elbow-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-brachioradialis",
+      "term": "肱橈肌",
+      "aliases": [
+        "brachioradialis"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "前臂橈側大肌，錘式握（拇指朝上）時特別會屈肘。",
+      "explain": [
+        "視覺上像前臂外側鼓起的那條。",
+        "連結臂與前臂。"
+      ],
+      "example": "錘式彎舉常感覺前臂外側這條鼓起。",
+      "relatedIds": [
+        "term-flexion"
+      ],
+      "lessonIds": [
+        "L14"
+      ],
+      "mnemonicIds": [
+        "mn-brachioradialis-throttle"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-forearm-palmar.svg",
+          "caption": "前臂掌側：肱橈肌・旋前圓肌｜左前臂掌心面淺層：肱橈肌（拇指側那條）、旋前圓肌（斜斜一條，負責旋前）、屈腕肌群。",
+          "figId": "os-forearm-palmar",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-erector-spinae",
+      "term": "豎脊肌",
+      "aliases": [
+        "erector spinae",
+        "豎脊"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "脊椎兩側縱走的伸脊肌群，幫忙站直、抗屈曲。",
+      "explain": [
+        "教學常提三條縱列（髂肋、長、棘）。",
+        "硬拉、早安式會大量用到，但要避免用腰亂甩。"
+      ],
+      "example": "從桌子上直背站起來，豎脊在對抗屈曲。",
+      "relatedIds": [
+        "term-extension",
+        "term-core"
+      ],
+      "lessonIds": [
+        "L15"
+      ],
+      "mnemonicIds": [
+        "mn-erector-iliocostalis",
+        "mn-spine-core-map"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/spine-core.svg",
+        "caption": "豎脊＝脊柱伸展"
+      },
+      "figures": [
+        {
+          "src": "assets/anatomy/os-back-deep.svg",
+          "caption": "背部深層：豎脊肌・多裂肌｜橘字＝豎脊肌群（髂肋肌＋最長肌＋棘肌），沿脊椎兩旁像電線桿；多裂肌更深、更貼脊椎。",
+          "figId": "os-back-deep",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-spine-flex-ext.svg",
+          "caption": "脊柱 屈曲／伸展｜側面看：彎腰往前捲＝屈曲（腹直肌）；往後挺直＝伸展（豎脊肌）。",
+          "figId": "anim-spine-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-transversus-abdominis",
+      "term": "腹橫肌",
+      "aliases": [
+        "transversus abdominis",
+        "TVA",
+        "腹橫"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "腹部最深層「束腰帶」肌，主司腹內壓與穩定，不是猛收小腹凹進去。",
+      "explain": [
+        "像把腰帶水平勒緊一圈。",
+        "教練常說 brace（繃緊）而不是只 suck in。"
+      ],
+      "example": "扛重量前先「撐住核心」，有腹橫參與。",
+      "relatedIds": [
+        "term-core",
+        "term-isometric"
+      ],
+      "lessonIds": [
+        "L04",
+        "L15"
+      ],
+      "mnemonicIds": [
+        "mn-ta-brace-not-suck",
+        "mn-core-belt"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-abdominals.svg",
+          "caption": "腹肌：腹直・腹外斜・腹內斜・腹橫｜腹直肌（六塊肌，中間有腱劃）、腹外斜肌在最外層；腹內斜肌、腹橫肌在更深層（像束腰）。",
+          "figId": "os-abdominals",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-rectus-abdominis",
+      "term": "腹直肌",
+      "aliases": [
+        "rectus abdominis",
+        "六塊肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "腹部淺層直肌，屈曲軀幹；塊數外表受腱劃／基因影響。",
+      "explain": [
+        "捲腹、腿舉會用到。",
+        "有六塊不等於核心穩定夠好。"
+      ],
+      "example": "捲腹上半身離地，腹直肌在屈軀幹。",
+      "relatedIds": [
+        "term-flexion",
+        "term-core"
+      ],
+      "lessonIds": [
+        "L04",
+        "L15"
+      ],
+      "mnemonicIds": [
+        "mn-rectus-blocks-gene"
+      ],
+      "highYield": false,
+      "diagram": {
+        "src": "assets/diagrams/spine-core.svg",
+        "caption": "腹直＝脊柱屈曲"
+      },
+      "figures": [
+        {
+          "src": "assets/anatomy/os-abdominals.svg",
+          "caption": "腹肌：腹直・腹外斜・腹內斜・腹橫｜腹直肌（六塊肌，中間有腱劃）、腹外斜肌在最外層；腹內斜肌、腹橫肌在更深層（像束腰）。",
+          "figId": "os-abdominals",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-spine-flex-ext.svg",
+          "caption": "脊柱 屈曲／伸展｜側面看：彎腰往前捲＝屈曲（腹直肌）；往後挺直＝伸展（豎脊肌）。",
+          "figId": "anim-spine-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-obliques",
+      "term": "腹斜肌",
+      "aliases": [
+        "external oblique",
+        "internal oblique",
+        "斜肌",
+        "口袋肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "腹外斜／腹內斜，負責旋轉、側屈與協助穩定。",
+      "explain": [
+        "外斜走向常被比成把手插口袋。",
+        "砍木、側棒式等會挑戰它們。"
+      ],
+      "example": "俄羅斯轉體、砍木動作有斜肌參與。",
+      "relatedIds": [
+        "term-rotation",
+        "term-lateral-flexion"
+      ],
+      "lessonIds": [
+        "L15"
+      ],
+      "mnemonicIds": [
+        "mn-oblique-pockets"
+      ],
+      "highYield": false,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-abdominals.svg",
+          "caption": "腹肌：腹直・腹外斜・腹內斜・腹橫｜腹直肌（六塊肌，中間有腱劃）、腹外斜肌在最外層；腹內斜肌、腹橫肌在更深層（像束腰）。",
+          "figId": "os-abdominals",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-spine-rotation.svg",
+          "caption": "脊柱 旋轉｜從頭頂看：骨盆不動、上半身轉＝旋轉（腹內、外斜肌）。水平面。",
+          "figId": "anim-spine-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-core",
+      "term": "核心",
+      "aliases": [
+        "core",
+        "核心肌群"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "圍繞軀幹、幫忙傳力與保護脊椎的肌群總稱（不只腹肌）。",
+      "explain": [
+        "含腹橫、多裂、豎脊、橫膈、骨盆底等討論，說法不一。",
+        "目標常是「穩定中段」讓四肢出力更有效。"
+      ],
+      "example": "深蹲時腰不塌、肋骨不下暴，就是核心控制。",
+      "relatedIds": [
+        "term-transversus-abdominis",
+        "term-erector-spinae"
+      ],
+      "lessonIds": [
+        "L04",
+        "L15"
+      ],
+      "mnemonicIds": [
+        "mn-core-belt"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-abdominals.svg",
+          "caption": "腹肌：腹直・腹外斜・腹內斜・腹橫｜腹直肌（六塊肌，中間有腱劃）、腹外斜肌在最外層；腹內斜肌、腹橫肌在更深層（像束腰）。",
+          "figId": "os-abdominals",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-iliopsoas",
+      "term": "髂腰肌",
+      "aliases": [
+        "iliopsoas",
+        "腰大肌",
+        "髂肌",
+        "髖屈肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "強力髖屈肌（腰大肌＋髂肌），久坐易緊，與骨盆前傾有關。",
+      "explain": [
+        "把大腿抬向胸口。",
+        "不要對緊繃的人亂大力拉，需評估。"
+      ],
+      "example": "高抬腿、坐姿抬膝都有髂腰肌。",
+      "relatedIds": [
+        "term-flexion",
+        "term-anterior-pelvic-tilt"
+      ],
+      "lessonIds": [
+        "L16",
+        "L05"
+      ],
+      "mnemonicIds": [
+        "mn-psoas-breath",
+        "mn-iliacus-tilt"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-iliopsoas-ql.svg",
+          "caption": "腹後壁：腰方肌・髂腰肌｜從前面看腹腔後壁：腰方肌（側屈）；髂肌＋腰大肌＝髂腰肌（髖屈曲）。",
+          "figId": "os-iliopsoas-ql",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anatomy/os-hip-thigh-front.svg",
+          "caption": "髖與大腿前面：髂腰・縫匠・股四・內收｜右腿前面淺層：股四頭（股直、股外側、股內側）、縫匠肌（斜跨最長）、闊筋膜張肌、內收肌群（內收長肌、內收大肌、股薄肌）。",
+          "figId": "os-hip-thigh-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-hip-flex-ext.svg",
+          "caption": "髖關節 屈曲／伸展｜側面看：大腿往前抬＝屈曲；往後擺＝伸展。矢狀面。",
+          "figId": "anim-hip-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-gluteus-maximus",
+      "term": "臀大肌",
+      "aliases": [
+        "gluteus maximus",
+        "臀大"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "屁股最大塊肌，髖伸與外旋主力，維度外形主要靠它。",
+      "explain": [
+        "深蹲站起、橋式、臀推的主角之一。",
+        "口訣常說：臀大負責「維度」。"
+      ],
+      "example": "臀推（hip thrust）主打臀大肌。",
+      "relatedIds": [
+        "term-extension",
+        "term-external-rotation"
+      ],
+      "lessonIds": [
+        "L16",
+        "L05"
+      ],
+      "mnemonicIds": [
+        "mn-glute-depth",
+        "mn-hip-squat"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-back.svg",
+          "caption": "髖與大腿後面：臀中小・梨狀・腿後腱｜右腿背面（臀大肌已切開）：臀中、臀小、梨狀肌＋外轉六肌；大腿後面腿後腱＝股二頭＋半腱＋半膜。",
+          "figId": "os-hip-thigh-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-gluteus-medius",
+      "term": "臀中肌",
+      "aliases": [
+        "gluteus medius",
+        "臀中"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "臀外側肌，髖外展與骨盆穩定；單腳站時很關鍵。",
+      "explain": [
+        "口訣：臀中負責「挺度／穩定」。",
+        "無力時易晃盆、膝內扣、對側腰代償。"
+      ],
+      "example": "側躺抬腿、單腳硬拉都挑戰臀中。",
+      "relatedIds": [
+        "term-abduction",
+        "term-compensation",
+        "term-q-angle"
+      ],
+      "lessonIds": [
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-glute-med-bridge",
+        "mn-glute-depth",
+        "mn-gmed-chain"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-back.svg",
+          "caption": "髖與大腿後面：臀中小・梨狀・腿後腱｜右腿背面（臀大肌已切開）：臀中、臀小、梨狀肌＋外轉六肌；大腿後面腿後腱＝股二頭＋半腱＋半膜。",
+          "figId": "os-hip-thigh-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-hip-abd-add.svg",
+          "caption": "髖關節 外展／內收｜正面看：腿往側邊打開＝外展；往中間夾回＝內收。額狀面。",
+          "figId": "anim-hip-abd-add",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-piriformis",
+      "term": "梨狀肌",
+      "aliases": [
+        "piriformis"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "髖深層外旋肌；緊時可能刺激坐骨神經，但要先排除椎間盤等紅旗。",
+      "explain": [
+        "深層外旋肌群之一。",
+        "疼痛惡化、麻到腳、大小便問題要就醫，不要自行猛壓。"
+      ],
+      "example": "久坐後臀深層痠麻，有人會提到梨狀肌，但仍需鑑別。",
+      "relatedIds": [
+        "term-external-rotation",
+        "term-deep"
+      ],
+      "lessonIds": [
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-piriformis-flag"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-back.svg",
+          "caption": "髖與大腿後面：臀中小・梨狀・腿後腱｜右腿背面（臀大肌已切開）：臀中、臀小、梨狀肌＋外轉六肌；大腿後面腿後腱＝股二頭＋半腱＋半膜。",
+          "figId": "os-hip-thigh-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-hip-rotation.svg",
+          "caption": "髖關節 內轉／外轉｜正面看右腿：膝蓋（白點）和腳尖一起轉向外＝外轉、轉向內＝內轉。",
+          "figId": "anim-hip-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-tfl",
+      "term": "闊筋膜張肌",
+      "aliases": [
+        "TFL",
+        "tensor fasciae latae"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "髖前外側小肌，協助屈髖、內旋、張髂脛束；ITBS 常要檢查它。",
+      "explain": [
+        "不要只怪髂脛束本身。",
+        "與臀大一起影響髂脛束張力。"
+      ],
+      "example": "跑步膝外側痛（ITBS）評估常看 TFL／臀中平衡。",
+      "relatedIds": [
+        "term-itb",
+        "term-itbs"
+      ],
+      "lessonIds": [
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-itbs-tfl",
+        "mn-tfl-itb-pair"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-front.svg",
+          "caption": "髖與大腿前面：髂腰・縫匠・股四・內收｜右腿前面淺層：股四頭（股直、股外側、股內側）、縫匠肌（斜跨最長）、闊筋膜張肌、內收肌群（內收長肌、內收大肌、股薄肌）。",
+          "figId": "os-hip-thigh-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-itb",
+      "term": "髂脛束",
+      "aliases": [
+        "ITB",
+        "iliotibial band",
+        "髂脛帶"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "大腿外側厚韌的結締組織帶，不是一塊「肌肉」。",
+      "explain": [
+        "承受 TFL 與臀大傳來的張力，止於膝外側附近。",
+        "過度摩擦／張力問題常稱 ITBS。"
+      ],
+      "example": "用手摸大腿外側那條緊繃的「帶子」就是 ITB 區域。",
+      "relatedIds": [
+        "term-tfl",
+        "term-itbs"
+      ],
+      "lessonIds": [
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-itbs-tfl"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-sartorius",
+      "term": "縫匠肌",
+      "aliases": [
+        "sartorius",
+        "盤腿肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "人體最長肌，從外上到內下斜跨大腿；協助屈髖、外旋、屈膝（盤腿方向）。",
+      "explain": [
+        "走向像縫衣服的斜線。",
+        "也是鵝足肌腱之一。"
+      ],
+      "example": "翹腳盤腿的動作方向，縫匠肌很有畫面感。",
+      "relatedIds": [
+        "term-multi-joint-muscle",
+        "term-pes-anserine"
+      ],
+      "lessonIds": [
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-sartorius-long",
+        "mn-pes-anserine"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-front.svg",
+          "caption": "髖與大腿前面：髂腰・縫匠・股四・內收｜右腿前面淺層：股四頭（股直、股外側、股內側）、縫匠肌（斜跨最長）、闊筋膜張肌、內收肌群（內收長肌、內收大肌、股薄肌）。",
+          "figId": "os-hip-thigh-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-rectus-femoris",
+      "term": "股直肌",
+      "aliases": [
+        "rectus femoris"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "股四頭裡唯一跨髖又跨膝的雙關節肌：屈髖＋伸膝。",
+      "explain": [
+        "其他三條股四主要只管伸膝。",
+        "踢腿、深蹲都會用到。"
+      ],
+      "example": "高抬腿又伸直膝蓋，股直肌很忙。",
+      "relatedIds": [
+        "term-multi-joint-muscle",
+        "term-quadriceps"
+      ],
+      "lessonIds": [
+        "L16",
+        "L05"
+      ],
+      "mnemonicIds": [
+        "mn-rectus-fem-bi",
+        "mn-quad-four"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-front.svg",
+          "caption": "髖與大腿前面：髂腰・縫匠・股四・內收｜右腿前面淺層：股四頭（股直、股外側、股內側）、縫匠肌（斜跨最長）、闊筋膜張肌、內收肌群（內收長肌、內收大肌、股薄肌）。",
+          "figId": "os-hip-thigh-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-quadriceps",
+      "term": "股四頭肌",
+      "aliases": [
+        "quadriceps",
+        "股四",
+        "股四頭",
+        "大腿前側"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "大腿前側四條肌，〔對講義〕膝伸展主力；股直肌還能屈髖。",
+      "explain": [
+        "四條：股直肌、股外側肌、股內側肌、股中間肌——合稱股四頭。",
+        "〔對講義〕膝關節伸展＝股四頭肌群（把膝蓋蹬直）。",
+        "只有股直肌跨髖＋膝（雙關節）；另外三條多半專心伸膝。"
+      ],
+      "example": "坐姿腿踢機、深蹲站起來、弓箭步前腳。",
+      "relatedIds": [
+        "term-rectus-femoris",
+        "term-extension",
+        "term-hamstrings"
+      ],
+      "lessonIds": [
+        "L05",
+        "L16",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-quad-four",
+        "mn-quad-ham",
+        "mn-lecture-knee-front-back"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-front.svg",
+          "caption": "髖與大腿前面：髂腰・縫匠・股四・內收｜右腿前面淺層：股四頭（股直、股外側、股內側）、縫匠肌（斜跨最長）、闊筋膜張肌、內收肌群（內收長肌、內收大肌、股薄肌）。",
+          "figId": "os-hip-thigh-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-knee-flex-ext.svg",
+          "caption": "膝關節 屈曲／伸展｜側面看：腳跟往屁股帶＝屈曲（腿後腱）；把膝蓋伸直＝伸展（股四頭）。",
+          "figId": "anim-knee-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-hamstrings",
+      "term": "腿後腱肌群",
+      "aliases": [
+        "hamstrings",
+        "腿後側",
+        "膕繩肌",
+        "腿後腱",
+        "大腿後側",
+        "腘繩肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "大腿後側肌群，〔對講義〕膝屈曲主力；多數也能伸髖。",
+      "explain": [
+        "常記三條（BFS）：股二頭肌、半腱肌、半膜肌；合稱腿後腱肌群。",
+        "〔對講義〕膝屈曲＝腿後腱；髖伸展也有它（搭配臀大）。",
+        "多數跨髖＋膝；股二頭短頭是例外，主要只屈膝。"
+      ],
+      "example": "俯臥腿彎曲、羅馬尼亞硬舉、深蹲向心時腿後也協助伸髖。",
+      "relatedIds": [
+        "term-quadriceps",
+        "term-extension",
+        "term-flexion",
+        "term-gluteus-maximus"
+      ],
+      "lessonIds": [
+        "L05",
+        "L16",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-ham-three",
+        "mn-ham-short-ex",
+        "mn-lecture-knee-front-back"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-back.svg",
+          "caption": "髖與大腿後面：臀中小・梨狀・腿後腱｜右腿背面（臀大肌已切開）：臀中、臀小、梨狀肌＋外轉六肌；大腿後面腿後腱＝股二頭＋半腱＋半膜。",
+          "figId": "os-hip-thigh-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-knee-flex-ext.svg",
+          "caption": "膝關節 屈曲／伸展｜側面看：腳跟往屁股帶＝屈曲（腿後腱）；把膝蓋伸直＝伸展（股四頭）。",
+          "figId": "anim-knee-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-adductors",
+      "term": "內收肌群",
+      "aliases": [
+        "adductors",
+        "大腿內側"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "大腿內側肌群，把腿往中線夾，並協助骨盆穩定。",
+      "explain": [
+        "缺練或控制差，有人討論與髖彈響等有關（多因子）。",
+        "側弓步、夾腿機有刺激。"
+      ],
+      "example": "站姿把外側腳往中線用力夾，是內收方向。",
+      "relatedIds": [
+        "term-adduction"
+      ],
+      "lessonIds": [
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-adductor-snap"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-front.svg",
+          "caption": "髖與大腿前面：髂腰・縫匠・股四・內收｜右腿前面淺層：股四頭（股直、股外側、股內側）、縫匠肌（斜跨最長）、闊筋膜張肌、內收肌群（內收長肌、內收大肌、股薄肌）。",
+          "figId": "os-hip-thigh-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-hip-abd-add.svg",
+          "caption": "髖關節 外展／內收｜正面看：腿往側邊打開＝外展；往中間夾回＝內收。額狀面。",
+          "figId": "anim-hip-abd-add",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-gastrocnemius",
+      "term": "腓腸肌",
+      "aliases": [
+        "gastrocnemius",
+        "小腿肚"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "小腿淺層雙關節肌，跨膝與踝；跖屈，膝伸直時更有感。",
+      "explain": [
+        "提踵膝蓋伸直較吃腓腸。",
+        "與比目魚肌組成小腿三頭。"
+      ],
+      "example": "站姿提踵（膝伸）主打腓腸肌。",
+      "relatedIds": [
+        "term-plantarflexion",
+        "term-soleus"
+      ],
+      "lessonIds": [
+        "L05"
+      ],
+      "mnemonicIds": [
+        "mn-calf-knee"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-leg-back.svg",
+          "caption": "小腿後面：腓腸肌・比目魚肌｜右小腿背面：腓腸肌（內、外側頭）在表層，比目魚肌在它底下，兩者共用阿基里斯腱（蹠屈）。",
+          "figId": "os-leg-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-ankle-df-pf.svg",
+          "caption": "踝關節 背屈／蹠屈｜側面看：腳尖往上勾＝背屈（脛前肌）；腳尖往下壓＝蹠屈（腓腸、比目魚）。",
+          "figId": "anim-ankle-df-pf",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-soleus",
+      "term": "比目魚肌",
+      "aliases": [
+        "soleus"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "腓腸肌深處的單關節跖屈肌；屈膝提踵較吃它。",
+      "explain": [
+        "對站立耐力與踝跖屈很重要。",
+        "坐姿提踵常偏比目魚。"
+      ],
+      "example": "坐姿提踵機主要刺激比目魚肌。",
+      "relatedIds": [
+        "term-gastrocnemius",
+        "term-plantarflexion"
+      ],
+      "lessonIds": [
+        "L05"
+      ],
+      "mnemonicIds": [
+        "mn-calf-knee"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-leg-back.svg",
+          "caption": "小腿後面：腓腸肌・比目魚肌｜右小腿背面：腓腸肌（內、外側頭）在表層，比目魚肌在它底下，兩者共用阿基里斯腱（蹠屈）。",
+          "figId": "os-leg-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-ankle-df-pf.svg",
+          "caption": "踝關節 背屈／蹠屈｜側面看：腳尖往上勾＝背屈（脛前肌）；腳尖往下壓＝蹠屈（腓腸、比目魚）。",
+          "figId": "anim-ankle-df-pf",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-quadratus-lumborum",
+      "term": "腰方肌",
+      "aliases": [
+        "quadratus lumborum",
+        "QL"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "腰椎兩側深層肌，協助側屈與穩定；單側緊常覺「腰酸」。",
+      "explain": [
+        "側彎、扛單側重量會用到。",
+        "臀中無力時可能代償。"
+      ],
+      "example": "單手提重行李，對側腰方肌常在穩骨盆。",
+      "relatedIds": [
+        "term-lateral-flexion",
+        "term-compensation"
+      ],
+      "lessonIds": [
+        "L15"
+      ],
+      "mnemonicIds": [
+        "mn-ql-supported",
+        "mn-gmed-chain"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/spine-core.svg",
+        "caption": "腰方＝側屈"
+      },
+      "figures": [
+        {
+          "src": "assets/anatomy/os-iliopsoas-ql.svg",
+          "caption": "腹後壁：腰方肌・髂腰肌｜從前面看腹腔後壁：腰方肌（側屈）；髂肌＋腰大肌＝髂腰肌（髖屈曲）。",
+          "figId": "os-iliopsoas-ql",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-spine-lateral-flexion.svg",
+          "caption": "脊柱 側屈｜正面看：身體往左右彎＝側屈（腰方肌）。額狀面。",
+          "figId": "anim-spine-lateral-flexion",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-multifidus",
+      "term": "多裂肌",
+      "aliases": [
+        "multifidus"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "脊椎深層小肌，一段一段穩定椎骨，核心深層成員。",
+      "explain": [
+        "不一定練得出「八塊」，但對節段穩定很重要。",
+        "常與腹橫一起被提到。"
+      ],
+      "example": "微微做出「延長脊椎、微收核心」的控制，有多裂參與討論。",
+      "relatedIds": [
+        "term-core",
+        "term-transversus-abdominis"
+      ],
+      "lessonIds": [
+        "L15"
+      ],
+      "mnemonicIds": [
+        "mn-spine-core-map"
+      ],
+      "highYield": false,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-back-deep.svg",
+          "caption": "背部深層：豎脊肌・多裂肌｜橘字＝豎脊肌群（髂肋肌＋最長肌＋棘肌），沿脊椎兩旁像電線桿；多裂肌更深、更貼脊椎。",
+          "figId": "os-back-deep",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-neutral-spine",
+      "term": "中立脊椎",
+      "aliases": [
+        "neutral spine",
+        "脊椎中立"
+      ],
+      "category": "其他",
+      "oneLiner": "自然保留頸／胸／腰生理彎曲、不刻意過度凹或圓的狀態。",
+      "explain": [
+        "不是把腰死死貼平，也不是超伸塌腰。",
+        "多數訓練以「可控的中立」為起點。"
+      ],
+      "example": "硬拉預備時背打直但保留一點自然腰曲，就是中立方向。",
+      "relatedIds": [
+        "term-core",
+        "term-anterior-pelvic-tilt"
+      ],
+      "lessonIds": [
+        "L06",
+        "L15"
+      ],
+      "mnemonicIds": [
+        "mn-spine-curve"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-brace",
+      "term": "核心繃緊",
+      "aliases": [
+        "brace",
+        "abdominal brace",
+        "腹內壓"
+      ],
+      "category": "其他",
+      "oneLiner": "像要被輕輕捶肚子那樣，把軀幹四周撐住（不是只吸肚皮）。",
+      "explain": [
+        "與猛收小腹（suck in）不同。",
+        "腹橫、斜肌、豎脊等一起創造穩定。"
+      ],
+      "example": "深蹲下蹲前先 brace 再蹲，腰比較不容易塌。",
+      "relatedIds": [
+        "term-transversus-abdominis",
+        "term-core"
+      ],
+      "lessonIds": [
+        "L04"
+      ],
+      "mnemonicIds": [
+        "mn-ta-brace-not-suck"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-scapulohumeral-rhythm",
+      "term": "肩肱節律",
+      "aliases": [
+        "scapulohumeral rhythm"
+      ],
+      "category": "其他",
+      "oneLiner": "手臂上舉時，盂肱關節與肩胛骨會依比例一起動。",
+      "explain": [
+        "大約常教「肱骨動得多、肩胛跟著上旋」的配合。",
+        "肩胛不動只硬舉手臂，容易夾擠或不適。"
+      ],
+      "example": "舉手過頭時，感覺肩胛下角往外上走，就是節律的一部分。",
+      "relatedIds": [
+        "term-upward-rotation",
+        "term-glenohumeral"
+      ],
+      "lessonIds": [
+        "L12",
+        "L13"
+      ],
+      "mnemonicIds": [
+        "mn-scap-upward"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-scap-rotation.svg",
+          "caption": "肩帶 上轉／下轉｜手舉過頭時肩胛下角往外上轉＝上轉；手放下轉回來＝下轉。手臂舉高＝肩關節＋肩胛一起動（肩肱節律）。",
+          "figId": "anim-scap-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-valgus",
+      "term": "膝內扣",
+      "aliases": [
+        "knee valgus",
+        "外翻膝動態"
+      ],
+      "category": "其他",
+      "oneLiner": "蹲或落地時膝蓋往中線塌（常見代償／控制問題）。",
+      "explain": [
+        "常與髖外展／外旋控制不足一起討論。",
+        "不一定等於結構性外翻，動態控制也很重要。"
+      ],
+      "example": "深蹲時膝蓋往內碰，教練常喊「把膝往腳尖方向推開」。",
+      "relatedIds": [
+        "term-gluteus-medius",
+        "term-q-angle",
+        "term-compensation"
+      ],
+      "lessonIds": [
+        "L06",
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-gmed-chain"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-kinesthetic",
+      "term": "本體感覺",
+      "aliases": [
+        "proprioception",
+        "體感"
+      ],
+      "category": "其他",
+      "oneLiner": "不用看也能知道關節在哪、用力多少的身體感覺。",
+      "explain": [
+        "靠肌梭、肌腱感應器等。",
+        "平衡訓練、單腳站會挑戰它。"
+      ],
+      "example": "閉眼單腳站，就是在練本體感覺與穩定。",
+      "relatedIds": [
+        "term-stabilizer"
+      ],
+      "lessonIds": [
+        "L08"
+      ],
+      "mnemonicIds": [
+        "mn-spindle-gto"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-shoulder-girdle",
+      "term": "肩帶",
+      "aliases": [
+        "shoulder girdle",
+        "肩胛帶",
+        "肩胛胸廓"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "肩胛骨（＋鎖骨）在胸廓上移動的系統；跟「肩關節」分開考。",
+      "explain": [
+        "肩帶動作有六個：上提、下壓、內收（後縮）、外展（前引）、上轉、下轉。全部在講肩胛怎麼滑／轉，不是肱骨頭。對照肩關節八動作見 L20。圖：shoulder-girdle-vs-joint、shoulder-girdle-6。"
+      ],
+      "example": "聳肩、夾背、推牆前引都是肩帶。",
+      "relatedIds": [
+        "term-glenohumeral",
+        "term-elevation",
+        "term-retraction",
+        "term-serratus-anterior",
+        "term-scapulohumeral-rhythm",
+        "term-scapula",
+        "term-clavicle",
+        "term-ac-joint",
+        "term-spine-of-scapula",
+        "term-protraction"
+      ],
+      "lessonIds": [
+        "L13",
+        "L17",
+        "L19",
+        "L20"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-girdle-vs-gh",
+        "mn-l20-girdle-six-life"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-girdle-vs-joint.svg",
+        "caption": "左＝肩帶（肩胛滑）"
+      },
+      "figures": [
+        {
+          "src": "assets/anatomy/os-shoulder-girdle-back.svg",
+          "caption": "肩帶肌肉（背面）：斜方肌・菱形肌｜背面看：斜方肌在最外層，菱形肌在它底下（夾背主力）。",
+          "figId": "os-shoulder-girdle-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-scap-elev-dep.svg",
+          "caption": "肩帶 上提／下壓｜背面看肩胛骨：聳肩＝上提；沉肩＝下壓。動的是肩胛骨，不是手臂球頭。",
+          "figId": "anim-scap-elev-dep",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/diagrams/shoulder-girdle-vs-joint.svg",
+          "caption": "肩帶 vs 肩關節（對照）｜左＝肩帶（肩胛骨在肋骨上滑）；右＝肩關節（手臂球頭在碗裡轉）。",
+          "figId": "dg-shoulder-girdle-vs-joint",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-downward-rotation",
+      "term": "下轉（肩胛）",
+      "aliases": [
+        "downward rotation",
+        "下旋",
+        "肩帶下轉",
+        "肩胛下旋"
+      ],
+      "category": "動作",
+      "oneLiner": "下轉＝放下關門：肩胛下角往內下轉回來。",
+      "explain": [
+        "手從過頭放下時肩胛倒轉。照鏡子：放下時摸下角往脊椎回。易混：≠下壓（下壓是整塊往下沉，下轉是旋轉）。主力：胸小＋提肩胛＋菱形。口訣：下轉＝放下關門。L20⑥。"
+      ],
+      "example": "把手從高處慢慢放回身側。",
+      "relatedIds": [
+        "term-upward-rotation",
+        "term-pectoralis-minor",
+        "term-rhomboids",
+        "term-shoulder-girdle",
+        "term-depression"
+      ],
+      "lessonIds": [
+        "L13",
+        "L17",
+        "L20"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-scap-up-rot",
+        "mn-l20-down-rot-close"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-girdle-6.svg",
+        "caption": "⑥ 下轉：放下關門・下角內回"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-scap-rotation.svg",
+          "caption": "肩帶 上轉／下轉｜手舉過頭時肩胛下角往外上轉＝上轉；手放下轉回來＝下轉。手臂舉高＝肩關節＋肩胛一起動（肩肱節律）。",
+          "figId": "anim-scap-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-levator-scapulae",
+      "term": "提肩胛肌",
+      "aliases": [
+        "levator scapulae",
+        "提肩胛"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "把肩胛往上提的肌肉；〔對講義〕肩帶上提＋下轉成員。",
+      "explain": [
+        "從頸椎連到肩胛上角附近，名字就是「提起肩胛」。",
+        "〔對講義〕上提與斜方上部搭檔；下轉時又跟胸小、菱形一起。",
+        "長期盯螢幕、肩膀聳著，這裡常覺得緊。"
+      ],
+      "example": "聳肩、脖子側彎伸展時常常摸得到它的緊繃感。",
+      "relatedIds": [
+        "term-elevation",
+        "term-downward-rotation",
+        "term-trapezius"
+      ],
+      "lessonIds": [
+        "L13",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-girdle-vs-gh"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-scap-elev-dep.svg",
+          "caption": "肩帶 上提／下壓｜背面看肩胛骨：聳肩＝上提；沉肩＝下壓。動的是肩胛骨，不是手臂球頭。",
+          "figId": "anim-scap-elev-dep",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-teres-major",
+      "term": "大圓肌",
+      "aliases": [
+        "teres major",
+        "大圓"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "闊背的「小幫手」；〔對講義〕肩伸展、內收、內轉都有它。",
+      "explain": [
+        "貼在肩胛下角附近，常跟闊背一起把手臂往後、往內帶。",
+        "〔對講義〕出現在：肩伸展、肩內收、肩內轉列表。",
+        "別跟小圓肌搞混：小圓是肩袖、主外轉；大圓偏內轉／伸／收。"
+      ],
+      "example": "直臂下壓、划船把肘往後帶，常有大圓＋闊背。",
+      "relatedIds": [
+        "term-latissimus-dorsi",
+        "term-teres-minor",
+        "term-internal-rotation"
+      ],
+      "lessonIds": [
+        "L12",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-shoulder-er-ir"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-rotator-back.svg",
+          "caption": "旋轉袖（背面）：棘上・棘下・小圓肌｜左肩深層背面：橘字＝旋轉袖（棘上、棘下、小圓；肩胛下肌在前面那張）。三角肌已切開才看得到。",
+          "figId": "os-rotator-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anatomy/os-rotator-front.svg",
+          "caption": "肩關節深層（前面）：肩胛下肌・前鋸肌｜左肩深層前外側看：肩胛下肌（旋轉袖唯一在前面的）、前鋸肌、大圓肌。",
+          "figId": "os-rotator-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-tibialis-anterior",
+      "term": "脛骨前肌",
+      "aliases": [
+        "tibialis anterior",
+        "脛前肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "小腿前外側，〔對講義〕足背屈主力。",
+      "explain": [
+        "摸脛骨外側那條「往上勾腳尖」就鼓起來的肌，多半是它。",
+        "〔對講義〕足背屈＝脛骨前肌。",
+        "走很多路或突然練勾腳，這裡容易酸（有時被叫脛前不適話題）。"
+      ],
+      "example": "坐姿用力勾腳尖；走路腳尖上抬防绊倒。",
+      "relatedIds": [
+        "term-dorsiflexion",
+        "term-ankle",
+        "term-plantarflexion"
+      ],
+      "lessonIds": [
+        "L05",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-dorsi-up"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-leg-front.svg",
+          "caption": "小腿前面：脛前肌｜右小腿前面：脛前肌（背屈，腳尖往上勾）貼在脛骨外側。",
+          "figId": "os-leg-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-ankle-df-pf.svg",
+          "caption": "踝關節 背屈／蹠屈｜側面看：腳尖往上勾＝背屈（脛前肌）；腳尖往下壓＝蹠屈（腓腸、比目魚）。",
+          "figId": "anim-ankle-df-pf",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-six-deep-rotators",
+      "term": "六條外轉肌",
+      "aliases": [
+        "six deep lateral rotators",
+        "深層外轉肌",
+        "外轉六兄弟",
+        "髖外轉六肌"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "〔對講義〕髖深層六條：閉孔內／外、上／下孖、梨狀、股方。",
+      "explain": [
+        "它們藏在臀大深層，像肩袖那樣默默穩定髖關節，並協助外轉。",
+        "完整名單：閉孔內肌、閉孔外肌、上孖肌、下孖肌、梨狀肌、股方肌。",
+        "講義髖外轉＝這六條＋臀大肌＋臀中肌後段。梨狀緊時可能刺激坐骨神經話題（紅旗另說）。"
+      ],
+      "example": "坐姿髖外轉、蚌式（clam）常練到外轉家族；深層六條較難孤立，多半整群穩定。",
+      "relatedIds": [
+        "term-piriformis",
+        "term-external-rotation",
+        "term-gluteus-maximus",
+        "term-hip-joint"
+      ],
+      "lessonIds": [
+        "L16",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-hip-six"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-back.svg",
+          "caption": "髖與大腿後面：臀中小・梨狀・腿後腱｜右腿背面（臀大肌已切開）：臀中、臀小、梨狀肌＋外轉六肌；大腿後面腿後腱＝股二頭＋半腱＋半膜。",
+          "figId": "os-hip-thigh-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-hip-rotation.svg",
+          "caption": "髖關節 內轉／外轉｜正面看右腿：膝蓋（白點）和腳尖一起轉向外＝外轉、轉向內＝內轉。",
+          "figId": "anim-hip-rotation",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-obturator-internus",
+      "term": "閉孔內肌",
+      "aliases": [
+        "obturator internus",
+        "閉孔內"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "六條外轉肌之一；在骨盆閉孔內側。",
+      "explain": [
+        "與閉孔外、孖肌、梨狀、股方同屬髖深層外轉家族。",
+        "〔對講義〕列在六條外轉肌。"
+      ],
+      "example": "通常整群記，不必硬練孤立。",
+      "relatedIds": [
+        "term-six-deep-rotators",
+        "term-external-rotation"
+      ],
+      "lessonIds": [
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-hip-six"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-back.svg",
+          "caption": "髖與大腿後面：臀中小・梨狀・腿後腱｜右腿背面（臀大肌已切開）：臀中、臀小、梨狀肌＋外轉六肌；大腿後面腿後腱＝股二頭＋半腱＋半膜。",
+          "figId": "os-hip-thigh-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-obturator-externus",
+      "term": "閉孔外肌",
+      "aliases": [
+        "obturator externus",
+        "閉孔外"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "六條外轉肌之一；在閉孔外側。",
+      "explain": [
+        "與閉孔內成對出現在口訣裡。",
+        "〔對講義〕六條外轉肌成員。"
+      ],
+      "example": "背「閉孔內外」一組即可。",
+      "relatedIds": [
+        "term-six-deep-rotators"
+      ],
+      "lessonIds": [
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-hip-six"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-back.svg",
+          "caption": "髖與大腿後面：臀中小・梨狀・腿後腱｜右腿背面（臀大肌已切開）：臀中、臀小、梨狀肌＋外轉六肌；大腿後面腿後腱＝股二頭＋半腱＋半膜。",
+          "figId": "os-hip-thigh-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-gemellus-superior",
+      "term": "上孖肌",
+      "aliases": [
+        "superior gemellus",
+        "上孖"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "六條外轉肌之一；名字有「孖＝成對」。",
+      "explain": [
+        "上孖、下孖夾著閉孔內肌腱附近，一起外轉髖。",
+        "〔對講義〕六條之一。"
+      ],
+      "example": "口訣「上下孖」成對背。",
+      "relatedIds": [
+        "term-six-deep-rotators",
+        "term-gemellus-inferior"
+      ],
+      "lessonIds": [
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-hip-six"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-back.svg",
+          "caption": "髖與大腿後面：臀中小・梨狀・腿後腱｜右腿背面（臀大肌已切開）：臀中、臀小、梨狀肌＋外轉六肌；大腿後面腿後腱＝股二頭＋半腱＋半膜。",
+          "figId": "os-hip-thigh-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-gemellus-inferior",
+      "term": "下孖肌",
+      "aliases": [
+        "inferior gemellus",
+        "下孖"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "六條外轉肌之一；與上孖成對。",
+      "explain": [
+        "〔對講義〕六條外轉肌成員。",
+        "和上孖一起記就好。"
+      ],
+      "example": "口訣「上下孖」。",
+      "relatedIds": [
+        "term-six-deep-rotators",
+        "term-gemellus-superior"
+      ],
+      "lessonIds": [
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-hip-six"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-back.svg",
+          "caption": "髖與大腿後面：臀中小・梨狀・腿後腱｜右腿背面（臀大肌已切開）：臀中、臀小、梨狀肌＋外轉六肌；大腿後面腿後腱＝股二頭＋半腱＋半膜。",
+          "figId": "os-hip-thigh-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-quadratus-femoris",
+      "term": "股方肌",
+      "aliases": [
+        "quadratus femoris",
+        "股方"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "六條外轉肌最下方那塊方形肌；〔對講義〕外轉成員。",
+      "explain": [
+        "名字有「方」，形狀較方，位於外轉家族偏下。",
+        "〔對講義〕與梨狀等並列六條外轉肌。",
+        "別跟腰方肌（軀幹側屈）搞混——一個在髖深層，一個在腰側。"
+      ],
+      "example": "背六兄弟時最後一個常記「股方」。",
+      "relatedIds": [
+        "term-six-deep-rotators",
+        "term-quadratus-lumborum"
+      ],
+      "lessonIds": [
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-hip-six"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-hip-thigh-back.svg",
+          "caption": "髖與大腿後面：臀中小・梨狀・腿後腱｜右腿背面（臀大肌已切開）：臀中、臀小、梨狀肌＋外轉六肌；大腿後面腿後腱＝股二頭＋半腱＋半膜。",
+          "figId": "os-hip-thigh-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-pronator-teres",
+      "term": "旋前圓肌",
+      "aliases": [
+        "pronator teres",
+        "旋前圓"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "〔對講義〕前臂旋前主力之一（另一為旋前方肌）。",
+      "explain": [
+        "讓掌心朝下的前臂肌；較靠近端、名有「圓」。",
+        "與旋前方肌搭檔完成旋前。"
+      ],
+      "example": "倒水、轉掌心朝下。",
+      "relatedIds": [
+        "term-pronation",
+        "term-pronator-quadratus",
+        "term-radioulnar"
+      ],
+      "lessonIds": [
+        "L14",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-pronate-pour"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/os-forearm-palmar.svg",
+          "caption": "前臂掌側：肱橈肌・旋前圓肌｜左前臂掌心面淺層：肱橈肌（拇指側那條）、旋前圓肌（斜斜一條，負責旋前）、屈腕肌群。",
+          "figId": "os-forearm-palmar",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        },
+        {
+          "src": "assets/anim/anim-forearm-pro-sup.svg",
+          "caption": "前臂 旋前／旋後｜從上往下看右手：掌心轉向下＝旋前（橈骨繞過尺骨）；轉向上＝旋後。只轉前臂。",
+          "figId": "anim-forearm-pro-sup",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-pronator-quadratus",
+      "term": "旋前方肌",
+      "aliases": [
+        "pronator quadratus",
+        "旋前方"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "〔對講義〕前臂旋前主力之一；較靠腕部、形狀方。",
+      "explain": [
+        "貼在前臂遠端前面，專門把橈骨轉成旋前。",
+        "與旋前圓肌一起背。"
+      ],
+      "example": "細緻翻掌、維持掌心朝下。",
+      "relatedIds": [
+        "term-pronation",
+        "term-pronator-teres"
+      ],
+      "lessonIds": [
+        "L14",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-pronate-pour"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-forearm-pro-sup.svg",
+          "caption": "前臂 旋前／旋後｜從上往下看右手：掌心轉向下＝旋前（橈骨繞過尺骨）；轉向上＝旋後。只轉前臂。",
+          "figId": "anim-forearm-pro-sup",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-supinator",
+      "term": "旋後肌",
+      "aliases": [
+        "supinator"
+      ],
+      "category": "肌肉概念",
+      "oneLiner": "〔對講義〕前臂旋後主力之一（另一為肱二頭肌）。",
+      "explain": [
+        "專職把前臂旋後、掌心朝上。",
+        "肱二頭在屈肘＋旋後時也很強，兩者常一起出現在講義。"
+      ],
+      "example": "手肘伸直也能旋後時，旋後肌比例感較明顯。",
+      "relatedIds": [
+        "term-supination",
+        "term-biceps"
+      ],
+      "lessonIds": [
+        "L14",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-supinate-bowl"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-forearm-pro-sup.svg",
+          "caption": "前臂 旋前／旋後｜從上往下看右手：掌心轉向下＝旋前（橈骨繞過尺骨）；轉向上＝旋後。只轉前臂。",
+          "figId": "anim-forearm-pro-sup",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-lateral-raise",
+      "term": "側平舉",
+      "aliases": [
+        "側舉",
+        "lateral raise",
+        "側平舉啞鈴"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "雙手往身體兩側舉到約肩高；＝肩外展。",
+      "explain": [
+        "站直沉肩，手肘微彎，把手臂往兩側打開到大約與肩同高，再慢慢放下。",
+        "解剖上是肩關節在額狀面做外展；主力三角肌中束，棘上肌協助啟動。",
+        "常見錯：聳肩用斜方偷力、甩動能、重量太大。"
+      ],
+      "example": "啞鈴側平舉、纜繩側平舉都是同一類動作模式。",
+      "relatedIds": [
+        "term-abduction",
+        "term-frontal-plane",
+        "term-deltoid",
+        "term-front-raise"
+      ],
+      "lessonIds": [
+        "L18",
+        "L17",
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-ex-lateral-raise",
+        "mn-ex-lateral-trap"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/side-lateral-raise.svg",
+        "caption": "側平舉示意"
+      },
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-abd-add.svg",
+          "caption": "肩關節 外展／內收（側平舉）｜正面看：手臂從側面抬起＝外展（側平舉）；放回身體＝內收。額狀面。",
+          "figId": "anim-shoulder-abd-add",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/diagrams/side-lateral-raise.svg",
+          "caption": "側平舉示意｜側平舉＝肩關節外展、額狀面、三角肌中束。",
+          "figId": "dg-side-lateral-raise",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-front-raise",
+      "term": "前平舉",
+      "aliases": [
+        "前舉",
+        "front raise"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "手臂往前舉到約肩高；＝肩屈曲。",
+      "explain": [
+        "啞鈴從大腿前方往前舉起至肩高。",
+        "肩關節矢狀面屈曲；主力三角肌前束。",
+        "別跟側平舉搞混：一個往前、一個往側。"
+      ],
+      "example": "啞鈴前平舉常當作肩前束輔助。",
+      "relatedIds": [
+        "term-flexion",
+        "term-sagittal-plane",
+        "term-lateral-raise"
+      ],
+      "lessonIds": [
+        "L18",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-ex-front-raise"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-flex-ext.svg",
+          "caption": "肩關節 屈曲／伸展｜側面看：手臂往前往上＝屈曲；往後帶＝伸展。矢狀面。",
+          "figId": "anim-shoulder-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-ohp",
+      "term": "肩推",
+      "aliases": [
+        "過頭推",
+        "overhead press",
+        "OHP",
+        "軍事推舉"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "把重量從頭兩側往上推到頭頂上方。",
+      "explain": [
+        "坐姿或站姿，核心穩定，手肘推直到過頭。",
+        "屬垂直推：三角肌＋肱三頭；肩帶上轉幫忙。",
+        "易錯：腰過度後仰、聳肩卡脖子。"
+      ],
+      "example": "啞鈴肩推、槓鈴過頭推。",
+      "relatedIds": [
+        "term-deltoid",
+        "term-lateral-raise"
+      ],
+      "lessonIds": [
+        "L18",
+        "L06"
+      ],
+      "mnemonicIds": [
+        "mn-ex-ohp"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-bench-press",
+      "term": "臥推",
+      "aliases": [
+        "槓鈴臥推",
+        "胸推",
+        "bench press"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "躺著把槓／啞鈴從胸口推起；胸大為主。",
+      "explain": [
+        "肩胛後收下壓，降到胸口再推起。",
+        "動作成分含肩水平內收與肘伸展。",
+        "主力胸大；協助前三角、肱三頭。"
+      ],
+      "example": "槓鈴臥推是常見水平推動作。",
+      "relatedIds": [
+        "term-horizontal-adduction",
+        "term-pectoralis-major"
+      ],
+      "lessonIds": [
+        "L18",
+        "L06",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-ex-bench"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/diagrams/upper-push-pull.svg",
+          "caption": "推／拉對應肌肉｜推（臥推、肩推）vs 拉（划船、下拉）各自主力肌。",
+          "figId": "dg-upper-push-pull",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-chest-fly",
+      "term": "夾胸",
+      "aliases": [
+        "飛鳥",
+        "chest fly",
+        "滑輪夾胸"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "手肘微彎，雙臂往胸前環抱；＝水平內收。",
+      "explain": [
+        "打開再夾回來，手肘角度大致固定。",
+        "比臥推更「純」水平內收、胸大感受常更集中。",
+        "開太後面或重量過大容易讓前肩不適。"
+      ],
+      "example": "啞鈴飛鳥、滑輪交叉夾胸。",
+      "relatedIds": [
+        "term-horizontal-adduction",
+        "term-bench-press"
+      ],
+      "lessonIds": [
+        "L18",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-ex-fly"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-horizontal.svg",
+          "caption": "肩關節 水平內收／水平外展｜從頭頂看：手臂先抬到肩高，往胸前夾＝水平內收（夾胸）；往後打開＝水平外展（反向飛鳥）。",
+          "figId": "anim-shoulder-horizontal",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-row",
+      "term": "划船",
+      "aliases": [
+        "划船動作",
+        "row",
+        "坐姿划船"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "把手肘往後拉並夾背；屬水平拉。",
+      "explain": [
+        "肩伸展＋肩帶後縮。",
+        "主力闊背、菱形／斜方中；二頭協助。",
+        "易錯：只彎手臂、圓背、聳肩。"
+      ],
+      "example": "啞鈴划船、槓鈴划船、坐姿划船機。",
+      "relatedIds": [
+        "term-latissimus-dorsi",
+        "term-horizontal-abduction"
+      ],
+      "lessonIds": [
+        "L18",
+        "L06",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-ex-row"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-scap-retr-prot.svg",
+          "caption": "肩帶 後縮（內收）／前引（外展）｜背面看：兩塊肩胛往脊椎夾＝後縮（夾背）；往外往前滑開＝前引（推圓背）。",
+          "figId": "anim-scap-retr-prot",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/diagrams/upper-push-pull.svg",
+          "caption": "推／拉對應肌肉｜推（臥推、肩推）vs 拉（划船、下拉）各自主力肌。",
+          "figId": "dg-upper-push-pull",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-pulldown",
+      "term": "滑輪下拉",
+      "aliases": [
+        "下拉",
+        "lat pulldown",
+        "引體向上",
+        "引體"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "把手肘往身體側下方帶；垂直拉，闊背為主。",
+      "explain": [
+        "先沉肩，胸部上迎，肘往下。",
+        "引體向上是同一模式的自體版本。",
+        "新手可先下拉學軌道。"
+      ],
+      "example": "寬握下拉、輔助引體。",
+      "relatedIds": [
+        "term-latissimus-dorsi",
+        "term-row"
+      ],
+      "lessonIds": [
+        "L18",
+        "L06"
+      ],
+      "mnemonicIds": [
+        "mn-ex-pulldown"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-abd-add.svg",
+          "caption": "肩關節 外展／內收（側平舉）｜正面看：手臂從側面抬起＝外展（側平舉）；放回身體＝內收。額狀面。",
+          "figId": "anim-shoulder-abd-add",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-biceps-curl",
+      "term": "二頭彎舉",
+      "aliases": [
+        "彎舉",
+        "curl",
+        "肱二頭彎舉"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "彎起手肘把重量舉向肩；＝肘屈曲。",
+      "explain": [
+        "上臂貼身，只動肘關節。",
+        "主力肱二頭、肱肌、肱橈肌。",
+        "甩腰借力是最常見作弊。"
+      ],
+      "example": "啞鈴彎舉、槓鈴彎舉、錘式彎舉。",
+      "relatedIds": [
+        "term-flexion",
+        "term-triceps-ext"
+      ],
+      "lessonIds": [
+        "L18",
+        "L17",
+        "L14"
+      ],
+      "mnemonicIds": [
+        "mn-ex-curl"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-elbow-flex-ext.svg",
+          "caption": "肘關節 屈曲／伸展｜側面看：彎起手肘＝屈曲（彎舉）；伸直＝伸展（三頭下壓）。",
+          "figId": "anim-elbow-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-triceps-ext",
+      "term": "三頭伸展",
+      "aliases": [
+        "三頭下壓",
+        "過頭三頭伸展",
+        "triceps extension",
+        "臂屈伸"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "把手肘伸直把重量推開；＝肘伸展。",
+      "explain": [
+        "下壓時手肘固定身側；過頭伸則在頭上方屈伸肘。",
+        "主力肱三頭肌。",
+        "手肘晃動會變成肩膀動作。"
+      ],
+      "example": "繩索下壓、啞鈴過頭三頭伸展。",
+      "relatedIds": [
+        "term-extension",
+        "term-biceps-curl"
+      ],
+      "lessonIds": [
+        "L18",
+        "L17",
+        "L14"
+      ],
+      "mnemonicIds": [
+        "mn-ex-triceps"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-elbow-flex-ext.svg",
+          "caption": "肘關節 屈曲／伸展｜側面看：彎起手肘＝屈曲（彎舉）；伸直＝伸展（三頭下壓）。",
+          "figId": "anim-elbow-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-squat",
+      "term": "深蹲",
+      "aliases": [
+        "squat",
+        "徒手深蹲",
+        "槓鈴深蹲"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "髖膝一起彎再站起；站起靠股四與臀。",
+      "explain": [
+        "像往後坐椅子，膝朝腳尖，腳跟踩實。",
+        "下去＝髖膝屈；起來＝髖膝伸。",
+        "易錯：膝內夾、腳跟離地、腰失控。"
+      ],
+      "example": "徒手深蹲、高腳杯蹲、背蹲。",
+      "relatedIds": [
+        "term-flexion",
+        "term-extension",
+        "term-deadlift"
+      ],
+      "lessonIds": [
+        "L18",
+        "L06",
+        "L05"
+      ],
+      "mnemonicIds": [
+        "mn-ex-squat"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/lower-squat.svg",
+        "caption": "深蹲髖膝矢狀面"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/lower-squat.svg",
+          "caption": "深蹲：髖膝踝怎麼動｜深蹲＝髖、膝屈伸（矢狀面），臀大＋股四＋腿後協同。",
+          "figId": "dg-lower-squat",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-deadlift",
+      "term": "硬舉",
+      "aliases": [
+        "deadlift",
+        "髖鉸鏈"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "屁股後推的鉸鏈，用髖伸把重量拉起。",
+      "explain": [
+        "背維持中立，槓靠近身體。",
+        "主力臀大、腿後腱；不是用腰硬甩。",
+        "跟深蹲比更強調髖鉸鏈。"
+      ],
+      "example": "傳統硬舉、羅馬尼亞硬舉（RDL）都屬鉸鏈家族。",
+      "relatedIds": [
+        "term-extension",
+        "term-squat"
+      ],
+      "lessonIds": [
+        "L18",
+        "L06"
+      ],
+      "mnemonicIds": [
+        "mn-ex-hinge"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-lunge",
+      "term": "弓步",
+      "aliases": [
+        "分腿蹲",
+        "lunge",
+        "前跨步"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "一前一後，前膝彎、後膝降的單腳蹲模式。",
+      "explain": [
+        "軀幹打直，前腳跟踩實推回。",
+        "練股四、臀與單側穩定。",
+        "步距太短或左右晃都難控。"
+      ],
+      "example": "徒手弓步、後撤步弓步、行走弓步。",
+      "relatedIds": [
+        "term-squat"
+      ],
+      "lessonIds": [
+        "L18"
+      ],
+      "mnemonicIds": [
+        "mn-ex-lunge-bridge"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-glute-bridge",
+      "term": "臀橋",
+      "aliases": [
+        "橋式",
+        "glute bridge",
+        "髖推地板版"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "躺著屈膝，把屁股往上推；＝髖伸展。",
+      "explain": [
+        "頂端夾臀，避免只用腰過度塌。",
+        "主力臀大，適合新手找臀感。",
+        "腳太遠／太近會改變腿後與臀的比例。"
+      ],
+      "example": "徒手臀橋、單腳臀橋。",
+      "relatedIds": [
+        "term-extension",
+        "term-deadlift"
+      ],
+      "lessonIds": [
+        "L18",
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-ex-lunge-bridge"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-hip-flex-ext.svg",
+          "caption": "髖關節 屈曲／伸展｜側面看：大腿往前抬＝屈曲；往後擺＝伸展。矢狀面。",
+          "figId": "anim-hip-flex-ext",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-leg-press",
+      "term": "腿推",
+      "aliases": [
+        "腿部推舉",
+        "leg press"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "坐在機器上把踏板蹬出；像坐著的蹲推模式。",
+      "explain": [
+        "彎膝控下再蹬到接近伸直（不彈鎖）。",
+        "主力股四、臀大。",
+        "臀離椅、鎖死彈膝是常見錯。"
+      ],
+      "example": "45度腿推機。",
+      "relatedIds": [
+        "term-squat"
+      ],
+      "lessonIds": [
+        "L18",
+        "L06"
+      ],
+      "mnemonicIds": [
+        "mn-ex-squat"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-reverse-fly",
+      "term": "反向飛鳥",
+      "aliases": [
+        "後束飛鳥",
+        "reverse fly"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "肩高附近雙臂往後打開；＝水平外展。",
+      "explain": [
+        "主力三角肌後束。",
+        "跟側平舉不同：側平舉是從身側往上外展；反向飛鳥是肩高往後打開。",
+        "考題常拿來分「外展 vs 水平外展」。"
+      ],
+      "example": "啞鈴反向飛鳥、器械後束飛鳥。",
+      "relatedIds": [
+        "term-horizontal-abduction",
+        "term-lateral-raise"
+      ],
+      "lessonIds": [
+        "L18",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-ex-exam-split"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-shoulder-horizontal.svg",
+          "caption": "肩關節 水平內收／水平外展｜從頭頂看：手臂先抬到肩高，往胸前夾＝水平內收（夾胸）；往後打開＝水平外展（反向飛鳥）。",
+          "figId": "anim-shoulder-horizontal",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        }
+      ]
+    },
+    {
+      "id": "term-calf-raise",
+      "term": "提踵",
+      "aliases": [
+        "踮腳",
+        "calf raise",
+        "站姿提踵"
+      ],
+      "category": "訓練動作",
+      "oneLiner": "把腳跟提起；＝踝蹠屈。",
+      "explain": [
+        "腓腸肌、比目魚肌出力。",
+        "慢控下降比彈跳更有用。",
+        "對講義：蹠屈≠背屈（背屈是腳尖抬頭）。"
+      ],
+      "example": "站姿提踵、坐姿提踵（坐姿較偏比目魚）。",
+      "relatedIds": [
+        "term-plantarflexion",
+        "term-dorsiflexion"
+      ],
+      "lessonIds": [
+        "L18",
+        "L17"
+      ],
+      "mnemonicIds": [],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anim/anim-ankle-df-pf.svg",
+          "caption": "踝關節 背屈／蹠屈｜側面看：腳尖往上勾＝背屈（脛前肌）；腳尖往下壓＝蹠屈（腓腸、比目魚）。",
+          "figId": "anim-ankle-df-pf",
+          "kind": "anim",
+          "credit": "本站自製動畫示意（SVG）"
+        },
+        {
+          "src": "assets/anatomy/os-leg-back.svg",
+          "caption": "小腿後面：腓腸肌・比目魚肌｜右小腿背面：腓腸肌（內、外側頭）在表層，比目魚肌在它底下，兩者共用阿基里斯腱（蹠屈）。",
+          "figId": "os-leg-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-scapula",
+      "term": "肩胛骨",
+      "aliases": [
+        "scapula",
+        "肩胛",
+        "肩胛板",
+        "scapular"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "背後那塊「三角板」骨頭，上面有棘、窩、喙、峰四大標記。",
+      "explain": [
+        "摸自己上背部外側：手臂自然垂著時，可以摸到一塊扁平、像倒三角形的硬骨頭，那就是肩胛骨。",
+        "它不直接跟肋骨用真關節卡住，而是靠肌肉貼在胸廓上滑（肩胛胸廓＝假性關節），所以手臂要舉高、划船夾背，肩胛都得跟著動。",
+        "考試／上課常點名四大標記：肩胛棘（背後橫脊）、盂窩（外側淺碗接肱骨）、喙突（前面鳥嘴向前）、肩峰（外側屋簷）。詳見 L19。"
+      ],
+      "example": "聳肩、夾背、側平舉舉過頭時，動的不只是手臂，肩胛骨也在肋骨上滑。",
+      "relatedIds": [
+        "term-spine-of-scapula",
+        "term-glenoid",
+        "term-coracoid",
+        "term-acromion",
+        "term-clavicle",
+        "term-shoulder-girdle",
+        "term-glenohumeral"
+      ],
+      "lessonIds": [
+        "L19",
+        "L11",
+        "L13"
+      ],
+      "mnemonicIds": [
+        "mn-scap-four-metaphor",
+        "mn-scapula-landmarks"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/anatomy/bp3d-scapula-posterior.svg",
+          "caption": "肩胛骨（背面）：肩峰・肩胛棘・盂窩｜真實骨頭模型（左肩胛骨從背後看）：背後橫的骨脊＝肩胛棘、外上「屋簷」＝肩峰、外側淺碗＝盂窩（從背後只看到邊）。",
+          "figId": "bp3d-scapula-posterior",
+          "kind": "anatomy",
+          "credit": "BodyParts3D／Anatomography CC BY-SA 2.1 JP（via Wikimedia Commons）；中文標註為本站加註"
+        },
+        {
+          "src": "assets/anatomy/bp3d-scapula-anterior.svg",
+          "caption": "肩胛骨（前面）：喙突・肩峰・盂窩｜真實骨頭模型（左肩胛骨從前面看，這面貼著肋骨）：往前勾的「鳥嘴」＝喙突、外側淺碗＝盂窩。",
+          "figId": "bp3d-scapula-anterior",
+          "kind": "anatomy",
+          "credit": "BodyParts3D／Anatomography CC BY-SA 2.1 JP（via Wikimedia Commons）；中文標註為本站加註"
+        }
+      ]
+    },
+    {
+      "id": "term-spine-of-scapula",
+      "term": "肩胛棘",
+      "aliases": [
+        "spine of scapula",
+        "肩胛骨棘",
+        "scapular spine",
+        "肩胛棘突"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "肩胛骨背面那條橫向硬脊，像背後一道「橫杠／屋脊」。",
+      "explain": [
+        "白話位置：站在鏡子後面（或請人幫忙），在上背部肩膀後方摸——會摸到一條左右向的硬骨嵴，不是軟的肌肉條，那就是肩胛棘。",
+        "怎麼自己摸：① 對側手從背後繞到同側肩胛；② 手指橫向掃，找到「像小路凸起」的硬棱；③ 這條棱往外側（往肩膀方向）追，會接到肩峰。",
+        "形狀比喻：像屋頂的橫脊、或背包帶壓到的那道骨杠。它把肩胛後面大致分成「棘上窩」（棘上方）與「棘下窩」（棘下方）——旋轉肌袖的棘上肌、棘下肌就長在這附近。",
+        "跟肌／動作：斜方肌有纖維附在肩胛棘；棘上肌在棘上方、棘下肌在棘下方。觸診口訣常說「從肩胛棘摸到肩峰」。"
+      ],
+      "example": "划船做「夾背」時，手指可先摸到肩胛棘，感覺整塊肩胛往脊椎靠。",
+      "relatedIds": [
+        "term-acromion",
+        "term-scapula",
+        "term-supraspinatus",
+        "term-infraspinatus",
+        "term-trapezius"
+      ],
+      "lessonIds": [
+        "L19",
+        "L11",
+        "L13"
+      ],
+      "mnemonicIds": [
+        "mn-scap-spine-ridge",
+        "mn-scap-four-metaphor",
+        "mn-palpate-spine-to-acromion"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-landmarks.svg",
+        "caption": "背後橫脊＝肩胛棘（後視黃色）"
+      },
+      "figures": [
+        {
+          "src": "assets/anatomy/bp3d-scapula-posterior.svg",
+          "caption": "肩胛骨（背面）：肩峰・肩胛棘・盂窩｜真實骨頭模型（左肩胛骨從背後看）：背後橫的骨脊＝肩胛棘、外上「屋簷」＝肩峰、外側淺碗＝盂窩（從背後只看到邊）。",
+          "figId": "bp3d-scapula-posterior",
+          "kind": "anatomy",
+          "credit": "BodyParts3D／Anatomography CC BY-SA 2.1 JP（via Wikimedia Commons）；中文標註為本站加註"
+        },
+        {
+          "src": "assets/anatomy/os-rotator-back.svg",
+          "caption": "旋轉袖（背面）：棘上・棘下・小圓肌｜左肩深層背面：橘字＝旋轉袖（棘上、棘下、小圓；肩胛下肌在前面那張）。三角肌已切開才看得到。",
+          "figId": "os-rotator-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-glenoid",
+      "term": "盂窩",
+      "aliases": [
+        "glenoid",
+        "關節盂",
+        "glenoid cavity",
+        "glenoid fossa",
+        "關節盂窩",
+        "盂"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "肩胛骨外側那個淺淺的「碗／湯匙凹」，接住上臂的肱骨頭。",
+      "explain": [
+        "白話位置：在肩胛骨朝向外側（靠手臂那一側）的邊緣，有一個淺凹，醫學叫關節盂／盂窩。肱骨頭（上臂骨頭的圓頭）就坐在這裡 → 合起來叫盂肱關節（常說的肩關節）。",
+        "怎麼自己摸：盂窩本身比較「深在裡面」，外面摸不太到碗底；你可以先摸肩峰與喙突，想像它們旁邊內側深處有一個淺碗在接手臂。考試重點是「知道它在哪、接什麼」，不是硬把手指戳進關節縫。",
+        "形狀比喻：像淺碗或高爾夫球座——碗很淺，所以肩關節活動超大，但也比較不穩，更需要旋轉肌袖與盂唇幫忙。",
+        "跟肌／動作：幾乎所有「手臂在球窩裡轉」的動作（屈伸、外展、內外轉）都發生在盂窩＋肱骨頭。盂唇像幫碗加高一圈杯緣，加深穩定。"
+      ],
+      "example": "側平舉、肩推、臥推，肱骨頭都在盂窩裡滾／滑；力線歪了，盂唇較容易被磨到。",
+      "relatedIds": [
+        "term-glenohumeral",
+        "term-labrum",
+        "term-scapula",
+        "term-humerus-head",
+        "term-ball-and-socket",
+        "term-rotator-cuff"
+      ],
+      "lessonIds": [
+        "L19",
+        "L11",
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-glenoid-shallow-bowl",
+        "mn-scap-four-metaphor",
+        "mn-labrum"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-landmarks.svg",
+        "caption": "外側淺碗＝盂窩（綠色）"
+      },
+      "figures": [
+        {
+          "src": "assets/anatomy/bp3d-scapula-posterior.svg",
+          "caption": "肩胛骨（背面）：肩峰・肩胛棘・盂窩｜真實骨頭模型（左肩胛骨從背後看）：背後橫的骨脊＝肩胛棘、外上「屋簷」＝肩峰、外側淺碗＝盂窩（從背後只看到邊）。",
+          "figId": "bp3d-scapula-posterior",
+          "kind": "anatomy",
+          "credit": "BodyParts3D／Anatomography CC BY-SA 2.1 JP（via Wikimedia Commons）；中文標註為本站加註"
+        },
+        {
+          "src": "assets/anatomy/bp3d-scapula-anterior.svg",
+          "caption": "肩胛骨（前面）：喙突・肩峰・盂窩｜真實骨頭模型（左肩胛骨從前面看，這面貼著肋骨）：往前勾的「鳥嘴」＝喙突、外側淺碗＝盂窩。",
+          "figId": "bp3d-scapula-anterior",
+          "kind": "anatomy",
+          "credit": "BodyParts3D／Anatomography CC BY-SA 2.1 JP（via Wikimedia Commons）；中文標註為本站加註"
+        }
+      ]
+    },
+    {
+      "id": "term-coracoid",
+      "term": "喙突",
+      "aliases": [
+        "coracoid",
+        "coracoid process",
+        "烏喙突",
+        "喙突骨"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "鎖骨外側下方、肩膀前方那顆「往前勾的小骨突」，像鳥嘴向前。",
+      "explain": [
+        "白話位置：把對側手指放到鎖骨最外側靠近肩膀的地方，再往下、往前摸一點——會摸到一顆硬硬、略尖／略勾的突起，那就是喙突（讀音類似「會突」）。",
+        "怎麼自己摸：① 先摸鎖骨一路摸到肩膀外側；② 在鎖骨外側端下方約 2–3 指寬、偏前面；③ 輕輕按，會碰到一點「骨頭尖尖」——別用力戳，有人不適。",
+        "形狀比喻：像鳥的嘴巴往前勾（「喙」就是鳥嘴），或像衣服前面的一個小掛勾。",
+        "易混：肩峰在「肩膀最外側／上方屋簷」；喙突在「比較前面、鎖骨下方的小勾」。一個偏外側屋頂，一個偏前方鳥嘴。",
+        "跟肌／動作：胸小肌止於喙突；肱二頭短頭、喙肱肌也起自喙突。胸小過緊常跟圓肩、肩胛下角翹有關（見肩帶課）。"
+      ],
+      "example": "教練說「胸小很緊」時，常會指到喙突附近；伸展胸小時也常讓手臂打開到約 135° 方向。",
+      "relatedIds": [
+        "term-acromion",
+        "term-coracoacromial-arch",
+        "term-pectoralis-minor",
+        "term-clavicle",
+        "term-scapula"
+      ],
+      "lessonIds": [
+        "L19",
+        "L11",
+        "L13"
+      ],
+      "mnemonicIds": [
+        "mn-coracoid-bird-beak",
+        "mn-acromion-vs-coracoid",
+        "mn-scap-four-metaphor"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-landmarks.svg",
+        "caption": "前方鳥嘴＝喙突（前視黃色）"
+      },
+      "figures": [
+        {
+          "src": "assets/anatomy/bp3d-scapula-anterior.svg",
+          "caption": "肩胛骨（前面）：喙突・肩峰・盂窩｜真實骨頭模型（左肩胛骨從前面看，這面貼著肋骨）：往前勾的「鳥嘴」＝喙突、外側淺碗＝盂窩。",
+          "figId": "bp3d-scapula-anterior",
+          "kind": "anatomy",
+          "credit": "BodyParts3D／Anatomography CC BY-SA 2.1 JP（via Wikimedia Commons）；中文標註為本站加註"
+        },
+        {
+          "src": "assets/anatomy/os-shoulder-girdle-front.svg",
+          "caption": "肩帶肌肉（前面）：前鋸肌・胸小肌｜左肩帶前外側看：前鋸肌像鋸齒貼在肋骨側面、胸小肌從肋骨拉到喙突（胸大肌已切開）。",
+          "figId": "os-shoulder-girdle-front",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-acromion",
+      "term": "肩峰",
+      "aliases": [
+        "acromion",
+        "acromial",
+        "肩峰突",
+        "acromion process"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "肩膀最外側上方的「屋簷／帽簷」骨突，側平舉手舉高會頂到它附近。",
+      "explain": [
+        "白話位置：摸自己肩膀最外側、最高那一塊硬骨頭（穿無袖時最「尖」的肩膀角），那就是肩峰。它其實是肩胛棘往外側延續、翻上來形成的「屋頂」。",
+        "怎麼自己摸：① 從背後摸到肩胛棘（橫杠）；② 手指沿橫杠一路往肩膀外側走；③ 走到肩膀最高外側端＝肩峰。也可以直接摸「西裝肩墊」那個角。",
+        "形狀比喻：像房子的屋簷、或棒球帽的帽簷，蓋在肩關節上方外側。",
+        "易混：肩峰＝外側屋簷；喙突＝前方鳥嘴。兩者都是肩胛的突起，但一個在外上、一個在前。",
+        "跟肌／動作：三角肌很多纖維起自肩峰／肩胛棘／鎖骨；肩峰下方有「肩峰下空間」，棘上肌腱、二頭長頭腱從這經過——內旋又大力推拉較易不舒服（夾擠話題）。鎖骨外側也跟肩峰組成肩鎖關節（AC）。"
+      ],
+      "example": "側平舉手肘別硬甩過太高、大拇指別硬朝下猛抬，常是在保護肩峰下空間。",
+      "relatedIds": [
+        "term-coracoid",
+        "term-spine-of-scapula",
+        "term-coracoacromial-arch",
+        "term-impingement",
+        "term-ac-joint",
+        "term-clavicle",
+        "term-supraspinatus"
+      ],
+      "lessonIds": [
+        "L19",
+        "L11",
+        "L12",
+        "L18"
+      ],
+      "mnemonicIds": [
+        "mn-acromion-eaves",
+        "mn-acromion-vs-coracoid",
+        "mn-palpate-spine-to-acromion",
+        "mn-scap-four-metaphor"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/shoulder-landmarks.svg",
+        "caption": "外側屋簷＝肩峰（藍色）"
+      },
+      "figures": [
+        {
+          "src": "assets/anatomy/bp3d-scapula-posterior.svg",
+          "caption": "肩胛骨（背面）：肩峰・肩胛棘・盂窩｜真實骨頭模型（左肩胛骨從背後看）：背後橫的骨脊＝肩胛棘、外上「屋簷」＝肩峰、外側淺碗＝盂窩（從背後只看到邊）。",
+          "figId": "bp3d-scapula-posterior",
+          "kind": "anatomy",
+          "credit": "BodyParts3D／Anatomography CC BY-SA 2.1 JP（via Wikimedia Commons）；中文標註為本站加註"
+        },
+        {
+          "src": "assets/anatomy/bp3d-scapula-anterior.svg",
+          "caption": "肩胛骨（前面）：喙突・肩峰・盂窩｜真實骨頭模型（左肩胛骨從前面看，這面貼著肋骨）：往前勾的「鳥嘴」＝喙突、外側淺碗＝盂窩。",
+          "figId": "bp3d-scapula-anterior",
+          "kind": "anatomy",
+          "credit": "BodyParts3D／Anatomography CC BY-SA 2.1 JP（via Wikimedia Commons）；中文標註為本站加註"
+        },
+        {
+          "src": "assets/anatomy/os-shoulder-girdle-back.svg",
+          "caption": "肩帶肌肉（背面）：斜方肌・菱形肌｜背面看：斜方肌在最外層，菱形肌在它底下（夾背主力）。",
+          "figId": "os-shoulder-girdle-back",
+          "kind": "anatomy",
+          "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文"
+        }
+      ]
+    },
+    {
+      "id": "term-clavicle",
+      "term": "鎖骨",
+      "aliases": [
+        "clavicle",
+        "collar bone",
+        "鎖子骨"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "脖子下方橫向那根「衣領骨」，內接胸骨、外接肩峰。",
+      "explain": [
+        "白話位置：低頭看胸口上方，左右各有一根橫向、摸得到的硬骨頭，從胸口中間附近一路連到肩膀——就是鎖骨。",
+        "怎麼自己摸：用手指從胸口上方胸骨柄附近往外滑，整根都能摸到；外側端接到肩峰（肩鎖關節），內側端接胸骨（胸鎖關節）。",
+        "形狀比喻：像掛衣服的衣架橫杆，或相機背帶壓在鎖骨上的那根骨。",
+        "跟肩胛標記：鎖骨外側端下方不遠處就是喙突；鎖骨＋肩峰組成肩鎖關節，是肩帶重要一環。"
+      ],
+      "example": "聳肩時鎖骨外側端會跟著上抬；背包太重壓鎖骨也常痠。",
+      "relatedIds": [
+        "term-acromion",
+        "term-coracoid",
+        "term-ac-joint",
+        "term-sc-joint",
+        "term-scapula",
+        "term-shoulder-girdle"
+      ],
+      "lessonIds": [
+        "L19",
+        "L11",
+        "L13"
+      ],
+      "mnemonicIds": [
+        "mn-clavicle-hanger",
+        "mn-shoulder-complex"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-coracoacromial-arch",
+      "term": "喙肩弓",
+      "aliases": [
+        "coracoacromial arch",
+        "喙肩穹窿",
+        "肩峰喙突弓",
+        "CA arch"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "喙突＋肩峰＋中間韌帶合成的「拱門／隧道頂」，蓋在肩關節上方。",
+      "explain": [
+        "想像肩膀上方有一座小拱橋：一端是喙突（前），一端是肩峰（外上），中間用喙肩韌帶連起來——整座拱叫喙肩弓。",
+        "拱門下面就是肩峰下空間，棘上肌腱、二頭長頭腱等會從這「隧道」經過。空間變窄或反覆摩擦，就會聽到「夾擠」這類話題。",
+        "新手記法：先會摸喙突與肩峰，再想像兩者中間有一條「看不見的屋頂連線」。"
+      ],
+      "example": "側平舉走肩胛平面、避免過度內旋猛推，常是在減少喙肩弓下方被磨到的機會。",
+      "relatedIds": [
+        "term-coracoid",
+        "term-acromion",
+        "term-impingement",
+        "term-supraspinatus"
+      ],
+      "lessonIds": [
+        "L19",
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-caa-arch",
+        "mn-impingement-contents"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-ac-joint",
+      "term": "肩鎖關節",
+      "aliases": [
+        "AC joint",
+        "acromioclavicular joint",
+        "AC",
+        "肩鎖"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "肩峰跟鎖骨外側端相接的小關節，在肩膀最外側上方。",
+      "explain": [
+        "摸到肩峰後，往胸口方向一點點就是鎖骨外側端——兩者相接處＝肩鎖關節（AC）。",
+        "它是肩關節複合體四個關節之一（胸鎖、肩鎖、盂肱、肩胛胸廓）。手臂上舉時，肩鎖也會微微動。",
+        "易混：盂肱＝球窩大手臂；肩鎖＝肩峰－鎖骨的小接縫。"
+      ],
+      "example": "側平舉、肩推過頭時，鎖骨外側與肩峰的關係會跟著變；有人這裡撞傷會很痛。",
+      "relatedIds": [
+        "term-acromion",
+        "term-clavicle",
+        "term-sc-joint",
+        "term-glenohumeral",
+        "term-shoulder-girdle"
+      ],
+      "lessonIds": [
+        "L19",
+        "L11"
+      ],
+      "mnemonicIds": [
+        "mn-shoulder-complex",
+        "mn-ac-peak-meets-clavicle"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-sc-joint",
+      "term": "胸鎖關節",
+      "aliases": [
+        "SC joint",
+        "sternoclavicular joint",
+        "SC",
+        "胸鎖"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "鎖骨內側端接到胸骨的關節，是上肢「掛」到身體中軸的唯一真骨關節連結。",
+      "explain": [
+        "摸鎖骨一路摸到胸口中間附近，鎖骨接到胸骨的地方＝胸鎖關節。",
+        "聳肩、手臂大幅上舉時，這裡也會動一點。它把整條上肢經鎖骨連到身體中軸。"
+      ],
+      "example": "大力聳肩或單側背包長期歪，有時會覺得胸鎖附近不舒服。",
+      "relatedIds": [
+        "term-clavicle",
+        "term-ac-joint",
+        "term-shoulder-girdle"
+      ],
+      "lessonIds": [
+        "L19",
+        "L11"
+      ],
+      "mnemonicIds": [
+        "mn-shoulder-complex",
+        "mn-clavicle-hanger"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-humerus-head",
+      "term": "肱骨頭",
+      "aliases": [
+        "humeral head",
+        "上臂骨頭",
+        "肱骨近端"
+      ],
+      "category": "骨骼關節",
+      "oneLiner": "上臂骨（肱骨）頂端那個圓圓的「球頭」，坐進肩胛的盂窩裡。",
+      "explain": [
+        "肩膀能轉那麼多方向，就是因為這顆球頭在淺碗（盂窩）裡滾。球大、碗淺 → 活動大、穩定靠肌肉（旋轉肌袖）。",
+        "外面不容易直接摸到球頭本體（被三角肌等蓋住），但知道「手臂骨頭的頭在肩峰／喙突深處的碗裡」就夠入門。"
+      ],
+      "example": "旋轉肌袖的工作之一，就是在舉手時把肱骨頭「吸穩」在盂窩，不要過度往上撞肩峰。",
+      "relatedIds": [
+        "term-glenoid",
+        "term-glenohumeral",
+        "term-rotator-cuff",
+        "term-ball-and-socket"
+      ],
+      "lessonIds": [
+        "L19",
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-glenoid-shallow-bowl",
+        "mn-sits-dynamic-lig"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-muscle-training",
+      "term": "肌能訓練",
+      "aliases": [],
+      "category": "訓練科學",
+      "oneLiner": "WG 影片定義：肌力 ＋ 能量系統的訓練。",
+      "explain": [
+        "一半在練「力氣」（肌力、肌肥大、肌耐力），一半在練「供電系統」（磷酸肌酸、糖解、有氧）。"
+      ],
+      "example": "重訓練肌力、跑步間歇練能量系統，兩者都屬肌能訓練。",
+      "relatedIds": [
+        "term-strength",
+        "term-pcr"
+      ],
+      "lessonIds": [
+        "L21",
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-rep-zones"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-strength",
+      "term": "肌力",
+      "aliases": [
+        "muscular strength"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "肌肉收縮產生力量的能力。",
+      "explain": [
+        "看的是「一次能出多大力」。WG 負荷表：1–6 下（約 85–100%1RM）偏練肌力。"
+      ],
+      "example": "把一箱 24 瓶礦泉水從地上搬起來。",
+      "relatedIds": [
+        "term-1rm",
+        "term-hypertrophy",
+        "term-endurance"
+      ],
+      "lessonIds": [
+        "L21",
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-rep-zones"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/diagrams/load-zones.svg",
+          "caption": "%1RM 與次數區間｜1–6 下肌力／7–12 下肌肥大／12–15 下肌耐力。",
+          "figId": "dg-load-zones",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-1rm",
+      "term": "1RM",
+      "aliases": [
+        "一次最大反覆",
+        "1 RM",
+        "最大肌力重量"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "用標準動作「只能舉起 1 下」的重量。",
+      "explain": [
+        "RM＝Repetition Maximum（最大反覆次數）。1RM 是每個人、每個動作各自不同的數字。",
+        "知道 1RM 後就能用 %1RM 換算訓練重量。"
+      ],
+      "example": "深蹲 100 公斤只能蹲起 1 下 → 深蹲 1RM＝100 公斤。",
+      "relatedIds": [
+        "term-rm",
+        "term-pct-1rm"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-1rm"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/load-zones.svg",
+        "caption": "%1RM ↔ 次數：1–6 肌力／7–12 肌肥大／12–15 肌耐力"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/load-zones.svg",
+          "caption": "%1RM 與次數區間｜1–6 下肌力／7–12 下肌肥大／12–15 下肌耐力。",
+          "figId": "dg-load-zones",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-rm",
+      "term": "RM（最大反覆次數）",
+      "aliases": [
+        "Repetition Maximum",
+        "10RM",
+        "最大反覆次數"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "「剛好只能做 N 下」的重量就叫 N RM。",
+      "explain": [
+        "1RM＝只能做 1 下的重量；10RM＝剛好只能做 10 下的重量（〔補充〕同一套說法）。",
+        "FITT-VP 表阻力強度寫「%RM」，進展寫「漸增阻力或 RM」。"
+      ],
+      "example": "某重量你做到第 10 下就做不動了 → 那是你的 10RM。",
+      "relatedIds": [
+        "term-1rm",
+        "term-pct-1rm"
+      ],
+      "lessonIds": [
+        "L21",
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-1rm"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-pct-1rm",
+      "term": "%1RM",
+      "aliases": [
+        "百分比 1RM",
+        "%RM"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "把 1RM 當 100%，換算出要用的重量比例。",
+      "explain": [
+        "算法：重量＝1RM × 百分比。",
+        "WG 表：100%≈1 下、90%≈4 下、80%≈8 下、75%≈10 下、67%≈12 下、65%≈15 下。"
+      ],
+      "example": "1RM 60 公斤 × 65%＝39 公斤。",
+      "relatedIds": [
+        "term-1rm",
+        "term-rpe"
+      ],
+      "lessonIds": [
+        "L21",
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-1rm",
+        "mn-wgmt-rep-zones"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/load-zones.svg",
+        "caption": "%1RM ↔ 次數：1–6 肌力／7–12 肌肥大／12–15 肌耐力"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/load-zones.svg",
+          "caption": "%1RM 與次數區間｜1–6 下肌力／7–12 下肌肥大／12–15 下肌耐力。",
+          "figId": "dg-load-zones",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-hypertrophy",
+      "term": "肌肥大",
+      "aliases": [
+        "hypertrophy",
+        "增肌"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "肌肉變粗、變大。",
+      "explain": [
+        "WG 影片：阻力訓練破壞肌纖維 → 靠營養與休息重建 → 變粗。",
+        "WG 負荷表：7–12 下（約 67–83%1RM）。"
+      ],
+      "example": "像道路挖開後重鋪時順便拓寬；肌肉是在吃飽睡好時長的。",
+      "relatedIds": [
+        "term-strength",
+        "term-mech-tension",
+        "term-recovery"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-rep-zones"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/diagrams/load-zones.svg",
+          "caption": "%1RM 與次數區間｜1–6 下肌力／7–12 下肌肥大／12–15 下肌耐力。",
+          "figId": "dg-load-zones",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-endurance",
+      "term": "肌耐力",
+      "aliases": [
+        "muscular endurance"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "肌肉可以持續使用的時間變長。",
+      "explain": [
+        "WG 負荷表：12–15 下（約 65–67%1RM，自覺「輕」）。"
+      ],
+      "example": "抱小孩抱很久手不痠；爬很多層樓腿不軟。",
+      "relatedIds": [
+        "term-strength",
+        "term-hypertrophy"
+      ],
+      "lessonIds": [
+        "L21",
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-rep-zones"
+      ],
+      "highYield": true,
+      "figures": [
+        {
+          "src": "assets/diagrams/load-zones.svg",
+          "caption": "%1RM 與次數區間｜1–6 下肌力／7–12 下肌肥大／12–15 下肌耐力。",
+          "figId": "dg-load-zones",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-rpe",
+      "term": "自覺強度",
+      "aliases": [
+        "自覺量表",
+        "RPE",
+        "自覺用力程度"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "你自己主觀覺得「有多重／多累」。",
+      "explain": [
+        "WG 表標示：輕（65%）、稍微重（77%）、重（83%）、非常重（90%）、非常非常重（100%）。",
+        "FITT-VP 表阻力強度可用「%RM、自覺量表」。〔補充〕英文常寫 RPE。"
+      ],
+      "example": "沒測 1RM 的新手，可以先用「覺得重、還能多做 1–2 下」來抓重量。",
+      "relatedIds": [
+        "term-pct-1rm"
+      ],
+      "lessonIds": [
+        "L21",
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-rep-zones"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-mech-tension",
+      "term": "機械張力",
+      "aliases": [
+        "mechanical tension"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "肌肉在出力時「被拉緊」的程度；影片說肌肉只感受得到張力，不是重量。",
+      "explain": [
+        "WG：好的機械張力＝低速度、高重量。",
+        "是影響肌力／肌肥大的 7 因素之一。"
+      ],
+      "example": "同一袋米慢慢抱上來比甩上去，手臂要一直撐，張力比較持續。",
+      "relatedIds": [
+        "term-metabolic-stress",
+        "term-hypertrophy"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-mech-slow-heavy"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-metabolic-stress",
+      "term": "代謝壓力",
+      "aliases": [
+        "metabolic stress"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "大量代謝、乳酸堆積的情境，逼身體去適應。",
+      "explain": [
+        "7 因素之一。常出現在連續做很多下、休息很短時。"
+      ],
+      "example": "做到肌肉「燒燒的」那種感覺。",
+      "relatedIds": [
+        "term-lactate",
+        "term-mech-tension"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-7factors"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-neural-adapt",
+      "term": "神經適應",
+      "aliases": [
+        "神經學效能",
+        "neural adaptation"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "大腦學會一次徵召更多運動單位，所以力氣先變大。",
+      "explain": [
+        "WG：初學者肌力先升、肌肉還沒長＝神經適應。",
+        "是 7 因素裡的「神經學效能」。"
+      ],
+      "example": "員工人數沒變，但老闆學會一次叫更多人一起搬貨。",
+      "relatedIds": [
+        "term-motor-unit",
+        "term-strength"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-neural-first"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-motor-unit",
+      "term": "運動單位",
+      "aliases": [
+        "motor unit"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "〔補充〕一條運動神經 ＋ 它負責指揮的那一群肌纖維。",
+      "explain": [
+        "出力越大，大腦就要「徵召」（叫出來工作）越多運動單位。"
+      ],
+      "example": "像一個小組長帶一組工人；要搬重物就要叫出更多小組。",
+      "relatedIds": [
+        "term-neural-adapt"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-neural-first"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-hormones",
+      "term": "激素水準",
+      "aliases": [
+        "激素",
+        "荷爾蒙",
+        "睪固酮",
+        "生長激素"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "身體裡傳訊息的化學物質多寡；影響肌力與肌肥大。",
+      "explain": [
+        "WG：影響最大的是睪固酮、生長激素。"
+      ],
+      "example": "同樣練法，激素水準不同的人，長肌肉速度可能不同。",
+      "relatedIds": [
+        "term-hypertrophy"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-7factors"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-recovery",
+      "term": "身體恢復率",
+      "aliases": [
+        "恢復率"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "身體從訓練中修復的速度；WG：靠吃、睡。",
+      "explain": [
+        "7 因素之一。肌肥大是在恢復期間發生的。",
+        "FITT-VP 表阻力：同一肌群至少休息 48 小時。"
+      ],
+      "example": "熬夜又沒吃蛋白質，練得再認真也長得慢。",
+      "relatedIds": [
+        "term-hypertrophy"
+      ],
+      "lessonIds": [
+        "L21",
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-7factors",
+        "mn-wgmt-res-48"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-bone-density",
+      "term": "骨密度",
+      "aliases": [
+        "bone density"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "骨頭裡礦物質有多紮實；越高越不容易骨折。",
+      "explain": [
+        "WG：阻力訓練可以增加骨密度與結締組織強度。"
+      ],
+      "example": "長輩做適度重訓，有助骨頭更結實。",
+      "relatedIds": [
+        "term-connective",
+        "term-resistance-training"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-benefits5"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-insulin-sens",
+      "term": "胰島素敏感度",
+      "aliases": [
+        "胰島素"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "身體對胰島素（幫血糖進入細胞的荷爾蒙）反應好不好。",
+      "explain": [
+        "敏感度好＝血糖比較好控制。WG：阻力訓練能改善血糖控制與胰島素敏感度。"
+      ],
+      "example": "同樣吃一碗飯，敏感度好的人血糖比較快回穩。",
+      "relatedIds": [
+        "term-blood-glucose",
+        "term-resistance-training"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-benefits5"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-connective",
+      "term": "結締組織",
+      "aliases": [],
+      "category": "訓練科學",
+      "oneLiner": "把身體各部位連起來、撐起來的組織，例如肌腱、韌帶、筋膜。",
+      "explain": [
+        "WG：阻力訓練增加骨密度與結締組織強度。"
+      ],
+      "example": "肌腱把肌肉接到骨頭上，韌帶把骨頭跟骨頭綁在一起。",
+      "relatedIds": [
+        "term-bone-density"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-benefits5"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-resistance-training",
+      "term": "阻力訓練",
+      "aliases": [
+        "重量訓練",
+        "重訓",
+        "resistance training"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "讓肌肉對抗阻力（重量、彈力帶、自身體重）的訓練。",
+      "explain": [
+        "WG 5 優點：肌力爆發耐力↑、骨密度結締組織↑、降受傷抗老、改善血糖與胰島素敏感度、增肌降脂。",
+        "FITT-VP 表：每週 2–3 次、同肌群隔 48 小時。"
+      ],
+      "example": "啞鈴、器械、伏地挺身都算。",
+      "relatedIds": [
+        "term-1rm",
+        "term-hypertrophy"
+      ],
+      "lessonIds": [
+        "L21",
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-benefits5",
+        "mn-wgmt-res-48"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-health-fitness",
+      "term": "健康體適能",
+      "aliases": [
+        "健康體適能五要素"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "為了健康、每個人都需要的 5 項體能。",
+      "explain": [
+        "心肺功能、肌力、肌耐力、柔軟度、身體組成（口訣：心力耐柔組）。",
+        "爆發力、敏捷、平衡、協調、速度、反應時間「不在」這籃，它們屬於競技體適能。"
+      ],
+      "example": "上班族爬樓梯不喘、搬東西不閃到腰，靠的就是健康體適能。",
+      "relatedIds": [
+        "term-skill-fitness",
+        "term-body-comp"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-health5"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-skill-fitness",
+      "term": "競技體適能",
+      "aliases": [
+        "技能體適能",
+        "運動體適能"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "偏向運動表現、比賽需要的 6 項體能。",
+      "explain": [
+        "敏捷、協調、平衡、速度、爆發力、反應時間（口訣：敏協平、速爆反）。"
+      ],
+      "example": "籃球員切入、起跳、搶球都在用競技體適能。",
+      "relatedIds": [
+        "term-health-fitness",
+        "term-power",
+        "term-agility"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-sport6"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-body-comp",
+      "term": "身體組成",
+      "aliases": [
+        "體脂率",
+        "body composition"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "〔補充〕身體裡脂肪 vs 非脂肪（肌肉、骨頭、水分等）的比例。",
+      "explain": [
+        "健康體適能 5 項之一。"
+      ],
+      "example": "同樣 70 公斤，體脂 15% 跟 30% 的身體組成差很多。",
+      "relatedIds": [
+        "term-health-fitness"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-health5"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-power",
+      "term": "爆發力",
+      "aliases": [
+        "power"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "很短時間內出很大的力（力量 × 速度）。",
+      "explain": [
+        "屬競技體適能，不是健康 5 項。"
+      ],
+      "example": "立定跳遠、跳起來搶籃板。",
+      "relatedIds": [
+        "term-skill-fitness",
+        "term-strength"
+      ],
+      "lessonIds": [
+        "L22",
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-sport6"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-agility",
+      "term": "敏捷",
+      "aliases": [
+        "agility"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "快速改變方向、位置的能力。",
+      "explain": [
+        "屬競技體適能。"
+      ],
+      "example": "打羽球前後左右快速移位。",
+      "relatedIds": [
+        "term-skill-fitness"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-sport6"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-coordination",
+      "term": "協調",
+      "aliases": [
+        "coordination"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "身體不同部位能不能配合得剛好。",
+      "explain": [
+        "屬競技體適能。"
+      ],
+      "example": "跳繩手腳節奏對得上。",
+      "relatedIds": [
+        "term-skill-fitness"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-sport6"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-reaction",
+      "term": "反應時間",
+      "aliases": [
+        "reaction time"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "從看到／聽到訊號，到身體開始動作的時間。",
+      "explain": [
+        "屬競技體適能。"
+      ],
+      "example": "聽到槍響起跑；看到球飛來立刻伸手。",
+      "relatedIds": [
+        "term-skill-fitness"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-sport6"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-atp",
+      "term": "ATP",
+      "aliases": [
+        "三磷酸腺苷"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "〔補充〕肌肉能「直接拿來用」的能量，像手上的現金。",
+      "explain": [
+        "身體存的 ATP 很少，所以要靠三大能量系統一直補。"
+      ],
+      "example": "三大能量系統＝三種把 ATP 補回來的方法。",
+      "relatedIds": [
+        "term-pcr",
+        "term-glycolysis",
+        "term-aerobic-system"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-energy"
+      ],
+      "highYield": false,
+      "diagram": {
+        "src": "assets/diagrams/energy-systems.svg",
+        "caption": "三大能量系統：磷快、糖中、氧慢久"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/energy-systems.svg",
+          "caption": "三大能量系統｜磷化物（快）、糖解（中）、有氧（慢久）。",
+          "figId": "dg-energy-systems",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-pcr",
+      "term": "磷酸肌酸系統",
+      "aliases": [
+        "ATP-CP",
+        "ATP-PC",
+        "磷酸肌酸",
+        "磷化物系統",
+        "磷酸原系統"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "最快的能量系統：燃料磷酸肌酸、無氧。",
+      "explain": [
+        "WG：最快，例子 100m 衝刺。很快就用完。"
+      ],
+      "example": "100 公尺衝刺、舉一次最大重量。",
+      "relatedIds": [
+        "term-atp",
+        "term-glycolysis"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-energy"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/energy-systems.svg",
+        "caption": "三大能量系統：磷快、糖中、氧慢久"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/energy-systems.svg",
+          "caption": "三大能量系統｜磷化物（快）、糖解（中）、有氧（慢久）。",
+          "figId": "dg-energy-systems",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-glycolysis",
+      "term": "糖解",
+      "aliases": [
+        "糖解系統",
+        "醣解",
+        "醣解系統",
+        "糖酵解",
+        "乳酸系統"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "把糖（肝醣、血糖）分解來產生能量。",
+      "explain": [
+        "WG：燃料肝醣、血糖；無氧（產生乳酸）／有氧；速度其次；例子 400m。",
+        "肝醣代謝以無氧為主，血糖代謝以有氧為主。"
+      ],
+      "example": "跑 400 公尺最後腿灌鉛那種感覺。",
+      "relatedIds": [
+        "term-glycogen",
+        "term-blood-glucose",
+        "term-lactate"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-energy"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/energy-systems.svg",
+        "caption": "三大能量系統：磷快、糖中、氧慢久"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/energy-systems.svg",
+          "caption": "三大能量系統｜磷化物（快）、糖解（中）、有氧（慢久）。",
+          "figId": "dg-energy-systems",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-glycogen",
+      "term": "肝醣",
+      "aliases": [
+        "肌醣",
+        "glycogen"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "〔補充〕存在肝臟和肌肉裡的「糖的庫存」。",
+      "explain": [
+        "WG：糖解中，肝醣代謝以無氧為主。"
+      ],
+      "example": "像冰箱裡的存糧，需要時拿出來用。",
+      "relatedIds": [
+        "term-glycolysis",
+        "term-blood-glucose"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-energy"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-blood-glucose",
+      "term": "血糖",
+      "aliases": [
+        "葡萄糖"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "血液裡流動的葡萄糖。",
+      "explain": [
+        "WG：糖解中，血糖代謝以有氧為主。"
+      ],
+      "example": "吃完飯血糖上升，身體會把它送去用或存起來。",
+      "relatedIds": [
+        "term-glycolysis",
+        "term-glycogen",
+        "term-insulin-sens"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-energy"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-lactate",
+      "term": "乳酸",
+      "aliases": [
+        "lactate"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "糖在無氧下快速分解時產生的物質。",
+      "explain": [
+        "WG：糖解無氧時產生乳酸；85–95% 心率區可提高代謝乳酸能力（無氧閾值）。"
+      ],
+      "example": "高強度連續做很多下，肌肉燒燒的時候。",
+      "relatedIds": [
+        "term-glycolysis",
+        "term-anaerobic-threshold"
+      ],
+      "lessonIds": [
+        "L22",
+        "L23"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-energy"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-aerobic-system",
+      "term": "有氧系統",
+      "aliases": [
+        "氧化系統",
+        "有氧代謝"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "要用氧氣、最慢但最持久的能量系統。",
+      "explain": [
+        "WG：燃料醣、脂肪、蛋白質；例子 1000m 以上、慢跑。"
+      ],
+      "example": "像銀行帳戶：領錢慢，但錢很多。",
+      "relatedIds": [
+        "term-pcr",
+        "term-glycolysis"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-energy"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/energy-systems.svg",
+        "caption": "三大能量系統：磷快、糖中、氧慢久"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/energy-systems.svg",
+          "caption": "三大能量系統｜磷化物（快）、糖解（中）、有氧（慢久）。",
+          "figId": "dg-energy-systems",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-aerobic-vs-anaerobic",
+      "term": "有氧 vs 無氧",
+      "aliases": [
+        "無氧運動",
+        "有氧運動"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "無氧＝不太需要氧氣、快但撐不久；有氧＝要用氧氣、慢但撐很久。",
+      "explain": [
+        "磷酸肌酸＝無氧；糖解＝無氧／有氧；有氧系統＝有氧。"
+      ],
+      "example": "衝刺偏無氧；慢跑偏有氧。",
+      "relatedIds": [
+        "term-pcr",
+        "term-aerobic-system"
+      ],
+      "lessonIds": [
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-energy"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-heart-rate",
+      "term": "心率",
+      "aliases": [
+        "心跳",
+        "bpm"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "心臟每分鐘跳幾下（bpm，次／分）。",
+      "explain": [
+        "〔補充〕量法：手腕拇指側摸脈搏，數 15 秒 × 4。"
+      ],
+      "example": "安靜坐著約 60–80 下算常見。〔補充〕",
+      "relatedIds": [
+        "term-mhr",
+        "term-rhr",
+        "term-hrr",
+        "term-thr"
+      ],
+      "lessonIds": [
+        "L23"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-hr-names"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/hr-zones.svg",
+        "caption": "影片 5 心率區間＋Karvonen 步驟（補充公式）"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/hr-zones.svg",
+          "caption": "心率區間＋Karvonen｜影片 5 心率區間＋Karvonen 步驟（補充公式）。",
+          "figId": "dg-hr-zones",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-mhr",
+      "term": "最大心率",
+      "aliases": [
+        "MHR",
+        "Maximum Heart Rate"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "拚到極限時心臟最快能跳幾下。",
+      "explain": [
+        "〔補充：常見公式，影片未列公式〕MHR ≈ 220 − 年齡。",
+        "影片 5 個心率區間用「%最大心率」切。"
+      ],
+      "example": "40 歲 → 220−40＝180 bpm（粗估）。",
+      "relatedIds": [
+        "term-hrr",
+        "term-hr-zones"
+      ],
+      "lessonIds": [
+        "L23"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-hr-names",
+        "mn-wgmt-karvonen"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/hr-zones.svg",
+        "caption": "影片 5 心率區間＋Karvonen 步驟（補充公式）"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/hr-zones.svg",
+          "caption": "心率區間＋Karvonen｜影片 5 心率區間＋Karvonen 步驟（補充公式）。",
+          "figId": "dg-hr-zones",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-rhr",
+      "term": "安靜心率",
+      "aliases": [
+        "RHR",
+        "靜止心率",
+        "Resting Heart Rate"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "完全休息、放鬆時的心率。",
+      "explain": [
+        "〔補充〕建議早上剛醒、還沒下床時量。",
+        "Karvonen 公式最後要「加回」它。"
+      ],
+      "example": "早上醒來躺著數到每分鐘 65 下 → RHR＝65。",
+      "relatedIds": [
+        "term-hrr",
+        "term-thr"
+      ],
+      "lessonIds": [
+        "L23"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-hr-names"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-hrr",
+      "term": "儲備心率",
+      "aliases": [
+        "HRR",
+        "Heart Rate Reserve",
+        "可動用心率",
+        "%HRR"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "可動用心率＝最大心率 − 安靜心率。",
+      "explain": [
+        "WG 影片：HRR＝可動用心率。",
+        "FITT-VP 表心肺強度用 %HRR：中度 40～<60%、高強度 ≥60%。"
+      ],
+      "example": "薪水（MHR）− 房租（RHR）＝可自由花的錢（HRR）。",
+      "relatedIds": [
+        "term-mhr",
+        "term-rhr",
+        "term-karvonen"
+      ],
+      "lessonIds": [
+        "L23",
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-hr-names",
+        "mn-wgmt-karvonen"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/hr-zones.svg",
+        "caption": "影片 5 心率區間＋Karvonen 步驟（補充公式）"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/hr-zones.svg",
+          "caption": "心率區間＋Karvonen｜影片 5 心率區間＋Karvonen 步驟（補充公式）。",
+          "figId": "dg-hr-zones",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-thr",
+      "term": "目標心率",
+      "aliases": [
+        "THR",
+        "Target Heart Rate",
+        "訓練心率"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "這次訓練希望心跳落在的數字。",
+      "explain": [
+        "〔補充公式〕Karvonen：THR＝(MHR−RHR)×強度%＋RHR；或 %MHR 法：THR＝MHR×強度%。"
+      ],
+      "example": "30 歲 RHR70 用 60% HRR → 142 bpm。",
+      "relatedIds": [
+        "term-karvonen",
+        "term-hrr"
+      ],
+      "lessonIds": [
+        "L23"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-karvonen"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/hr-zones.svg",
+        "caption": "影片 5 心率區間＋Karvonen 步驟（補充公式）"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/hr-zones.svg",
+          "caption": "心率區間＋Karvonen｜影片 5 心率區間＋Karvonen 步驟（補充公式）。",
+          "figId": "dg-hr-zones",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-karvonen",
+      "term": "Karvonen 公式",
+      "aliases": [
+        "Karvonen",
+        "卡氏公式"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "〔補充：常見公式，影片未列公式〕用儲備心率算目標心率：THR＝HRR×%＋RHR。",
+      "explain": [
+        "步驟：① MHR＝220−年齡 ② HRR＝MHR−RHR ③ HRR×強度% ④ ＋RHR。口訣：先減、再乘、最後加回。",
+        "最常錯：忘了加回 RHR。"
+      ],
+      "example": "50 歲、RHR80、40% → 170−80＝90 → ×0.4＝36 → ＋80＝116。",
+      "relatedIds": [
+        "term-hrr",
+        "term-thr"
+      ],
+      "lessonIds": [
+        "L23",
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-karvonen"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/hr-zones.svg",
+        "caption": "影片 5 心率區間＋Karvonen 步驟（補充公式）"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/hr-zones.svg",
+          "caption": "心率區間＋Karvonen｜影片 5 心率區間＋Karvonen 步驟（補充公式）。",
+          "figId": "dg-hr-zones",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-hr-zones",
+      "term": "心率區間",
+      "aliases": [
+        "最大心率區間",
+        "訓練區間"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "依 %最大心率分段，每段訓練效果不同。",
+      "explain": [
+        "WG：<55% 未達有效｜55–75% 有氧耐力｜75–85% 有氧動力｜85–95% 最大效能｜>95% 速度。",
+        "站內講義另有一版切法，考題給哪張表就照哪張。"
+      ],
+      "example": "想熱身／減脂先在 55–75%；想提高無氧閾值用 85–95%。",
+      "relatedIds": [
+        "term-mhr",
+        "term-anaerobic-threshold",
+        "term-vo2max"
+      ],
+      "lessonIds": [
+        "L23"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-zones5"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/diagrams/hr-zones.svg",
+        "caption": "影片 5 心率區間＋Karvonen 步驟（補充公式）"
+      },
+      "figures": [
+        {
+          "src": "assets/diagrams/hr-zones.svg",
+          "caption": "心率區間＋Karvonen｜影片 5 心率區間＋Karvonen 步驟（補充公式）。",
+          "figId": "dg-hr-zones",
+          "kind": "diagram"
+        }
+      ]
+    },
+    {
+      "id": "term-anaerobic-threshold",
+      "term": "無氧閾值",
+      "aliases": [
+        "anaerobic threshold"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "〔補充定義〕強度往上加到某點，乳酸開始堆得比清得快的轉折點。",
+      "explain": [
+        "WG：85–95% 最大心率（最大效能）可提高無氧閾值／代謝乳酸能力。",
+        "閾值越高＝能用更高強度撐更久。常和「乳酸閾值」一起講。"
+      ],
+      "example": "以前配速 6 分就喘到不行，練完 5 分半還撐得住。",
+      "relatedIds": [
+        "term-lactate",
+        "term-hr-zones"
+      ],
+      "lessonIds": [
+        "L23"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-zones5"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-vo2max",
+      "term": "最大攝氧量",
+      "aliases": [
+        "VO2max",
+        "VO₂max",
+        "攝氧量"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "〔補充定義〕身體每分鐘最多能吸收並使用的氧氣量，心肺能力的天花板。",
+      "explain": [
+        "WG：>95% 最大心率（速度區）提升攝氧量、最大攝氧量；屬間歇高強度、無法久。"
+      ],
+      "example": "耐力運動員的最大攝氧量通常很高。",
+      "relatedIds": [
+        "term-hr-zones",
+        "term-interval"
+      ],
+      "lessonIds": [
+        "L23"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-zones5"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-interval",
+      "term": "間歇訓練",
+      "aliases": [
+        "間歇",
+        "HIIT"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "高強度一段、休息一段，反覆進行。",
+      "explain": [
+        "WG：>95% 最大心率屬間歇高強度，無法持久。〔補充〕HIIT＝高強度間歇訓練。"
+      ],
+      "example": "衝刺 30 秒、走路 90 秒，重複 6 輪。",
+      "relatedIds": [
+        "term-vo2max",
+        "term-hr-zones"
+      ],
+      "lessonIds": [
+        "L23"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-zones5"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-needs-analysis",
+      "term": "需求分析",
+      "aliases": [
+        "需求評估"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "上課前先搞清楚客戶：要什麼、傷過什麼、程度多少。",
+      "explain": [
+        "WG 三點：① 客戶需求 ② 傷病史 ③ 體適能水準與訓練經驗。教官強調上課前非常重要。"
+      ],
+      "example": "像醫生先問診才開藥。",
+      "relatedIds": [
+        "term-injury-history",
+        "term-exercise-rx",
+        "term-fittvp"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-needs3"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-injury-history",
+      "term": "傷病史",
+      "aliases": [],
+      "category": "訓練科學",
+      "oneLiner": "以前受過的傷、現在有的疾病。",
+      "explain": [
+        "需求分析三點之一；決定哪些動作要避開或調整。"
+      ],
+      "example": "膝蓋開過刀、高血壓、腰椎問題。",
+      "relatedIds": [
+        "term-needs-analysis"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-needs3"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-exercise-rx",
+      "term": "運動處方",
+      "aliases": [
+        "課表處方"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "依需求分析開出的「訓練配方」，常用 FITT-VP 寫。",
+      "explain": [
+        "需求分析＝問診；運動處方＝藥單。"
+      ],
+      "example": "每週 3 次、中強度快走 30 分……",
+      "relatedIds": [
+        "term-fittvp",
+        "term-needs-analysis"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-fittvp"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-fittvp",
+      "term": "FITT-VP",
+      "aliases": [
+        "FITTVP",
+        "FITT",
+        "FITT-VP 原則"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "開課表的六格：頻率、強度、時間、類型、總量、進展。",
+      "explain": [
+        "口訣：幾次、多用力、多久、練什麼、總共、怎麼加。",
+        "影片：第二個 T＝模式、P＝進階；表格：第二個 T＝類型、P 欄標「模式／進展」。"
+      ],
+      "example": "客戶 A：每週 4 次、80%、1 小時、固定式器材、組×次×重量、每週／每月調整。",
+      "relatedIds": [
+        "term-frequency",
+        "term-intensity",
+        "term-volume",
+        "term-progression"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-fittvp"
+      ],
+      "highYield": true,
+      "diagram": {
+        "src": "assets/fitt-vp-table.jpg",
+        "caption": "FITT-VP 運動處方表（學員提供；文字版見 L24）"
+      },
+      "figures": [
+        {
+          "src": "assets/fitt-vp-table.jpg",
+          "caption": "FITT-VP 運動處方表｜學員提供的 FITT-VP 表（文字版見 L24）。",
+          "figId": "fitt-vp-table",
+          "kind": "diagram",
+          "credit": "學員提供"
+        }
+      ]
+    },
+    {
+      "id": "term-frequency",
+      "term": "頻率（F）",
+      "aliases": [
+        "訓練頻率",
+        "Frequency"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "一週練幾次。",
+      "explain": [
+        "表：心肺中強度≥5 次／高強度≥3 次／合併 3–5 次；阻力 2–3 次；柔軟度至少 2–3 次、每天最好。"
+      ],
+      "example": "每週一、三、五練＝頻率 3 次。",
+      "relatedIds": [
+        "term-fittvp"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-fittvp"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-intensity",
+      "term": "強度（I）",
+      "aliases": [
+        "訓練強度",
+        "Intensity"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "練多用力、負荷多重。",
+      "explain": [
+        "重訓常用 %1RM／%RM、自覺量表；心肺常用 %HRR（中度 40～<60%、高 ≥60%）；柔軟度拉到緊或輕微不適。",
+        "7 因素之一：太高做不完、太低沒效。"
+      ],
+      "example": "80%1RM、60% HRR。",
+      "relatedIds": [
+        "term-fittvp",
+        "term-pct-1rm",
+        "term-hrr"
+      ],
+      "lessonIds": [
+        "L24",
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-fittvp"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-fitt-time",
+      "term": "時間（T）",
+      "aliases": [],
+      "category": "訓練科學",
+      "oneLiner": "一次練多久。",
+      "explain": [
+        "表：心肺中強度 >30 分、高強度 20–25 分、合併 20–30 分；阻力無明確時間；靜態伸展 10–30 秒（老人 30–60 秒）。"
+      ],
+      "example": "一次 1 小時。",
+      "relatedIds": [
+        "term-fittvp"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-fittvp"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-fitt-type",
+      "term": "類型／模式（T）",
+      "aliases": [
+        "運動類型",
+        "運動模式"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "練什麼方式；影片稱「模式」，表稱「類型」。",
+      "explain": [
+        "表：心肺＝有氧（快走、游泳、跳舞、滑步機）、負重運動；阻力＝機械、自由重量、壺鈴、藥球；柔軟度＝主動、被動伸展。"
+      ],
+      "example": "固定式器材、快走。",
+      "relatedIds": [
+        "term-fittvp"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-fittvp"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-volume",
+      "term": "總量（V）",
+      "aliases": [
+        "訓練總量",
+        "訓練量",
+        "Volume"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "加起來總共練了多少。",
+      "explain": [
+        "重訓：組 × 次 × 重量（影片）；表上阻力寫組數、次數。心肺：每週 1000 大卡或 150 分鐘。柔軟度：每部位 60 秒。"
+      ],
+      "example": "3 組 × 10 下 × 40 公斤＝1200 公斤。",
+      "relatedIds": [
+        "term-fittvp"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-fittvp",
+        "mn-wgmt-cardio-150"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-progression",
+      "term": "進展／進階（P）",
+      "aliases": [
+        "漸進",
+        "Progression"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "隨時間怎麼慢慢加量。",
+      "explain": [
+        "影片：強度、次數、頻率改變。表：心肺開始 4～6 週每 1～2 週加 5～10 分；阻力同肌群隔 48 小時、漸增阻力／RM／頻率；柔軟度每部位 2–4 次、肌溫高時最好。"
+      ],
+      "example": "第 1 週快走 20 分 → 第 3 週 30 分。",
+      "relatedIds": [
+        "term-fittvp"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-fittvp",
+        "mn-wgmt-res-48"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-neuromotor",
+      "term": "神經動作訓練",
+      "aliases": [
+        "神經動作",
+        "neuromotor"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "〔補充〕平衡、協調、敏捷、本體感覺類的練習。",
+      "explain": [
+        "你提供的 FITT-VP 表上這列是「……」未填，本站不自行補數字。"
+      ],
+      "example": "單腳站、太極。",
+      "relatedIds": [
+        "term-fittvp",
+        "term-kinesthetic"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [],
+      "highYield": false
+    },
+    {
+      "id": "term-static-stretch",
+      "term": "靜態伸展",
+      "aliases": [
+        "static stretching",
+        "伸展時間",
+        "伸展多久",
+        "伸展幾秒"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "把肌肉拉到定點後停住不動。",
+      "explain": [
+        "表：保持 10–30 秒；老年人 30–60 秒；拉到緊或輕微不適；每部位累計 60 秒、2–4 次；肌溫高時效果最好。"
+      ],
+      "example": "坐姿前彎摸腳尖停 20 秒，做 3 次＝60 秒。",
+      "relatedIds": [
+        "term-active-passive-stretch"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-flex-time"
+      ],
+      "highYield": true
+    },
+    {
+      "id": "term-active-passive-stretch",
+      "term": "主動伸展／被動伸展",
+      "aliases": [
+        "主動伸展",
+        "被動伸展"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "〔補充定義〕主動＝靠自己肌肉出力帶到伸展位；被動＝靠外力（夥伴、彈力帶、牆、重力）幫你拉。",
+      "explain": [
+        "FITT-VP 表柔軟度類型：主動、被動伸展等。"
+      ],
+      "example": "躺著自己抬腿＝主動；夥伴幫你推腿＝被動。",
+      "relatedIds": [
+        "term-static-stretch"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-flex-time"
+      ],
+      "highYield": false
+    },
+    {
+      "id": "term-kcal",
+      "term": "大卡",
+      "aliases": [
+        "kcal",
+        "卡路里"
+      ],
+      "category": "訓練科學",
+      "oneLiner": "能量單位，日常說的「卡路里」。",
+      "explain": [
+        "FITT-VP 表心肺總量：每週 1000 大卡或 150 分鐘。"
+      ],
+      "example": "一週運動加起來消耗約 1000 大卡。",
+      "relatedIds": [
+        "term-volume"
+      ],
+      "lessonIds": [
+        "L24",
+        "L09"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-cardio-150"
+      ],
+      "highYield": false
+    }
+  ]
+}

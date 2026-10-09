@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="t d">
+  <title id="t">肩帶六動作</title>
+  <desc id="d">上提下壓後縮前引上轉下轉：動的是肩胛板</desc>
+  <rect width="960" height="640" rx="16" fill="#1a222d"/>
+  <text x="28" y="38" fill="#2dd4a8" font-size="20" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">肩帶六動作＝肩胛骨在肋骨上怎麼滑</text>
+  <text x="28" y="62" fill="#8b9bb0" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif">記住：這裡動的是「肩胛板」，不是整隻手臂的球頭</text>
+
+  <!-- helper: mini scapula template used in each cell via groups -->
+  <!-- Row1 -->
+  <!-- 1 Elevation -->
+  <g transform="translate(24,84)">
+    <rect width="292" height="250" rx="12" fill="#212b38" stroke="#2dd4a8" stroke-width="1.5"/>
+    <text x="146" y="28" text-anchor="middle" fill="#2dd4a8" font-size="15" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">① 上提 Elevation</text>
+    <text x="146" y="48" text-anchor="middle" fill="#e8eef5" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">聳肩・耳朵靠近肩膀</text>
+    <!-- torso -->
+    <ellipse cx="146" cy="130" rx="42" ry="55" fill="none" stroke="#5a6b7d" stroke-width="2" stroke-dasharray="3 3"/>
+    <!-- scapula up -->
+    <path d="M168 88 L218 102 L208 158 L162 148 Z" fill="#2a3544" stroke="#2dd4a8" stroke-width="2.5"/>
+    <path d="M182 96 L200 142" stroke="#e6b450" stroke-width="2.5"/>
+    <!-- arrow up -->
+    <path d="M230 150 L230 95" stroke="#e6b450" stroke-width="3" fill="none" marker-end="url(#arrY)"/>
+    <polygon points="230,88 224,100 236,100" fill="#e6b450"/>
+    <text x="16" y="200" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">鏡子：兩肩往上端</text>
+    <text x="16" y="218" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">生活：提重袋聳肩</text>
+    <text x="16" y="236" fill="#2dd4a8" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="600">主力：提肩胛＋斜方上</text>
+  </g>
+
+  <!-- 2 Depression -->
+  <g transform="translate(334,84)">
+    <rect width="292" height="250" rx="12" fill="#212b38" stroke="#2dd4a8" stroke-width="1.5"/>
+    <text x="146" y="28" text-anchor="middle" fill="#2dd4a8" font-size="15" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">② 下壓 Depression</text>
+    <text x="146" y="48" text-anchor="middle" fill="#e8eef5" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">沉肩・往口袋方向壓</text>
+    <ellipse cx="146" cy="130" rx="42" ry="55" fill="none" stroke="#5a6b7d" stroke-width="2" stroke-dasharray="3 3"/>
+    <path d="M168 118 L218 132 L208 188 L162 178 Z" fill="#2a3544" stroke="#2dd4a8" stroke-width="2.5"/>
+    <path d="M182 126 L200 172" stroke="#e6b450" stroke-width="2.5"/>
+    <path d="M230 110 L230 165" stroke="#e6b450" stroke-width="3" fill="none"/>
+    <polygon points="230,172 224,160 236,160" fill="#e6b450"/>
+    <text x="16" y="200" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">鏡子：肩膀離耳朵</text>
+    <text x="16" y="218" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">生活：深吸氣後放鬆肩</text>
+    <text x="16" y="236" fill="#2dd4a8" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="600">主力：胸小＋斜方下</text>
+  </g>
+
+  <!-- 3 Retraction -->
+  <g transform="translate(644,84)">
+    <rect width="292" height="250" rx="12" fill="#212b38" stroke="#2dd4a8" stroke-width="1.5"/>
+    <text x="146" y="28" text-anchor="middle" fill="#2dd4a8" font-size="15" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">③ 內收／後縮</text>
+    <text x="146" y="48" text-anchor="middle" fill="#e8eef5" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">夾背・肩胛往脊椎靠</text>
+    <ellipse cx="146" cy="130" rx="42" ry="55" fill="none" stroke="#5a6b7d" stroke-width="2" stroke-dasharray="3 3"/>
+    <!-- two scapulae closer -->
+    <path d="M118 100 L148 112 L140 168 L112 158 Z" fill="#2a3544" stroke="#2dd4a8" stroke-width="2.5"/>
+    <path d="M174 100 L204 112 L196 168 L168 158 Z" fill="#2a3544" stroke="#2dd4a8" stroke-width="2.5"/>
+    <path d="M100 130 L120 130" stroke="#e6b450" stroke-width="3"/>
+    <polygon points="124,130 114,124 114,136" fill="#e6b450"/>
+    <path d="M192 130 L212 130" stroke="#e6b450" stroke-width="3"/>
+    <polygon points="188,130 198,124 198,136" fill="#e6b450"/>
+    <text x="146" y="188" text-anchor="middle" fill="#e6b450" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">← 夾 →</text>
+    <text x="16" y="210" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">鏡子：胸口打開、背後夾</text>
+    <text x="16" y="228" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">生活：挺胸夾背站直</text>
+    <text x="16" y="244" fill="#2dd4a8" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="600">主力：斜方中＋菱形</text>
+  </g>
+
+  <!-- Row2 -->
+  <!-- 4 Protraction -->
+  <g transform="translate(24,352)">
+    <rect width="292" height="264" rx="12" fill="#212b38" stroke="#2dd4a8" stroke-width="1.5"/>
+    <text x="146" y="28" text-anchor="middle" fill="#2dd4a8" font-size="15" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">④ 外展／前引</text>
+    <text x="146" y="48" text-anchor="middle" fill="#e8eef5" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">擁抱前伸・肩胛往前繞</text>
+    <ellipse cx="146" cy="130" rx="42" ry="55" fill="none" stroke="#5a6b7d" stroke-width="2" stroke-dasharray="3 3"/>
+    <path d="M188 100 L248 118 L232 178 L178 162 Z" fill="#2a3544" stroke="#2dd4a8" stroke-width="2.5"/>
+    <path d="M205 110 L225 155" stroke="#e6b450" stroke-width="2.5"/>
+    <path d="M160 130 L200 130" stroke="#e6b450" stroke-width="3"/>
+    <polygon points="206,130 196,124 196,136" fill="#e6b450"/>
+    <text x="16" y="210" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">鏡子：背變圓、肩往前</text>
+    <text x="16" y="228" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">生活：伸手抱人／推牆</text>
+    <text x="16" y="246" fill="#2dd4a8" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="600">主力：前鋸肌</text>
+  </g>
+
+  <!-- 5 Upward rotation -->
+  <g transform="translate(334,352)">
+    <rect width="292" height="264" rx="12" fill="#212b38" stroke="#2dd4a8" stroke-width="1.5"/>
+    <text x="146" y="28" text-anchor="middle" fill="#2dd4a8" font-size="15" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">⑤ 上轉 Upward rot.</text>
+    <text x="146" y="48" text-anchor="middle" fill="#e8eef5" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">舉手開門・下角往外上</text>
+    <ellipse cx="146" cy="130" rx="42" ry="55" fill="none" stroke="#5a6b7d" stroke-width="2" stroke-dasharray="3 3"/>
+    <!-- rotated scapula: glenoid up -->
+    <path d="M168 78 L222 108 L192 172 L148 148 Z" fill="#2a3544" stroke="#2dd4a8" stroke-width="2.5"/>
+    <circle cx="210" cy="100" r="6" fill="#3d9cf0"/>
+    <text x="218" y="96" fill="#3d9cf0" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">盂朝上</text>
+    <path d="M155 165 A40 40 0 0 1 200 120" fill="none" stroke="#e6b450" stroke-width="2.5" stroke-dasharray="4 2"/>
+    <polygon points="204,116 194,118 200,126" fill="#e6b450"/>
+    <text x="16" y="210" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">鏡子：手舉過肩，摸下角外移</text>
+    <text x="16" y="228" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">生活：舉手拿高櫃東西</text>
+    <text x="16" y="246" fill="#2dd4a8" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="600">主力：前鋸＋斜方上／下</text>
+  </g>
+
+  <!-- 6 Downward rotation -->
+  <g transform="translate(644,352)">
+    <rect width="292" height="264" rx="12" fill="#212b38" stroke="#2dd4a8" stroke-width="1.5"/>
+    <text x="146" y="28" text-anchor="middle" fill="#2dd4a8" font-size="15" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">⑥ 下轉 Downward rot.</text>
+    <text x="146" y="48" text-anchor="middle" fill="#e8eef5" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">放下關門・下角往內回</text>
+    <ellipse cx="146" cy="130" rx="42" ry="55" fill="none" stroke="#5a6b7d" stroke-width="2" stroke-dasharray="3 3"/>
+    <path d="M170 108 L220 118 L210 178 L162 170 Z" fill="#2a3544" stroke="#2dd4a8" stroke-width="2.5"/>
+    <circle cx="212" cy="140" r="6" fill="#3d9cf0"/>
+    <text x="220" y="136" fill="#3d9cf0" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">盂回側</text>
+    <path d="M200 115 A36 36 0 0 0 175 160" fill="none" stroke="#e6b450" stroke-width="2.5" stroke-dasharray="4 2"/>
+    <polygon points="172,164 178,154 184,162" fill="#e6b450"/>
+    <text x="16" y="210" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">鏡子：手從過頭放下</text>
+    <text x="16" y="228" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">生活：把手臂放回身側</text>
+    <text x="16" y="246" fill="#2dd4a8" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="600">主力：胸小＋提肩胛＋菱形</text>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="t d">
+  <title id="t">肩帶 vs 肩關節</title>
+  <desc id="d">肩胛在胸廓上滑動 vs 肱骨頭在盂窩轉動；附六＋八動作名</desc>
+  <rect width="760" height="520" rx="16" fill="#1a222d"/>
+  <text x="24" y="36" fill="#e6b450" font-size="18" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">肩帶 ≠ 肩關節（超常搞混・先分清楚）</text>
+  <text x="24" y="58" fill="#8b9bb0" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">一句話：肩帶＝肩胛板怎麼滑；肩關節＝手臂球頭怎麼轉</text>
+
+  <!-- Left: girdle -->
+  <rect x="24" y="76" width="348" height="420" rx="12" fill="#212b38" stroke="#2dd4a8" stroke-width="2"/>
+  <text x="198" y="106" text-anchor="middle" fill="#2dd4a8" font-size="16" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">肩帶（肩胛胸廓）</text>
+  <text x="198" y="128" text-anchor="middle" fill="#8b9bb0" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">肩胛骨在肋骨上「滑」</text>
+  <ellipse cx="198" cy="210" rx="68" ry="78" fill="none" stroke="#5a6b7d" stroke-width="2" stroke-dasharray="4 3"/>
+  <path d="M240 155 L298 175 L282 250 L228 238 Z" fill="#2a3544" stroke="#2dd4a8" stroke-width="2.5"/>
+  <path d="M258 165 L276 230" stroke="#e6b450" stroke-width="3"/>
+  <!-- motion arrows -->
+  <path d="M310 175 L330 160" stroke="#2dd4a8" stroke-width="2.5"/>
+  <polygon points="334,157 324,156 328,166" fill="#2dd4a8"/>
+  <text x="318" y="152" fill="#2dd4a8" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">滑</text>
+  <text x="44" y="310" fill="#e8eef5" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">六動作（講義）</text>
+  <text x="44" y="334" fill="#c5d0dc" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">上提＝聳肩　下壓＝沉肩</text>
+  <text x="44" y="356" fill="#c5d0dc" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">內收＝後縮＝夾背</text>
+  <text x="44" y="378" fill="#c5d0dc" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">外展＝前引＝擁抱前伸</text>
+  <text x="44" y="400" fill="#c5d0dc" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">上轉＝舉手開門　下轉＝放下關門</text>
+  <text x="44" y="430" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">主力：斜方／菱形／前鋸／提肩胛／胸小</text>
+  <text x="44" y="458" fill="#2dd4a8" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">記：動的是「肩胛板」</text>
+  <text x="44" y="480" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">詳圖 → shoulder-girdle-6.svg</text>
+
+  <!-- Right: GH -->
+  <rect x="388" y="76" width="348" height="420" rx="12" fill="#212b38" stroke="#3d9cf0" stroke-width="2"/>
+  <text x="562" y="106" text-anchor="middle" fill="#3d9cf0" font-size="16" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">肩關節（盂肱）</text>
+  <text x="562" y="128" text-anchor="middle" fill="#8b9bb0" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">肱骨頭在淺碗裡「轉」</text>
+  <path d="M470 165 Q492 215 470 265" fill="none" stroke="#2dd4a8" stroke-width="8" stroke-linecap="round"/>
+  <text x="430" y="220" fill="#2dd4a8" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">盂窩</text>
+  <circle cx="530" cy="215" r="30" fill="#3a4555" stroke="#3d9cf0" stroke-width="2.5"/>
+  <line x1="558" y1="215" x2="680" y2="215" stroke="#c5d0dc" stroke-width="14" stroke-linecap="round"/>
+  <text x="540" y="262" fill="#e8eef5" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">肱骨頭</text>
+  <path d="M530 170 A40 40 0 0 1 575 200" fill="none" stroke="#e6b450" stroke-width="2" stroke-dasharray="3 2"/>
+  <text x="580" y="185" fill="#e6b450" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">轉</text>
+  <text x="408" y="310" fill="#e8eef5" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">八動作（講義）</text>
+  <text x="408" y="334" fill="#c5d0dc" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">屈＝前舉　伸＝後帶</text>
+  <text x="408" y="356" fill="#c5d0dc" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">外展＝側舉　內收＝夾回</text>
+  <text x="408" y="378" fill="#c5d0dc" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">水平內收＝夾胸　水平外展＝後開</text>
+  <text x="408" y="400" fill="#c5d0dc" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">內轉＝往肚臍轉　外轉＝往外開</text>
+  <text x="408" y="430" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">主力：三角／闊背／胸大／旋轉肌袖…</text>
+  <text x="408" y="458" fill="#3d9cf0" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">記：動的是「手臂球頭」</text>
+  <text x="408" y="480" fill="#8b9bb0" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">詳圖 → shoulder-joint-8.svg</text>
+</svg>

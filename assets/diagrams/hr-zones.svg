@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" role="img" aria-labelledby="t d">
+  <title id="t">最大心率 5 區間與 Karvonen 計算</title>
+  <desc id="d">WG 影片心率區間：低於55%未達有效、55到75有氧耐力、75到85有氧動力、85到95最大效能、95以上速度；下方為補充公式目標心率計算步驟</desc>
+  <rect width="640" height="460" rx="16" fill="#1a222d"/>
+  <g font-family="Segoe UI,PingFang TC,Noto Sans TC,sans-serif">
+    <text x="24" y="36" fill="#3d9cf0" font-size="19" font-weight="700">最大心率 5 區間（WG 影片，%MHR）</text>
+    <text x="24" y="58" fill="#8b9bb0" font-size="12">口訣：沒・耐・動・效・速（55／75／85／95 切）</text>
+
+    <!-- zone bars bottom-up -->
+    <rect x="24" y="74" width="592" height="44" rx="8" fill="#f07178" opacity="0.9"/>
+    <text x="38" y="102" fill="#1a222d" font-size="14" font-weight="700">&gt;95%  速度</text>
+    <text x="200" y="102" fill="#1a222d" font-size="12">攝氧量↑、提升最大攝氧量｜間歇高強度、無法久</text>
+
+    <rect x="24" y="122" width="592" height="44" rx="8" fill="#f0a35e" opacity="0.9"/>
+    <text x="38" y="150" fill="#1a222d" font-size="14" font-weight="700">85–95%  最大效能</text>
+    <text x="200" y="150" fill="#1a222d" font-size="12">心肺力↑、提高無氧閾值（代謝乳酸能力）</text>
+
+    <rect x="24" y="170" width="592" height="44" rx="8" fill="#e6b450" opacity="0.9"/>
+    <text x="38" y="198" fill="#1a222d" font-size="14" font-weight="700">75–85%  有氧動力</text>
+    <text x="200" y="198" fill="#1a222d" font-size="12">減脂減重、拉高有氧上限</text>
+
+    <rect x="24" y="218" width="592" height="44" rx="8" fill="#2dd4a8" opacity="0.9"/>
+    <text x="38" y="246" fill="#1a222d" font-size="14" font-weight="700">55–75%  有氧耐力</text>
+    <text x="200" y="246" fill="#1a222d" font-size="12">減脂、熱身、有氧成長</text>
+
+    <rect x="24" y="266" width="592" height="36" rx="8" fill="#2d3a4a"/>
+    <text x="38" y="289" fill="#c5d0dc" font-size="14" font-weight="700">&lt;55%  未達有效運動</text>
+
+    <!-- calc box -->
+    <rect x="24" y="316" width="592" height="128" rx="12" fill="#212b38" stroke="#3d9cf0" stroke-width="1.5"/>
+    <text x="40" y="340" fill="#3d9cf0" font-size="14" font-weight="700">補充：常見公式（影片未列公式）｜Karvonen 目標心率</text>
+    <text x="40" y="364" fill="#e8eef5" font-size="13">① MHR ≈ 220 − 年齡　② HRR ＝ MHR − RHR</text>
+    <text x="40" y="386" fill="#e8eef5" font-size="13">③ THR ＝ HRR × 強度% ＋ RHR　（先減、再乘、最後加回）</text>
+    <text x="40" y="410" fill="#e6b450" font-size="12">例：30 歲、RHR 70、60% → 190−70＝120 → ×0.6＝72 → ＋70＝142 bpm</text>
+    <text x="40" y="432" fill="#8b9bb0" font-size="11">%MHR 題（如上方區間）直接 MHR × %，不加 RHR；%HRR 題才用 Karvonen</text>
+  </g>
+</svg>

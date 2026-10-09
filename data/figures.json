@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "version": "2026-10-08",
+  "regions": [
+   "平面",
+   "肩",
+   "肘前臂",
+   "脊柱核心",
+   "髖",
+   "膝踝",
+   "訓練科學"
+  ],
+  "note": "kind: anatomy=真實解剖圖（加中文標註）, anim=動畫示意, diagram=示意圖"
+ },
+ "figures": [
+  {
+   "id": "bp3d-scapula-posterior",
+   "src": "assets/anatomy/bp3d-scapula-posterior.svg",
+   "kind": "anatomy",
+   "region": "肩",
+   "title": "肩胛骨（背面）：肩峰・肩胛棘・盂窩",
+   "caption": "真實骨頭模型（左肩胛骨從背後看）：背後橫的骨脊＝肩胛棘、外上「屋簷」＝肩峰、外側淺碗＝盂窩（從背後只看到邊）。",
+   "credit": "BodyParts3D／Anatomography CC BY-SA 2.1 JP（via Wikimedia Commons）；中文標註為本站加註",
+   "lessons": [
+    "L11",
+    "L19",
+    "L12",
+    "L13"
+   ],
+   "terms": [
+    "term-scapula",
+    "term-spine-of-scapula",
+    "term-acromion",
+    "term-glenoid"
+   ]
+  },
+  {
+   "id": "bp3d-scapula-anterior",
+   "src": "assets/anatomy/bp3d-scapula-anterior.svg",
+   "kind": "anatomy",
+   "region": "肩",
+   "title": "肩胛骨（前面）：喙突・肩峰・盂窩",
+   "caption": "真實骨頭模型（左肩胛骨從前面看，這面貼著肋骨）：往前勾的「鳥嘴」＝喙突、外側淺碗＝盂窩。",
+   "credit": "BodyParts3D／Anatomography CC BY-SA 2.1 JP（via Wikimedia Commons）；中文標註為本站加註",
+   "lessons": [
+    "L11",
+    "L19",
+    "L12"
+   ],
+   "terms": [
+    "term-coracoid",
+    "term-glenoid",
+    "term-acromion",
+    "term-scapula"
+   ]
+  },
+  {
+   "id": "os-pec-lat-deltoid",
+   "src": "assets/anatomy/os-pec-lat-deltoid.svg",
+   "kind": "anatomy",
+   "region": "肩",
+   "title": "胸大肌・闊背肌・三角肌",
+   "caption": "推的主力胸大肌在胸前、拉的主力闊背肌在背側面、三角肌包住肩頭。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L12",
+    "L03",
+    "L06"
+   ],
+   "terms": [
+    "term-pectoralis-major",
+    "term-latissimus-dorsi",
+    "term-deltoid"
+   ]
+  },
+  {
+   "id": "os-rotator-back",
+   "src": "assets/anatomy/os-rotator-back.svg",
+   "kind": "anatomy",
+   "region": "肩",
+   "title": "旋轉袖（背面）：棘上・棘下・小圓肌",
+   "caption": "左肩深層背面：橘字＝旋轉袖（棘上、棘下、小圓；肩胛下肌在前面那張）。三角肌已切開才看得到。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L12",
+    "L19"
+   ],
+   "terms": [
+    "term-rotator-cuff",
+    "term-supraspinatus",
+    "term-infraspinatus",
+    "term-teres-minor",
+    "term-teres-major",
+    "term-spine-of-scapula"
+   ]
+  },
+  {
+   "id": "os-rotator-front",
+   "src": "assets/anatomy/os-rotator-front.svg",
+   "kind": "anatomy",
+   "region": "肩",
+   "title": "肩關節深層（前面）：肩胛下肌・前鋸肌",
+   "caption": "左肩深層前外側看：肩胛下肌（旋轉袖唯一在前面的）、前鋸肌、大圓肌。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L12",
+    "L13"
+   ],
+   "terms": [
+    "term-subscapularis",
+    "term-serratus-anterior",
+    "term-teres-major",
+    "term-rotator-cuff"
+   ]
+  },
+  {
+   "id": "os-shoulder-girdle-back",
+   "src": "assets/anatomy/os-shoulder-girdle-back.svg",
+   "kind": "anatomy",
+   "region": "肩",
+   "title": "肩帶肌肉（背面）：斜方肌・菱形肌",
+   "caption": "背面看：斜方肌在最外層，菱形肌在它底下（夾背主力）。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L13",
+    "L20",
+    "L03",
+    "L19"
+   ],
+   "terms": [
+    "term-trapezius",
+    "term-rhomboids",
+    "term-shoulder-girdle",
+    "term-acromion"
+   ]
+  },
+  {
+   "id": "os-shoulder-girdle-front",
+   "src": "assets/anatomy/os-shoulder-girdle-front.svg",
+   "kind": "anatomy",
+   "region": "肩",
+   "title": "肩帶肌肉（前面）：前鋸肌・胸小肌",
+   "caption": "左肩帶前外側看：前鋸肌像鋸齒貼在肋骨側面、胸小肌從肋骨拉到喙突（胸大肌已切開）。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L13",
+    "L20",
+    "L03"
+   ],
+   "terms": [
+    "term-serratus-anterior",
+    "term-pectoralis-minor",
+    "term-coracoid"
+   ]
+  },
+  {
+   "id": "os-upperarm-front",
+   "src": "assets/anatomy/os-upperarm-front.svg",
+   "kind": "anatomy",
+   "region": "肘前臂",
+   "title": "上臂前面：肱二頭肌・肱肌",
+   "caption": "屈肘肌：肱二頭肌（長頭／短頭）在表層，肱肌在它底下靠手肘。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L14",
+    "L03"
+   ],
+   "terms": [
+    "term-biceps",
+    "term-brachialis"
+   ]
+  },
+  {
+   "id": "os-upperarm-back",
+   "src": "assets/anatomy/os-upperarm-back.svg",
+   "kind": "anatomy",
+   "region": "肘前臂",
+   "title": "上臂後面：肱三頭肌",
+   "caption": "伸肘肌：肱三頭肌（長頭、外側頭；內側頭在深層）。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L14",
+    "L03"
+   ],
+   "terms": [
+    "term-triceps"
+   ]
+  },
+  {
+   "id": "os-forearm-palmar",
+   "src": "assets/anatomy/os-forearm-palmar.svg",
+   "kind": "anatomy",
+   "region": "肘前臂",
+   "title": "前臂掌側：肱橈肌・旋前圓肌",
+   "caption": "左前臂掌心面淺層：肱橈肌（拇指側那條）、旋前圓肌（斜斜一條，負責旋前）、屈腕肌群。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L14"
+   ],
+   "terms": [
+    "term-brachioradialis",
+    "term-pronator-teres"
+   ]
+  },
+  {
+   "id": "os-abdominals",
+   "src": "assets/anatomy/os-abdominals.svg",
+   "kind": "anatomy",
+   "region": "脊柱核心",
+   "title": "腹肌：腹直・腹外斜・腹內斜・腹橫",
+   "caption": "腹直肌（六塊肌，中間有腱劃）、腹外斜肌在最外層；腹內斜肌、腹橫肌在更深層（像束腰）。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L15",
+    "L04",
+    "L03"
+   ],
+   "terms": [
+    "term-rectus-abdominis",
+    "term-obliques",
+    "term-transversus-abdominis",
+    "term-core"
+   ]
+  },
+  {
+   "id": "os-back-deep",
+   "src": "assets/anatomy/os-back-deep.svg",
+   "kind": "anatomy",
+   "region": "脊柱核心",
+   "title": "背部深層：豎脊肌・多裂肌",
+   "caption": "橘字＝豎脊肌群（髂肋肌＋最長肌＋棘肌），沿脊椎兩旁像電線桿；多裂肌更深、更貼脊椎。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L15",
+    "L04"
+   ],
+   "terms": [
+    "term-erector-spinae",
+    "term-multifidus"
+   ]
+  },
+  {
+   "id": "os-iliopsoas-ql",
+   "src": "assets/anatomy/os-iliopsoas-ql.svg",
+   "kind": "anatomy",
+   "region": "脊柱核心",
+   "title": "腹後壁：腰方肌・髂腰肌",
+   "caption": "從前面看腹腔後壁：腰方肌（側屈）；髂肌＋腰大肌＝髂腰肌（髖屈曲）。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L15",
+    "L16",
+    "L04"
+   ],
+   "terms": [
+    "term-quadratus-lumborum",
+    "term-iliopsoas"
+   ]
+  },
+  {
+   "id": "os-hip-thigh-front",
+   "src": "assets/anatomy/os-hip-thigh-front.svg",
+   "kind": "anatomy",
+   "region": "髖",
+   "title": "髖與大腿前面：髂腰・縫匠・股四・內收",
+   "caption": "右腿前面淺層：股四頭（股直、股外側、股內側）、縫匠肌（斜跨最長）、闊筋膜張肌、內收肌群（內收長肌、內收大肌、股薄肌）。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L16",
+    "L05"
+   ],
+   "terms": [
+    "term-iliopsoas",
+    "term-sartorius",
+    "term-tfl",
+    "term-rectus-femoris",
+    "term-quadriceps",
+    "term-adductors"
+   ]
+  },
+  {
+   "id": "os-hip-thigh-back",
+   "src": "assets/anatomy/os-hip-thigh-back.svg",
+   "kind": "anatomy",
+   "region": "髖",
+   "title": "髖與大腿後面：臀中小・梨狀・腿後腱",
+   "caption": "右腿背面（臀大肌已切開）：臀中、臀小、梨狀肌＋外轉六肌；大腿後面腿後腱＝股二頭＋半腱＋半膜。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L16",
+    "L05"
+   ],
+   "terms": [
+    "term-gluteus-medius",
+    "term-gluteus-maximus",
+    "term-piriformis",
+    "term-six-deep-rotators",
+    "term-hamstrings",
+    "term-obturator-internus",
+    "term-obturator-externus",
+    "term-gemellus-superior",
+    "term-gemellus-inferior",
+    "term-quadratus-femoris"
+   ]
+  },
+  {
+   "id": "os-leg-front",
+   "src": "assets/anatomy/os-leg-front.svg",
+   "kind": "anatomy",
+   "region": "膝踝",
+   "title": "小腿前面：脛前肌",
+   "caption": "右小腿前面：脛前肌（背屈，腳尖往上勾）貼在脛骨外側。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L05",
+    "L17"
+   ],
+   "terms": [
+    "term-tibialis-anterior"
+   ]
+  },
+  {
+   "id": "os-leg-back",
+   "src": "assets/anatomy/os-leg-back.svg",
+   "kind": "anatomy",
+   "region": "膝踝",
+   "title": "小腿後面：腓腸肌・比目魚肌",
+   "caption": "右小腿背面：腓腸肌（內、外側頭）在表層，比目魚肌在它底下，兩者共用阿基里斯腱（蹠屈）。",
+   "credit": "OpenStax《Anatomy & Physiology》CC BY 4.0（via Wikimedia Commons）；已裁切、英文標籤改為中文",
+   "lessons": [
+    "L05",
+    "L17"
+   ],
+   "terms": [
+    "term-gastrocnemius",
+    "term-soleus",
+    "term-calf-raise"
+   ]
+  },
+  {
+   "id": "anim-planes-3d",
+   "src": "assets/anim/anim-planes-3d.svg",
+   "kind": "anim",
+   "region": "平面",
+   "title": "三個平面（3D＋動作例子）",
+   "caption": "藍＝矢狀面（切左右：前平舉、深蹲）、綠＝額狀面（切前後：側平舉）、黃＝水平面（切上下：轉身、夾胸）。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L01",
+    "L02",
+    "L17"
+   ],
+   "terms": [
+    "term-sagittal-plane",
+    "term-frontal-plane",
+    "term-transverse-plane",
+    "term-axis"
+   ]
+  },
+  {
+   "id": "anim-shoulder-flex-ext",
+   "src": "assets/anim/anim-shoulder-flex-ext.svg",
+   "kind": "anim",
+   "region": "肩",
+   "title": "肩關節 屈曲／伸展",
+   "caption": "側面看：手臂往前往上＝屈曲；往後帶＝伸展。矢狀面。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L02",
+    "L12",
+    "L17",
+    "L20",
+    "L18"
+   ],
+   "terms": [
+    "term-flexion",
+    "term-extension",
+    "term-front-raise",
+    "term-glenohumeral"
+   ]
+  },
+  {
+   "id": "anim-shoulder-abd-add",
+   "src": "assets/anim/anim-shoulder-abd-add.svg",
+   "kind": "anim",
+   "region": "肩",
+   "title": "肩關節 外展／內收（側平舉）",
+   "caption": "正面看：手臂從側面抬起＝外展（側平舉）；放回身體＝內收。額狀面。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L02",
+    "L12",
+    "L17",
+    "L20",
+    "L18"
+   ],
+   "terms": [
+    "term-abduction",
+    "term-adduction",
+    "term-lateral-raise",
+    "term-pulldown"
+   ]
+  },
+  {
+   "id": "anim-shoulder-horizontal",
+   "src": "assets/anim/anim-shoulder-horizontal.svg",
+   "kind": "anim",
+   "region": "肩",
+   "title": "肩關節 水平內收／水平外展",
+   "caption": "從頭頂看：手臂先抬到肩高，往胸前夾＝水平內收（夾胸）；往後打開＝水平外展（反向飛鳥）。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L12",
+    "L17",
+    "L20",
+    "L18"
+   ],
+   "terms": [
+    "term-horizontal-adduction",
+    "term-horizontal-abduction",
+    "term-chest-fly",
+    "term-reverse-fly"
+   ]
+  },
+  {
+   "id": "anim-shoulder-rotation",
+   "src": "assets/anim/anim-shoulder-rotation.svg",
+   "kind": "anim",
+   "region": "肩",
+   "title": "肩關節 內轉／外轉",
+   "caption": "從頭頂看：手肘貼身體彎 90°，前臂往外打開＝外轉、往肚子轉＝內轉（上臂繞自己長軸轉）。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L02",
+    "L12",
+    "L17",
+    "L20"
+   ],
+   "terms": [
+    "term-internal-rotation",
+    "term-external-rotation",
+    "term-rotator-cuff",
+    "term-infraspinatus",
+    "term-teres-minor",
+    "term-subscapularis"
+   ]
+  },
+  {
+   "id": "anim-scap-elev-dep",
+   "src": "assets/anim/anim-scap-elev-dep.svg",
+   "kind": "anim",
+   "region": "肩",
+   "title": "肩帶 上提／下壓",
+   "caption": "背面看肩胛骨：聳肩＝上提；沉肩＝下壓。動的是肩胛骨，不是手臂球頭。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L13",
+    "L17",
+    "L20"
+   ],
+   "terms": [
+    "term-elevation",
+    "term-depression",
+    "term-shoulder-girdle",
+    "term-levator-scapulae"
+   ]
+  },
+  {
+   "id": "anim-scap-retr-prot",
+   "src": "assets/anim/anim-scap-retr-prot.svg",
+   "kind": "anim",
+   "region": "肩",
+   "title": "肩帶 後縮（內收）／前引（外展）",
+   "caption": "背面看：兩塊肩胛往脊椎夾＝後縮（夾背）；往外往前滑開＝前引（推圓背）。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L13",
+    "L17",
+    "L20",
+    "L18"
+   ],
+   "terms": [
+    "term-retraction",
+    "term-protraction",
+    "term-rhomboids",
+    "term-serratus-anterior",
+    "term-row"
+   ]
+  },
+  {
+   "id": "anim-scap-rotation",
+   "src": "assets/anim/anim-scap-rotation.svg",
+   "kind": "anim",
+   "region": "肩",
+   "title": "肩帶 上轉／下轉",
+   "caption": "手舉過頭時肩胛下角往外上轉＝上轉；手放下轉回來＝下轉。手臂舉高＝肩關節＋肩胛一起動（肩肱節律）。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L13",
+    "L17",
+    "L20"
+   ],
+   "terms": [
+    "term-upward-rotation",
+    "term-downward-rotation",
+    "term-scapulohumeral-rhythm"
+   ]
+  },
+  {
+   "id": "anim-elbow-flex-ext",
+   "src": "assets/anim/anim-elbow-flex-ext.svg",
+   "kind": "anim",
+   "region": "肘前臂",
+   "title": "肘關節 屈曲／伸展",
+   "caption": "側面看：彎起手肘＝屈曲（彎舉）；伸直＝伸展（三頭下壓）。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L14",
+    "L17",
+    "L18"
+   ],
+   "terms": [
+    "term-biceps-curl",
+    "term-triceps-ext",
+    "term-hinge-joint",
+    "term-biceps",
+    "term-triceps",
+    "term-brachialis"
+   ]
+  },
+  {
+   "id": "anim-forearm-pro-sup",
+   "src": "assets/anim/anim-forearm-pro-sup.svg",
+   "kind": "anim",
+   "region": "肘前臂",
+   "title": "前臂 旋前／旋後",
+   "caption": "從上往下看右手：掌心轉向下＝旋前（橈骨繞過尺骨）；轉向上＝旋後。只轉前臂。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L14",
+    "L17"
+   ],
+   "terms": [
+    "term-pronation",
+    "term-supination",
+    "term-radioulnar",
+    "term-pronator-teres",
+    "term-pronator-quadratus",
+    "term-supinator"
+   ]
+  },
+  {
+   "id": "anim-hip-flex-ext",
+   "src": "assets/anim/anim-hip-flex-ext.svg",
+   "kind": "anim",
+   "region": "髖",
+   "title": "髖關節 屈曲／伸展",
+   "caption": "側面看：大腿往前抬＝屈曲；往後擺＝伸展。矢狀面。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L16",
+    "L17",
+    "L05",
+    "L06"
+   ],
+   "terms": [
+    "term-hip-joint",
+    "term-iliopsoas",
+    "term-glute-bridge"
+   ]
+  },
+  {
+   "id": "anim-hip-abd-add",
+   "src": "assets/anim/anim-hip-abd-add.svg",
+   "kind": "anim",
+   "region": "髖",
+   "title": "髖關節 外展／內收",
+   "caption": "正面看：腿往側邊打開＝外展；往中間夾回＝內收。額狀面。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L16",
+    "L17"
+   ],
+   "terms": [
+    "term-adductors",
+    "term-gluteus-medius"
+   ]
+  },
+  {
+   "id": "anim-hip-rotation",
+   "src": "assets/anim/anim-hip-rotation.svg",
+   "kind": "anim",
+   "region": "髖",
+   "title": "髖關節 內轉／外轉",
+   "caption": "正面看右腿：膝蓋（白點）和腳尖一起轉向外＝外轉、轉向內＝內轉。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L16",
+    "L17"
+   ],
+   "terms": [
+    "term-six-deep-rotators",
+    "term-piriformis",
+    "term-internal-rotation",
+    "term-external-rotation"
+   ]
+  },
+  {
+   "id": "anim-knee-flex-ext",
+   "src": "assets/anim/anim-knee-flex-ext.svg",
+   "kind": "anim",
+   "region": "膝踝",
+   "title": "膝關節 屈曲／伸展",
+   "caption": "側面看：腳跟往屁股帶＝屈曲（腿後腱）；把膝蓋伸直＝伸展（股四頭）。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L17",
+    "L05"
+   ],
+   "terms": [
+    "term-hamstrings",
+    "term-quadriceps"
+   ]
+  },
+  {
+   "id": "anim-ankle-df-pf",
+   "src": "assets/anim/anim-ankle-df-pf.svg",
+   "kind": "anim",
+   "region": "膝踝",
+   "title": "踝關節 背屈／蹠屈",
+   "caption": "側面看：腳尖往上勾＝背屈（脛前肌）；腳尖往下壓＝蹠屈（腓腸、比目魚）。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L17",
+    "L05",
+    "L18"
+   ],
+   "terms": [
+    "term-dorsiflexion",
+    "term-plantarflexion",
+    "term-ankle",
+    "term-calf-raise",
+    "term-tibialis-anterior",
+    "term-gastrocnemius",
+    "term-soleus"
+   ]
+  },
+  {
+   "id": "anim-spine-flex-ext",
+   "src": "assets/anim/anim-spine-flex-ext.svg",
+   "kind": "anim",
+   "region": "脊柱核心",
+   "title": "脊柱 屈曲／伸展",
+   "caption": "側面看：彎腰往前捲＝屈曲（腹直肌）；往後挺直＝伸展（豎脊肌）。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L15",
+    "L17",
+    "L04"
+   ],
+   "terms": [
+    "term-rectus-abdominis",
+    "term-erector-spinae"
+   ]
+  },
+  {
+   "id": "anim-spine-lateral-flexion",
+   "src": "assets/anim/anim-spine-lateral-flexion.svg",
+   "kind": "anim",
+   "region": "脊柱核心",
+   "title": "脊柱 側屈",
+   "caption": "正面看：身體往左右彎＝側屈（腰方肌）。額狀面。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L15",
+    "L17"
+   ],
+   "terms": [
+    "term-lateral-flexion",
+    "term-quadratus-lumborum"
+   ]
+  },
+  {
+   "id": "anim-spine-rotation",
+   "src": "assets/anim/anim-spine-rotation.svg",
+   "kind": "anim",
+   "region": "脊柱核心",
+   "title": "脊柱 旋轉",
+   "caption": "從頭頂看：骨盆不動、上半身轉＝旋轉（腹內、外斜肌）。水平面。",
+   "credit": "本站自製動畫示意（SVG）",
+   "lessons": [
+    "L15",
+    "L17"
+   ],
+   "terms": [
+    "term-rotation",
+    "term-obliques"
+   ]
+  },
+  {
+   "id": "dg-shoulder-girdle-vs-joint",
+   "src": "assets/diagrams/shoulder-girdle-vs-joint.svg",
+   "kind": "diagram",
+   "region": "肩",
+   "title": "肩帶 vs 肩關節（對照）",
+   "caption": "左＝肩帶（肩胛骨在肋骨上滑）；右＝肩關節（手臂球頭在碗裡轉）。",
+   "credit": "",
+   "lessons": [
+    "L02",
+    "L13",
+    "L20"
+   ],
+   "terms": [
+    "term-shoulder-girdle"
+   ]
+  },
+  {
+   "id": "dg-side-lateral-raise",
+   "src": "assets/diagrams/side-lateral-raise.svg",
+   "kind": "diagram",
+   "region": "肩",
+   "title": "側平舉示意",
+   "caption": "側平舉＝肩關節外展、額狀面、三角肌中束。",
+   "credit": "",
+   "lessons": [
+    "L18"
+   ],
+   "terms": [
+    "term-lateral-raise"
+   ]
+  },
+  {
+   "id": "dg-upper-push-pull",
+   "src": "assets/diagrams/upper-push-pull.svg",
+   "kind": "diagram",
+   "region": "肩",
+   "title": "推／拉對應肌肉",
+   "caption": "推（臥推、肩推）vs 拉（划船、下拉）各自主力肌。",
+   "credit": "",
+   "lessons": [
+    "L06",
+    "L18"
+   ],
+   "terms": [
+    "term-bench-press",
+    "term-row"
+   ]
+  },
+  {
+   "id": "dg-lower-squat",
+   "src": "assets/diagrams/lower-squat.svg",
+   "kind": "diagram",
+   "region": "髖",
+   "title": "深蹲：髖膝踝怎麼動",
+   "caption": "深蹲＝髖、膝屈伸（矢狀面），臀大＋股四＋腿後協同。",
+   "credit": "",
+   "lessons": [
+    "L06",
+    "L18"
+   ],
+   "terms": [
+    "term-squat"
+   ]
+  },
+  {
+   "id": "dg-load-zones",
+   "src": "assets/diagrams/load-zones.svg",
+   "kind": "diagram",
+   "region": "訓練科學",
+   "title": "%1RM 與次數區間",
+   "caption": "1–6 下肌力／7–12 下肌肥大／12–15 下肌耐力。",
+   "credit": "",
+   "lessons": [
+    "L21"
+   ],
+   "terms": [
+    "term-1rm",
+    "term-pct-1rm",
+    "term-strength",
+    "term-hypertrophy",
+    "term-endurance"
+   ]
+  },
+  {
+   "id": "dg-energy-systems",
+   "src": "assets/diagrams/energy-systems.svg",
+   "kind": "diagram",
+   "region": "訓練科學",
+   "title": "三大能量系統",
+   "caption": "磷化物（快）、糖解（中）、有氧（慢久）。",
+   "credit": "",
+   "lessons": [
+    "L22"
+   ],
+   "terms": [
+    "term-atp",
+    "term-pcr",
+    "term-glycolysis",
+    "term-aerobic-system"
+   ]
+  },
+  {
+   "id": "dg-hr-zones",
+   "src": "assets/diagrams/hr-zones.svg",
+   "kind": "diagram",
+   "region": "訓練科學",
+   "title": "心率區間＋Karvonen",
+   "caption": "影片 5 心率區間＋Karvonen 步驟（補充公式）。",
+   "credit": "",
+   "lessons": [
+    "L23"
+   ],
+   "terms": [
+    "term-heart-rate",
+    "term-mhr",
+    "term-hrr",
+    "term-thr",
+    "term-karvonen",
+    "term-hr-zones"
+   ]
+  },
+  {
+   "id": "fitt-vp-table",
+   "src": "assets/fitt-vp-table.jpg",
+   "kind": "diagram",
+   "region": "訓練科學",
+   "title": "FITT-VP 運動處方表",
+   "caption": "學員提供的 FITT-VP 表（文字版見 L24）。",
+   "credit": "學員提供",
+   "lessons": [
+    "L24"
+   ],
+   "terms": [
+    "term-fittvp"
+   ]
+  }
+ ]
+}

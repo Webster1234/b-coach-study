@@ -1,0 +1,1003 @@
+{
+  "meta": {
+    "title": "考過的人這樣說｜必背重點",
+    "lang": "zh-TW",
+    "updated": "2026-10-08",
+    "note": "綜合公開心得／分享文改寫的「高頻著重點」，非官方考綱 verbatim，亦非考古題原文。不同協會（中華健身運動協會 B／C、TPFDA、體育署國民體適能指導員、ACE 等）範圍不完全相同，此清單抓共通高頻。",
+    "itemCount": 25,
+    "sourceCount": 16
+  },
+  "sources": [
+    {
+      "title": "中華健身運動B級指導員 考照心得",
+      "url": "https://vocus.cc/article/65e875dbfd897800013a9af2",
+      "note": "B級術科抽部位＋肌肥大／肌耐力／爆發力；各部位被動伸展"
+    },
+    {
+      "title": "體適能健身C級指導員認證課程：新手入門學習心得",
+      "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1",
+      "note": "學科大魔王；動作拆解關節→平面→動作→肌肉；能量系統／收縮"
+    },
+    {
+      "title": "考取體適能健身C級指導員證照的心得（巴哈）",
+      "url": "https://home.gamer.com.tw/artwork.php?sn=5591457",
+      "note": "應用題混解剖＋訓練；學科淘汰多；術科訓練對應伸展"
+    },
+    {
+      "title": "[心得] 考取中華民國健身運動協會健身C級心得（PTT）",
+      "url": "https://www.ptt.cc/bbs/MuscleBeach/M.1667227567.A.C59.html",
+      "note": "同巴哈精簡版；解剖大魔王、新手時間不夠"
+    },
+    {
+      "title": "體適能健身C級指導員－俗稱便當證照，有多便當？",
+      "url": "https://thecelinehuang.medium.com/%E9%AB%94%E9%81%A9%E8%83%BD%E5%81%A5%E8%BA%ABc%E7%B4%9A%E6%8C%87%E5%B0%8E%E5%93%A1-%E4%BF%97%E7%A8%B1-%E4%BE%BF%E7%95%B6%E8%AD%89%E7%85%A7-%E6%9C%89%E5%A4%9A%E4%BE%BF%E7%95%B6-a477a4a86a59",
+      "note": "解剖平面燒腦；能量系統；術科口述流程"
+    },
+    {
+      "title": "體適能健身C指導員證照心得（臺南大學電子歷程）",
+      "url": "https://ep.nutn.edu.tw/Home/ViewPaper/16530",
+      "note": "解剖是基礎；生理學做處方；口述指導"
+    },
+    {
+      "title": "教育部體育署國民體適能指導員證照攻略與檢定考試心得",
+      "url": "https://dr-hsieh.com.tw/%E6%88%91%E8%A6%81%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E3%80%8C%E9%AB%94%E9%81%A9%E8%83%BD%E3%80%8D%EF%BC%81%E6%95%99%E8%82%B2%E9%83%A8%E9%AB%94%E8%82%B2%E7%BD%B2%E5%9C%8B%E6%B0%91%E9%AB%94%E9%81%A9/",
+      "note": "術科檢測口訣、長者差異、柔軟度／肌力實作"
+    },
+    {
+      "title": "教育部體育署中級體適能指導員考試心得（運科竹）",
+      "url": "https://vocus.cc/article/6502c66afd89780001f44d00",
+      "note": "增能課＋ACSM 指引；生理／解剖／處方／營養廣"
+    },
+    {
+      "title": "#心得 教育部體育署中級體適能指導員考試心得（Dcard）",
+      "url": "https://www.dcard.tw/f/fitness/p/253298024",
+      "note": "學科廣、術科嚴謹；建議模擬考與增能"
+    },
+    {
+      "title": "自學ACE-CPT 國際私人健身教練考照心得",
+      "url": "https://rimahuphysio.blogspot.com/2020/04/ace-cpt.html",
+      "note": "評估／處方／溝通／特殊族群與營養也要讀"
+    },
+    {
+      "title": "B級健身指導員｜TPFDA 課程頁",
+      "url": "https://www.tpfda.com.tw/course_info?id=184",
+      "note": "B級偏表現：爆發力、增強式、敏捷等（課綱參考）"
+    },
+    {
+      "title": "個人健身指導B級教練｜全適能",
+      "url": "https://www.wellnessfit.tw/%E5%80%8B%E4%BA%BA%E5%81%A5%E8%BA%AB%E6%8C%87%E5%B0%8Eb%E7%B4%9A%E6%95%99%E7%B7%B4/",
+      "note": "週期、體適能檢測、穩定／爆發／增強式"
+    },
+    {
+      "title": "World Gym《解剖學－髖關節 相關肌肉》",
+      "url": "https://youtu.be/qwO0Q0W4k54",
+      "note": "髖屈伸展外展內收、臀三層、雙關節例外、ITBS／梨狀"
+    },
+    {
+      "title": "中華民國健身運動協會｜從運動教練觀點看B級課程（考官撰文）",
+      "url": "https://www.exercise.org.tw/web/news/news_in.jsp?npno=NP1605667899976",
+      "note": "官方／考官觀點：訓練與伸展需清楚起止點以達完整ROM、降傷害——屬專業能力目標，非「考古題會默寫起止點」之證明"
+    },
+    {
+      "title": "教育部體育署／104學習｜中級體適能指導員學科範圍（官方範圍，非協會B）",
+      "url": "https://nabi.104.com.tw/ability/10049081/112%E5%B9%B4_%E4%B8%AD%E7%B4%9A%E9%AB%94%E9%81%A9%E8%83%BD%E6%8C%87%E5%B0%8E%E5%93%A1%E6%8E%88%E8%AD%89%E6%AA%A2%E5%AE%9A%E8%A9%A6%E9%A1%8C",
+      "note": "官方學科第一項即「功能解剖學及生物力學」——不同證照，僅作共通高頻參考"
+    },
+    {
+      "title": "World Gym《肌能訓練》",
+      "url": "https://youtu.be/bitXk8tqgMI",
+      "note": "負荷設定表、能量系統、心率區間與名詞（可能考計算）、需求分析、FITT-VP"
+    }
+  ],
+  "items": [
+    {
+      "id": "ef-action-breakdown",
+      "title": "動作拆解：關節→平面→動作→肌肉",
+      "why": "考過的人說學科最常「活考」：給一個動作（如肩推），要你說出用到哪些關節、哪個平面、什麼動作名稱、主力肌。死背不起點，要會拆。",
+      "priority": "高",
+      "topics": [
+        "解剖應用",
+        "平面",
+        "肌動學"
+      ],
+      "lessonIds": [
+        "L01",
+        "L02",
+        "L03",
+        "L06",
+        "L12",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-planes",
+        "mn-plane-axis",
+        "mn-sits",
+        "mn-push-pull",
+        "mn-squat-push-pull"
+      ],
+      "pitfalls": [
+        "只背肌肉名字卻答不出「在哪個平面做什麼動作」",
+        "把解剖學姿勢（掌心朝前）跟平常自然站姿搞混"
+      ],
+      "sources": [
+        {
+          "title": "C級新手入門學習心得（Medium）",
+          "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1"
+        },
+        {
+          "title": "C級考照心得（巴哈）",
+          "url": "https://home.gamer.com.tw/artwork.php?sn=5591457"
+        },
+        {
+          "title": "C級便當證照心得（Medium）",
+          "url": "https://thecelinehuang.medium.com/%E9%AB%94%E9%81%A9%E8%83%BD%E5%81%A5%E8%BA%ABc%E7%B4%9A%E6%8C%87%E5%B0%8E%E5%93%A1-%E4%BF%97%E7%A8%B1-%E4%BE%BF%E7%95%B6%E8%AD%89%E7%85%A7-%E6%9C%89%E5%A4%9A%E4%BE%BF%E7%95%B6-a477a4a86a59"
+        }
+      ]
+    },
+    {
+      "id": "ef-planes",
+      "title": "三個解剖平面＋典型動作",
+      "why": "多篇心得說「切面」最燒腦，卻幾乎必考。先把矢狀／額狀／水平配上深蹲、側平舉、轉身。",
+      "priority": "高",
+      "topics": [
+        "平面",
+        "方位"
+      ],
+      "lessonIds": [
+        "L01"
+      ],
+      "mnemonicIds": [
+        "mn-planes",
+        "mn-plane-axis",
+        "mn-anat-pose"
+      ],
+      "pitfalls": [
+        "額狀面（前後切）跟矢狀面（左右切）對調",
+        "水平面以為只能左右轉、忘了肩內外旋也在這"
+      ],
+      "sources": [
+        {
+          "title": "C級便當證照心得（Medium）",
+          "url": "https://thecelinehuang.medium.com/%E9%AB%94%E9%81%A9%E8%83%BD%E5%81%A5%E8%BA%ABc%E7%B4%9A%E6%8C%87%E5%B0%8E%E5%93%A1-%E4%BF%97%E7%A8%B1-%E4%BE%BF%E7%95%B6%E8%AD%89%E7%85%A7-%E6%9C%89%E5%A4%9A%E4%BE%BF%E7%95%B6-a477a4a86a59"
+        },
+        {
+          "title": "C級新手入門學習心得（Medium）",
+          "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1"
+        }
+      ]
+    },
+    {
+      "id": "ef-sits",
+      "title": "旋轉肌袖 SITS（功能＋誰前誰後）",
+      "why": "肩是考點大戶。會背四條名字不夠，還要知道大致功能、止點前後、夾擠相關概念。",
+      "priority": "高",
+      "topics": [
+        "肩",
+        "旋轉肌袖"
+      ],
+      "lessonIds": [
+        "L03",
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-sits",
+        "mn-sits-place",
+        "mn-sits-insert",
+        "mn-sits-dynamic-lig",
+        "mn-impingement-contents"
+      ],
+      "pitfalls": [
+        "把棘上當「聳肩主力」",
+        "側平舉過度內旋容易夾擠卻不記得避"
+      ],
+      "sources": [
+        {
+          "title": "C級考照心得（巴哈）",
+          "url": "https://home.gamer.com.tw/artwork.php?sn=5591457"
+        },
+        {
+          "title": "C指導員證照心得（臺南大學）",
+          "url": "https://ep.nutn.edu.tw/Home/ViewPaper/16530"
+        }
+      ]
+    },
+    {
+      "id": "ef-contraction",
+      "title": "肌肉收縮：向心／離心／等長",
+      "why": "學科常考名詞對照；心得也提醒等長、等張（向心離心）要牢記，並能舉訓練例子。",
+      "priority": "高",
+      "topics": [
+        "生理",
+        "收縮"
+      ],
+      "lessonIds": [
+        "L07"
+      ],
+      "mnemonicIds": [
+        "mn-contraction",
+        "mn-doms-eccentric",
+        "mn-tempo-ecc",
+        "mn-agonist-team"
+      ],
+      "pitfalls": [
+        "以為「放下重量＝沒在用力」（其實常是離心）",
+        "把等長跟等速搞混"
+      ],
+      "sources": [
+        {
+          "title": "C級新手入門學習心得（Medium）",
+          "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1"
+        },
+        {
+          "title": "C級便當證照心得（Medium）",
+          "url": "https://thecelinehuang.medium.com/%E9%AB%94%E9%81%A9%E8%83%BD%E5%81%A5%E8%BA%ABc%E7%B4%9A%E6%8C%87%E5%B0%8E%E5%93%A1-%E4%BF%97%E7%A8%B1-%E4%BE%BF%E7%95%B6%E8%AD%89%E7%85%A7-%E6%9C%89%E5%A4%9A%E4%BE%BF%E7%95%B6-a477a4a86a59"
+        }
+      ]
+    },
+    {
+      "id": "ef-energy",
+      "title": "三大能量系統時間軸",
+      "why": "多篇心得點名能量系統是必記基礎：短衝、糖解、有氧大概多久、對應什麼訓練感覺。",
+      "priority": "高",
+      "topics": [
+        "能量系統",
+        "生理"
+      ],
+      "lessonIds": [
+        "L07",
+        "L10",
+        "L22"
+      ],
+      "mnemonicIds": [
+        "mn-energy",
+        "mn-energy-work-rest",
+        "mn-wgmt-energy"
+      ],
+      "pitfalls": [
+        "以為三種系統「輪流開、不同時」，其實常同時參與、比例不同",
+        "把休息時間跟目標系統對不上"
+      ],
+      "sources": [
+        {
+          "title": "C級新手入門學習心得（Medium）",
+          "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1"
+        },
+        {
+          "title": "C級便當證照心得（Medium）",
+          "url": "https://thecelinehuang.medium.com/%E9%AB%94%E9%81%A9%E8%83%BD%E5%81%A5%E8%BA%ABc%E7%B4%9A%E6%8C%87%E5%B0%8E%E5%93%A1-%E4%BF%97%E7%A8%B1-%E4%BE%BF%E7%95%B6%E8%AD%89%E7%85%A7-%E6%9C%89%E5%A4%9A%E4%BE%BF%E7%95%B6-a477a4a86a59"
+        }
+      ]
+    },
+    {
+      "id": "ef-training-zones",
+      "title": "肌肥大／肌力／肌耐力／爆發力參數",
+      "why": "B級心得：術科常抽「部位＋訓練方式」，抽到肌肥大卻做成爆發力會硬傷。次數、負荷、休息要分得清。",
+      "priority": "高",
+      "topics": [
+        "訓練法",
+        "術科"
+      ],
+      "lessonIds": [
+        "L06",
+        "L07",
+        "L10",
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-rep-zone",
+        "mn-energy-work-rest",
+        "mn-tempo-ecc",
+        "mn-wgmt-rep-zones"
+      ],
+      "pitfalls": [
+        "肌肥大跟肌耐力組數休息記反",
+        "爆發力做成慢速大重量離心"
+      ],
+      "sources": [
+        {
+          "title": "中華健身運動B級指導員考照心得",
+          "url": "https://vocus.cc/article/65e875dbfd897800013a9af2"
+        },
+        {
+          "title": "個人健身指導B級教練課綱",
+          "url": "https://www.wellnessfit.tw/%E5%80%8B%E4%BA%BA%E5%81%A5%E8%BA%AB%E6%8C%87%E5%B0%8Eb%E7%B4%9A%E6%95%99%E7%B7%B4/"
+        }
+      ]
+    },
+    {
+      "id": "ef-teach-flow",
+      "title": "術科教學流程＋訓練對應伸展",
+      "why": "考過的人說：會練≠會教。要會口述、問可不可以碰、由慢到快再加呼吸；練哪個部位就要會伸展哪個部位。",
+      "priority": "高",
+      "topics": [
+        "術科",
+        "教學",
+        "伸展"
+      ],
+      "lessonIds": [
+        "L06",
+        "L03",
+        "L05"
+      ],
+      "mnemonicIds": [
+        "mn-squat-push-pull",
+        "mn-push-pull",
+        "mn-hip-squat"
+      ],
+      "pitfalls": [
+        "一上台就自己示範、忘了口述步驟",
+        "練胸卻伸展無關部位",
+        "沒先問觸碰同意"
+      ],
+      "sources": [
+        {
+          "title": "中華健身運動B級指導員考照心得",
+          "url": "https://vocus.cc/article/65e875dbfd897800013a9af2"
+        },
+        {
+          "title": "C級新手入門學習心得（Medium）",
+          "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1"
+        },
+        {
+          "title": "C級考照心得（巴哈）",
+          "url": "https://home.gamer.com.tw/artwork.php?sn=5591457"
+        },
+        {
+          "title": "C指導員證照心得（臺南大學）",
+          "url": "https://ep.nutn.edu.tw/Home/ViewPaper/16530"
+        }
+      ]
+    },
+    {
+      "id": "ef-nutrition",
+      "title": "營養：4／4／9 與飲食順序",
+      "why": "C／B／體育署相關準備都常碰到三大營養素熱量；先背 1g 醣／蛋白≈4 kcal、脂肪≈9 kcal，再記簡單飲食順序。",
+      "priority": "高",
+      "topics": [
+        "營養"
+      ],
+      "lessonIds": [
+        "L09"
+      ],
+      "mnemonicIds": [
+        "mn-macro-kcal",
+        "mn-eat-order",
+        "mn-adek"
+      ],
+      "pitfalls": [
+        "把脂肪記成 4 kcal",
+        "把脂溶／水溶維生素記反"
+      ],
+      "sources": [
+        {
+          "title": "中級體適能指導員考試心得（運科竹）",
+          "url": "https://vocus.cc/article/6502c66afd89780001f44d00"
+        },
+        {
+          "title": "自學ACE-CPT心得",
+          "url": "https://rimahuphysio.blogspot.com/2020/04/ace-cpt.html"
+        }
+      ]
+    },
+    {
+      "id": "ef-cross-syndrome",
+      "title": "上／下交叉症候群（緊弱對角）",
+      "why": "姿勢評估與矯正常考概念：哪邊緊、哪邊弱，不要一上来猛拉緊的、忘了強化弱的。",
+      "priority": "中",
+      "topics": [
+        "交叉症候群",
+        "姿勢"
+      ],
+      "lessonIds": [
+        "L03",
+        "L04",
+        "L13",
+        "L15",
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-upper-cross",
+        "mn-lower-cross",
+        "mn-rhomboid-long-tight",
+        "mn-pec-minor-135",
+        "mn-gmed-chain",
+        "mn-glute-depth"
+      ],
+      "pitfalls": [
+        "只伸展不強化（或只強化不伸展）",
+        "下交叉把臀大跟髂腰肌角色搞反"
+      ],
+      "sources": [
+        {
+          "title": "自學ACE-CPT心得",
+          "url": "https://rimahuphysio.blogspot.com/2020/04/ace-cpt.html"
+        },
+        {
+          "title": "中級體適能指導員考試心得（Dcard）",
+          "url": "https://www.dcard.tw/f/fitness/p/253298024"
+        }
+      ]
+    },
+    {
+      "id": "ef-spindle-gto",
+      "title": "肌梭 vs GTO（長度／張力）",
+      "why": "反射與伸展安全常考：肌梭管長度、腱器官管張力；伸展時不要亂彈震。",
+      "priority": "中",
+      "topics": [
+        "反射",
+        "伸展安全"
+      ],
+      "lessonIds": [
+        "L08"
+      ],
+      "mnemonicIds": [
+        "mn-spindle-gto"
+      ],
+      "pitfalls": [
+        "把肌梭跟 GTO 功能對調",
+        "以為伸展時用力彈震比較有效"
+      ],
+      "sources": [
+        {
+          "title": "C級新手入門學習心得（Medium）",
+          "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1"
+        },
+        {
+          "title": "體育署體適能指導員攻略心得",
+          "url": "https://dr-hsieh.com.tw/%E6%88%91%E8%A6%81%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E3%80%8C%E9%AB%94%E9%81%A9%E8%83%BD%E3%80%8D%EF%BC%81%E6%95%99%E8%82%B2%E9%83%A8%E9%AB%94%E8%82%B2%E7%BD%B2%E5%9C%8B%E6%B0%91%E9%AB%94%E9%81%A9/"
+        }
+      ]
+    },
+    {
+      "id": "ef-core",
+      "title": "核心：繃緊≠猛收小腹",
+      "why": "教學與安全常見易錯：腹橫肌是「天然腰帶」式穩定，不是一直用力把肚子吸進去。",
+      "priority": "中",
+      "topics": [
+        "核心",
+        "呼吸"
+      ],
+      "lessonIds": [
+        "L04",
+        "L15"
+      ],
+      "mnemonicIds": [
+        "mn-core-belt",
+        "mn-ta-brace-not-suck",
+        "mn-abs-layers"
+      ],
+      "pitfalls": [
+        "全程憋氣或全程猛吸肚子",
+        "忽略呼吸與骨盆中立"
+      ],
+      "sources": [
+        {
+          "title": "C級新手入門學習心得（Medium）",
+          "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1"
+        },
+        {
+          "title": "B級指導員考照心得",
+          "url": "https://vocus.cc/article/65e875dbfd897800013a9af2"
+        }
+      ]
+    },
+    {
+      "id": "ef-special-pop",
+      "title": "特殊族群與安全紅旗（粗記）",
+      "why": "體育署／ACE 向心得都強調：長者、孕婦、慢性病要知道「能做什麼、不能亂做什麼」；術科也可能問長者變化型。",
+      "priority": "中",
+      "topics": [
+        "特殊族群",
+        "安全"
+      ],
+      "lessonIds": [
+        "L11",
+        "L10"
+      ],
+      "mnemonicIds": [
+        "mn-pregnant-si",
+        "mn-fit-health-skill",
+        "mn-piriformis-flag"
+      ],
+      "pitfalls": [
+        "把一般人課表硬套給長者／孕婦",
+        "忽略疼痛、暈眩等停止訊號"
+      ],
+      "sources": [
+        {
+          "title": "體育署體適能指導員攻略心得",
+          "url": "https://dr-hsieh.com.tw/%E6%88%91%E8%A6%81%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E3%80%8C%E9%AB%94%E9%81%A9%E8%83%BD%E3%80%8D%EF%BC%81%E6%95%99%E8%82%B2%E9%83%A8%E9%AB%94%E8%82%B2%E7%BD%B2%E5%9C%8B%E6%B0%91%E9%AB%94%E9%81%A9/"
+        },
+        {
+          "title": "自學ACE-CPT心得",
+          "url": "https://rimahuphysio.blogspot.com/2020/04/ace-cpt.html"
+        },
+        {
+          "title": "中級體適能指導員考試心得（運科竹）",
+          "url": "https://vocus.cc/article/6502c66afd89780001f44d00"
+        }
+      ]
+    },
+    {
+      "id": "ef-open-closed",
+      "title": "開鏈／閉鏈與蹲推拉",
+      "why": "動作分類常出現在學科與教學說明：遠端自由 vs 固定；深蹲／推／拉對應大肌群要熟。",
+      "priority": "中",
+      "topics": [
+        "動作模式",
+        "生物力學"
+      ],
+      "lessonIds": [
+        "L06"
+      ],
+      "mnemonicIds": [
+        "mn-open-closed",
+        "mn-squat-push-pull",
+        "mn-push-pull"
+      ],
+      "pitfalls": [
+        "把坐姿踢腿當閉鏈、深蹲當開鏈（對調）"
+      ],
+      "sources": [
+        {
+          "title": "TPFDA B級健身指導員課綱",
+          "url": "https://www.tpfda.com.tw/course_info?id=184"
+        },
+        {
+          "title": "C級考照心得（巴哈）",
+          "url": "https://home.gamer.com.tw/artwork.php?sn=5591457"
+        }
+      ]
+    },
+    {
+      "id": "ef-fitness-components",
+      "title": "體適能要素與 FITT 粗架構",
+      "why": "運動處方／體適能概論常見：健康體適能 vs 技能體適能；開處方要想到頻率、強度、時間、種類。",
+      "priority": "中",
+      "topics": [
+        "體適能",
+        "運動處方"
+      ],
+      "lessonIds": [
+        "L10",
+        "L09",
+        "L22",
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-fit-health-skill",
+        "mn-karvonen",
+        "mn-rep-zone",
+        "mn-wgmt-health5",
+        "mn-wgmt-sport6",
+        "mn-wgmt-fittvp"
+      ],
+      "pitfalls": [
+        "把敏捷／平衡全算成健康體適能核心五要素",
+        "處方只寫動作不寫強度與休息"
+      ],
+      "sources": [
+        {
+          "title": "中級體適能指導員考試心得（運科竹）",
+          "url": "https://vocus.cc/article/6502c66afd89780001f44d00"
+        },
+        {
+          "title": "中級體適能指導員考試心得（Dcard）",
+          "url": "https://www.dcard.tw/f/fitness/p/253298024"
+        },
+        {
+          "title": "C級新手入門學習心得（Medium）",
+          "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1"
+        }
+      ]
+    },
+    {
+      "id": "ef-hip-wg",
+      "title": "髖關節肌群：臀三層、雙關節例外、ITBS／梨狀",
+      "why": "下肢與姿勢評估常考：臀中穩定、股直肌／腿後短頭誰跨兩關節、外側膝找 TFL、梨狀與紅旗。WG 髖關節影片與考過的人強調的下肢控制高度重疊。",
+      "priority": "高",
+      "topics": [
+        "髖",
+        "臀中",
+        "股四",
+        "腿後",
+        "ITBS",
+        "梨狀"
+      ],
+      "lessonIds": [
+        "L16",
+        "L05",
+        "L06"
+      ],
+      "mnemonicIds": [
+        "mn-glute-depth",
+        "mn-rectus-fem-bi",
+        "mn-ham-short-ex",
+        "mn-itbs-tfl",
+        "mn-piriformis-flag",
+        "mn-gmed-chain",
+        "mn-iliacus-tilt"
+      ],
+      "pitfalls": [
+        "ITBS 只揉束不理 TFL",
+        "股四全當雙關節",
+        "麻痛加重仍猛壓梨狀"
+      ],
+      "sources": [
+        {
+          "title": "World Gym《解剖學－髖關節 相關肌肉》",
+          "url": "https://youtu.be/qwO0Q0W4k54"
+        },
+        {
+          "title": "C級考照心得（巴哈）",
+          "url": "https://home.gamer.com.tw/artwork.php?sn=5591457"
+        }
+      ]
+    },
+    {
+      "id": "ef-joint-action-table",
+      "title": "關節－動作－肌肉對照表〔對講義 p.73–74〕",
+      "why": "講義「四. 關節動作與肌肉」整表是學科高頻：給動作名稱要答主力肌，或給肌問動作。零基礎要先分肩帶／肩關節、旋前旋後／內外轉、側屈／旋轉、背屈／蹠屈。",
+      "priority": "高",
+      "topics": [
+        "解剖應用",
+        "肌動學",
+        "對講義",
+        "關節動作"
+      ],
+      "lessonIds": [
+        "L17",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16"
+      ],
+      "mnemonicIds": [
+        "mn-lecture-girdle-vs-gh",
+        "mn-lecture-pronate-pour",
+        "mn-lecture-supinate-bowl",
+        "mn-lecture-dorsi-up",
+        "mn-lecture-hip-six",
+        "mn-lecture-spine-side-vs-spin",
+        "mn-lecture-horiz-add",
+        "mn-lecture-elbow-flex3",
+        "mn-lecture-knee-front-back",
+        "mn-lecture-scap-up-rot",
+        "mn-lecture-shoulder-er-ir"
+      ],
+      "pitfalls": [
+        "肩帶動作講成肩關節",
+        "旋前旋後與內外轉互代",
+        "脊柱側屈與旋轉搞混",
+        "背屈蹠屈方向記反",
+        "髖外轉漏掉六條深層肌"
+      ],
+      "sources": [
+        "World Gym 學科講義 p.73–74（學員照片）"
+      ]
+    },
+    {
+      "id": "ef-origin-insert-link",
+      "title": "起點／止點：連動作，不要整本默寫",
+      "why": "考過的人與講師心得多指向「理解＋應用」，不是把每條肌的骨頭座標整本默寫。中華健身運動協會C級場次講師楊仲哲強調「解剖學千萬不要用背的」；學科常活考「動作→關節→平面→動作名稱→肌肉」。協會考官撰文則把「清楚起止點」寫成專業能力（完整收縮／伸展、降傷害），屬課綱／能力目標，公開心得裡鮮少出現「整卷默寫起止點」的描述。讀法：先記功能與關節動作，再把「近端較穩≈起點、遠端被拉≈止點」套到闊背／胸大／縫匠等常考肌。",
+      "priority": "高",
+      "topics": [
+        "解剖應用",
+        "起止點",
+        "肌動學"
+      ],
+      "lessonIds": [
+        "L01",
+        "L02",
+        "L03",
+        "L12",
+        "L16",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-origin-insert-rule",
+        "mn-agonist-team",
+        "mn-sits-insert",
+        "mn-push-pull",
+        "mn-lecture-girdle-vs-gh"
+      ],
+      "pitfalls": [
+        "一開始就背全肌起止點座標，卻答不出「這動作用哪塊肌、在哪個平面」",
+        "把「專業上要懂起止點」誤解成「考卷一定整本默寫」",
+        "起點／止點原則記反（近端穩 vs 遠端動）"
+      ],
+      "sources": [
+        {
+          "title": "C級考照心得（巴哈／同文PTT）",
+          "url": "https://home.gamer.com.tw/artwork.php?sn=5591457"
+        },
+        {
+          "title": "C級新手入門學習心得（Medium）",
+          "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1"
+        },
+        {
+          "title": "協會考官撰文：B級課程收穫（起止點＝專業能力）",
+          "url": "https://www.exercise.org.tw/web/news/news_in.jsp?npno=NP1605667899976"
+        }
+      ]
+    },
+    {
+      "id": "ef-anatomy-highfreq-written",
+      "title": "學科高頻：解剖應用＋生理名詞＋訓練參數",
+      "why": "綜合公開心得（多為中華健身運動協會C／B，非World Gym內考原文）：學科常是大魔王；解剖側重動作拆解與平面（有心得指解剖約佔三成）；生理要背收縮型態、能量系統；術科章節（指導流程、傷害原則）也會出現在學科。B級心得另點名進階解剖、運動力學，以及肌肥大／肌耐力／爆發力參數與「訓練部位對應伸展」。World Gym內部學科公開「考過全文」較少，但講義關節－動作－肌肉表與上述協會考向高度重疊。",
+      "priority": "高",
+      "topics": [
+        "學科",
+        "解剖",
+        "體力學",
+        "生理",
+        "訓練法"
+      ],
+      "lessonIds": [
+        "L01",
+        "L06",
+        "L07",
+        "L10",
+        "L17"
+      ],
+      "mnemonicIds": [
+        "mn-planes",
+        "mn-contraction",
+        "mn-energy",
+        "mn-rep-zone",
+        "mn-lecture-hip-six"
+      ],
+      "pitfalls": [
+        "只練術科口述、輕忽學科應用題",
+        "平面／收縮／能量系統名詞背反",
+        "B級抽到肌肥大卻做成爆發力節奏"
+      ],
+      "sources": [
+        {
+          "title": "C級考照心得（巴哈）",
+          "url": "https://home.gamer.com.tw/artwork.php?sn=5591457"
+        },
+        {
+          "title": "C級便當證照心得（Medium）",
+          "url": "https://thecelinehuang.medium.com/%E9%AB%94%E9%81%A9%E8%83%BD%E5%81%A5%E8%BA%ABc%E7%B4%9A%E6%8C%87%E5%B0%8E%E5%93%A1-%E4%BF%97%E7%A8%B1-%E4%BE%BF%E7%95%B6%E8%AD%89%E7%85%A7-%E6%9C%89%E5%A4%9A%E4%BE%BF%E7%95%B6-a477a4a86a59"
+        },
+        {
+          "title": "中華健身運動B級指導員考照心得（方格子）",
+          "url": "https://vocus.cc/article/65e875dbfd897800013a9af2"
+        },
+        {
+          "title": "C級新手入門學習心得（Medium）",
+          "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1"
+        }
+      ]
+    },
+    {
+      "id": "ef-scap-landmarks",
+      "title": "肩胛四大標記要會摸、會比喻",
+      "why": "考過的人與骨骼單元都點名肩胛棘、盂窩、喙突、肩峰；學科常考位置／易混（峰vs喙），術科觸診也用得到。",
+      "priority": "高",
+      "topics": [
+        "肩胛棘",
+        "盂窩",
+        "喙突",
+        "肩峰",
+        "喙肩弓",
+        "觸診"
+      ],
+      "lessonIds": [
+        "L19",
+        "L11",
+        "L12"
+      ],
+      "mnemonicIds": [
+        "mn-scap-four-metaphor",
+        "mn-acromion-vs-coracoid",
+        "mn-palpate-spine-to-acromion"
+      ],
+      "pitfalls": [
+        "肩峰喙突搞反",
+        "只背名稱說不出身體哪裡",
+        "把肩鎖跟盂肱講成同一個"
+      ],
+      "sources": []
+    },
+    {
+      "id": "ef-wg-load-table",
+      "title": "負荷設定表：%1RM ↔ 次數（1–6 力／7–12 大／12–15 耐）",
+      "why": "WG《肌能訓練》影片整張列出 %1RM、反覆次數、自覺強度、效益；B 級心得也點名肌肥大／肌耐力／爆發力參數要分清。先會 1RM、%1RM 換算（重量＝1RM×%），再背三段次數。",
+      "priority": "高",
+      "topics": [
+        "負荷設定",
+        "1RM",
+        "訓練法",
+        "計算題"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-rep-zones",
+        "mn-wgmt-1rm",
+        "mn-rep-zone",
+        "mn-wgmt-mech-slow-heavy"
+      ],
+      "pitfalls": [
+        "1RM 誤當一組做到累",
+        "%1RM 用除的",
+        "肌肥大／肌耐力次數記反"
+      ],
+      "sources": [
+        {
+          "title": "World Gym《肌能訓練》",
+          "url": "https://youtu.be/bitXk8tqgMI"
+        },
+        {
+          "title": "中華健身運動B級指導員考照心得",
+          "url": "https://vocus.cc/article/65e875dbfd897800013a9af2"
+        }
+      ]
+    },
+    {
+      "id": "ef-wg-energy",
+      "title": "三大能量系統（WG 影片版：燃料／有氧無氧／快慢／例子）",
+      "why": "影片用表格對照磷酸肌酸、糖解、有氧；心得也說能量系統是必記基礎。記「磷快、糖中、氧慢久」＋100m／400m／1000m+，再記肝醣偏無氧、血糖偏有氧。",
+      "priority": "高",
+      "topics": [
+        "能量系統",
+        "生理"
+      ],
+      "lessonIds": [
+        "L22",
+        "L07"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-energy",
+        "mn-energy",
+        "mn-energy-work-rest"
+      ],
+      "pitfalls": [
+        "磷酸肌酸跟有氧快慢記反",
+        "以為糖解只有無氧"
+      ],
+      "sources": [
+        {
+          "title": "World Gym《肌能訓練》",
+          "url": "https://youtu.be/bitXk8tqgMI"
+        },
+        {
+          "title": "C級新手入門學習心得（Medium）",
+          "url": "https://medium.com/blacksecurity/c-level-exercise-0fbc222bf7f1"
+        }
+      ]
+    },
+    {
+      "id": "ef-wg-hr-calc",
+      "title": "心率名詞＋計算（MHR／HRR／RHR／THR）",
+      "why": "WG 教官說 MHR、HRR、RHR、THR「可能跟後續計算題有關」。影片給定義（HRR＝MHR−RHR），常見公式為補充：MHR≈220−年齡、Karvonen THR＝HRR×%＋RHR。FITT-VP 表心肺強度也用 %HRR。",
+      "priority": "高",
+      "topics": [
+        "心率",
+        "計算題",
+        "運動處方"
+      ],
+      "lessonIds": [
+        "L23",
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-hr-names",
+        "mn-wgmt-karvonen",
+        "mn-wgmt-zones5",
+        "mn-karvonen",
+        "mn-mhr"
+      ],
+      "pitfalls": [
+        "Karvonen 忘記加回 RHR",
+        "%HRR 題用 MHR×%",
+        "HRR／RHR 名稱記反"
+      ],
+      "sources": [
+        {
+          "title": "World Gym《肌能訓練》",
+          "url": "https://youtu.be/bitXk8tqgMI"
+        }
+      ]
+    },
+    {
+      "id": "ef-wg-fittvp",
+      "title": "FITT-VP 運動處方表（心肺／阻力／柔軟度數字）",
+      "why": "影片教 FITT-VP 六字母＋客戶範例；學員提供的 FITT-VP 表（ACSM 式）每格數字都可能出題：心肺 150 分或 1000 大卡、中 40～<60% HRR、阻力 2–3 次與 48 小時、伸展 10–30 秒（老人 30–60）、每部位 60 秒。",
+      "priority": "高",
+      "topics": [
+        "運動處方",
+        "FITT-VP",
+        "心肺",
+        "阻力",
+        "柔軟度"
+      ],
+      "lessonIds": [
+        "L24",
+        "L23"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-fittvp",
+        "mn-wgmt-cardio-150",
+        "mn-wgmt-res-48",
+        "mn-wgmt-flex-time"
+      ],
+      "pitfalls": [
+        "第二個 T 影片叫模式、表叫類型，以為是兩件事",
+        "心肺總量記錯",
+        "伸展拉到痛"
+      ],
+      "sources": [
+        {
+          "title": "World Gym《肌能訓練》",
+          "url": "https://youtu.be/bitXk8tqgMI"
+        },
+        {
+          "title": "中級體適能指導員考試心得（運科竹）",
+          "url": "https://vocus.cc/article/6502c66afd89780001f44d00"
+        }
+      ]
+    },
+    {
+      "id": "ef-wg-needs",
+      "title": "需求分析三點（上課前先問診）",
+      "why": "WG 教官強調上課前非常重要：① 客戶需求 ② 傷病史 ③ 體適能水準與訓練經驗。之後才用 FITT-VP 開處方。",
+      "priority": "高",
+      "topics": [
+        "需求分析",
+        "運動處方",
+        "教學"
+      ],
+      "lessonIds": [
+        "L24"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-needs3",
+        "mn-wgmt-fittvp"
+      ],
+      "pitfalls": [
+        "沒問傷病史就排課",
+        "新手與老手同一份課表"
+      ],
+      "sources": [
+        {
+          "title": "World Gym《肌能訓練》",
+          "url": "https://youtu.be/bitXk8tqgMI"
+        }
+      ]
+    },
+    {
+      "id": "ef-wg-7factors",
+      "title": "影響肌力、肌肥大 7 因素＋阻力訓練 5 優點",
+      "why": "影片逐項講：訓練強度、身體比例、激素水準、神經學效能（神經適應）、機械張力、代謝壓力、身體恢復率；阻力訓練優點 5 點。名詞多，容易出「下列何者不是」。",
+      "priority": "中",
+      "topics": [
+        "訓練科學",
+        "阻力訓練"
+      ],
+      "lessonIds": [
+        "L21"
+      ],
+      "mnemonicIds": [
+        "mn-wgmt-7factors",
+        "mn-wgmt-neural-first",
+        "mn-wgmt-benefits5",
+        "mn-wgmt-mech-slow-heavy"
+      ],
+      "pitfalls": [
+        "新手變強就以為肌肉已長大",
+        "激素只記睪固酮、漏生長激素"
+      ],
+      "sources": [
+        {
+          "title": "World Gym《肌能訓練》",
+          "url": "https://youtu.be/bitXk8tqgMI"
+        }
+      ]
+    }
+  ]
+}

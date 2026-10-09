@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" role="img" aria-labelledby="t d">
+  <title id="t">上半身推拉總覽</title>
+  <desc id="d">胸推與背拉對應肌群</desc>
+  <rect width="700" height="380" rx="16" fill="#1a222d"/>
+  <text x="24" y="34" fill="#3d9cf0" font-size="18" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">上半身：推 vs 拉</text>
+
+  <rect x="24" y="56" width="320" height="290" rx="12" fill="#212b38" stroke="#3d9cf0" stroke-width="1.5"/>
+  <text x="184" y="90" text-anchor="middle" fill="#3d9cf0" font-size="16" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">推（胸／肩）</text>
+  <!-- simple chest -->
+  <ellipse cx="184" cy="160" rx="55" ry="40" fill="#3d9cf0" opacity="0.35" stroke="#3d9cf0" stroke-width="2"/>
+  <text x="184" y="165" text-anchor="middle" fill="#e8eef5" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">胸大肌</text>
+  <text x="50" y="230" fill="#e8eef5" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">例：臥推、肩推、伏地挺身</text>
+  <text x="50" y="254" fill="#8b9bb0" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">常一起：前三角、肱三頭</text>
+  <text x="50" y="278" fill="#8b9bb0" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">動作感：把手往前／往上推開</text>
+  <text x="50" y="310" fill="#3d9cf0" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="600">水平推 ≈ 水平內收＋肘伸</text>
+
+  <rect x="356" y="56" width="320" height="290" rx="12" fill="#212b38" stroke="#2dd4a8" stroke-width="1.5"/>
+  <text x="516" y="90" text-anchor="middle" fill="#2dd4a8" font-size="16" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">拉（背）</text>
+  <path d="M470 130 L560 130 L545 200 L485 200 Z" fill="#2dd4a8" opacity="0.35" stroke="#2dd4a8" stroke-width="2"/>
+  <text x="516" y="170" text-anchor="middle" fill="#e8eef5" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">闊背／菱形</text>
+  <text x="380" y="230" fill="#e8eef5" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">例：划船、下拉、引體</text>
+  <text x="380" y="254" fill="#8b9bb0" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">常一起：中斜方、肱二頭</text>
+  <text x="380" y="278" fill="#8b9bb0" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">動作感：把手肘往身側／下帶</text>
+  <text x="380" y="310" fill="#2dd4a8" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="600">水平拉 ≈ 肩伸＋肩胛後縮</text>
+</svg>

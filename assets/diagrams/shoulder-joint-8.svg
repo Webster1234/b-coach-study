@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" role="img" aria-labelledby="t d">
+  <title id="t">肩關節八動作</title>
+  <desc id="d">屈伸外展內收水平內收外展內外轉：動的是肱骨頭</desc>
+  <rect width="1000" height="720" rx="16" fill="#1a222d"/>
+  <text x="28" y="36" fill="#3d9cf0" font-size="20" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">肩關節八動作＝手臂（肱骨）在球窩怎麼轉</text>
+  <text x="28" y="58" fill="#8b9bb0" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif">記住：這裡動的是「整隻手臂球頭」，不是肩胛板在肋骨上滑</text>
+
+  <!-- cell helper size 230x145, 4 cols x 2 rows -->
+  <!-- 1 Flexion -->
+  <g transform="translate(24,78)">
+    <rect width="230" height="145" rx="10" fill="#212b38" stroke="#3d9cf0" stroke-width="1.4"/>
+    <text x="115" y="24" text-anchor="middle" fill="#3d9cf0" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">① 屈曲</text>
+    <text x="115" y="42" text-anchor="middle" fill="#e8eef5" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">手臂往前舉</text>
+    <!-- stick: arm forward -->
+    <circle cx="90" cy="90" r="10" fill="#2a3544" stroke="#c5d0dc" stroke-width="1.5"/>
+    <line x1="90" y1="100" x2="90" y2="130" stroke="#c5d0dc" stroke-width="5" stroke-linecap="round"/>
+    <line x1="90" y1="85" x2="150" y2="55" stroke="#3d9cf0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M100 75 A28 28 0 0 1 135 62" fill="none" stroke="#e6b450" stroke-width="2"/>
+    <polygon points="140,60 130,58 132,68" fill="#e6b450"/>
+    <text x="160" y="95" fill="#8b9bb0" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">前平舉</text>
+    <text x="12" y="135" fill="#2dd4a8" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">三角前＋二頭＋胸大鎖骨</text>
+  </g>
+
+  <!-- 2 Extension -->
+  <g transform="translate(266,78)">
+    <rect width="230" height="145" rx="10" fill="#212b38" stroke="#3d9cf0" stroke-width="1.4"/>
+    <text x="115" y="24" text-anchor="middle" fill="#3d9cf0" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">② 伸展</text>
+    <text x="115" y="42" text-anchor="middle" fill="#e8eef5" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">手臂往後帶</text>
+    <circle cx="120" cy="90" r="10" fill="#2a3544" stroke="#c5d0dc" stroke-width="1.5"/>
+    <line x1="120" y1="100" x2="120" y2="130" stroke="#c5d0dc" stroke-width="5" stroke-linecap="round"/>
+    <line x1="120" y1="85" x2="60" y2="55" stroke="#3d9cf0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M105 75 A28 28 0 0 0 75 62" fill="none" stroke="#e6b450" stroke-width="2"/>
+    <polygon points="70,60 80,58 78,68" fill="#e6b450"/>
+    <text x="150" y="95" fill="#8b9bb0" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">手往後伸</text>
+    <text x="8" y="135" fill="#2dd4a8" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">闊背＋大圓＋後三角＋三頭長</text>
+  </g>
+
+  <!-- 3 Abduction -->
+  <g transform="translate(508,78)">
+    <rect width="230" height="145" rx="10" fill="#212b38" stroke="#3d9cf0" stroke-width="1.4"/>
+    <text x="115" y="24" text-anchor="middle" fill="#3d9cf0" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">③ 外展</text>
+    <text x="115" y="42" text-anchor="middle" fill="#e8eef5" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">手臂往兩側打開</text>
+    <circle cx="115" cy="95" r="10" fill="#2a3544" stroke="#c5d0dc" stroke-width="1.5"/>
+    <line x1="115" y1="105" x2="115" y2="132" stroke="#c5d0dc" stroke-width="5" stroke-linecap="round"/>
+    <line x1="115" y1="90" x2="40" y2="90" stroke="#3d9cf0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="115" y1="90" x2="190" y2="90" stroke="#3d9cf0" stroke-width="6" stroke-linecap="round"/>
+    <text x="115" y="70" text-anchor="middle" fill="#e6b450" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">← 側平舉 →</text>
+    <text x="20" y="135" fill="#2dd4a8" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">棘上＋三角中束</text>
+  </g>
+
+  <!-- 4 Adduction -->
+  <g transform="translate(750,78)">
+    <rect width="230" height="145" rx="10" fill="#212b38" stroke="#3d9cf0" stroke-width="1.4"/>
+    <text x="115" y="24" text-anchor="middle" fill="#3d9cf0" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">④ 內收</text>
+    <text x="115" y="42" text-anchor="middle" fill="#e8eef5" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">手臂往身體夾回</text>
+    <circle cx="115" cy="95" r="10" fill="#2a3544" stroke="#c5d0dc" stroke-width="1.5"/>
+    <line x1="115" y1="105" x2="115" y2="132" stroke="#c5d0dc" stroke-width="5" stroke-linecap="round"/>
+    <line x1="115" y1="90" x2="115" y2="90" stroke="#3d9cf0" stroke-width="6"/>
+    <line x1="70" y1="75" x2="100" y2="95" stroke="#3d9cf0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="160" y1="75" x2="130" y2="95" stroke="#3d9cf0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M55 70 L85 88" stroke="#e6b450" stroke-width="2"/>
+    <polygon points="90,90 80,82 78,94" fill="#e6b450"/>
+    <text x="150" y="115" fill="#8b9bb0" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">往中線夾</text>
+    <text x="16" y="135" fill="#2dd4a8" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">小圓＋闊背＋大圓</text>
+  </g>
+
+  <!-- 5 Horizontal adduction -->
+  <g transform="translate(24,240)">
+    <rect width="230" height="155" rx="10" fill="#212b38" stroke="#3d9cf0" stroke-width="1.4"/>
+    <text x="115" y="24" text-anchor="middle" fill="#3d9cf0" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">⑤ 水平內收</text>
+    <text x="115" y="42" text-anchor="middle" fill="#e8eef5" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">肩高再往胸前夾</text>
+    <circle cx="100" cy="95" r="10" fill="#2a3544" stroke="#c5d0dc" stroke-width="1.5"/>
+    <line x1="100" y1="105" x2="100" y2="140" stroke="#c5d0dc" stroke-width="5" stroke-linecap="round"/>
+    <!-- arm at shoulder height going across -->
+    <line x1="100" y1="90" x2="190" y2="90" stroke="#5a6b7d" stroke-width="4" stroke-dasharray="3 2" stroke-linecap="round"/>
+    <line x1="100" y1="90" x2="155" y2="70" stroke="#3d9cf0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M175 88 A40 40 0 0 0 145 72" fill="none" stroke="#e6b450" stroke-width="2"/>
+    <text x="12" y="125" fill="#8b9bb0" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">先抬到肩高＝水平面</text>
+    <text x="12" y="142" fill="#2dd4a8" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">胸大＋三角前（夾胸）</text>
+  </g>
+
+  <!-- 6 Horizontal abduction -->
+  <g transform="translate(266,240)">
+    <rect width="230" height="155" rx="10" fill="#212b38" stroke="#3d9cf0" stroke-width="1.4"/>
+    <text x="115" y="24" text-anchor="middle" fill="#3d9cf0" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">⑥ 水平外展</text>
+    <text x="115" y="42" text-anchor="middle" fill="#e8eef5" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">肩高再往後打開</text>
+    <circle cx="130" cy="95" r="10" fill="#2a3544" stroke="#c5d0dc" stroke-width="1.5"/>
+    <line x1="130" y1="105" x2="130" y2="140" stroke="#c5d0dc" stroke-width="5" stroke-linecap="round"/>
+    <line x1="130" y1="90" x2="50" y2="90" stroke="#5a6b7d" stroke-width="4" stroke-dasharray="3 2" stroke-linecap="round"/>
+    <line x1="130" y1="90" x2="70" y2="70" stroke="#3d9cf0" stroke-width="6" stroke-linecap="round"/>
+    <path d="M60 88 A40 40 0 0 1 85 72" fill="none" stroke="#e6b450" stroke-width="2"/>
+    <text x="12" y="125" fill="#8b9bb0" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">≠側平舉（那是外展）</text>
+    <text x="12" y="142" fill="#2dd4a8" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">三角後（反向飛鳥）</text>
+  </g>
+
+  <!-- 7 Internal rotation -->
+  <g transform="translate(508,240)">
+    <rect width="230" height="155" rx="10" fill="#212b38" stroke="#3d9cf0" stroke-width="1.4"/>
+    <text x="115" y="24" text-anchor="middle" fill="#3d9cf0" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">⑦ 內轉（內旋）</text>
+    <text x="115" y="42" text-anchor="middle" fill="#e8eef5" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">上臂往中線轉</text>
+    <!-- elbow bent, forearm swinging in -->
+    <circle cx="90" cy="85" r="9" fill="#2a3544" stroke="#c5d0dc" stroke-width="1.5"/>
+    <line x1="90" y1="94" x2="90" y2="125" stroke="#c5d0dc" stroke-width="5" stroke-linecap="round"/>
+    <line x1="90" y1="85" x2="130" y2="85" stroke="#5a6b7d" stroke-width="5" stroke-linecap="round"/>
+    <line x1="130" y1="85" x2="130" y2="125" stroke="#3d9cf0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M145 100 A22 22 0 0 1 130 120" fill="none" stroke="#e6b450" stroke-width="2"/>
+    <text x="150" y="95" fill="#e6b450" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">往肚臍</text>
+    <text x="12" y="142" fill="#2dd4a8" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">肩胛下＋闊背＋大圓＋胸大</text>
+  </g>
+
+  <!-- 8 External rotation -->
+  <g transform="translate(750,240)">
+    <rect width="230" height="155" rx="10" fill="#212b38" stroke="#3d9cf0" stroke-width="1.4"/>
+    <text x="115" y="24" text-anchor="middle" fill="#3d9cf0" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">⑧ 外轉（外旋）</text>
+    <text x="115" y="42" text-anchor="middle" fill="#e8eef5" font-size="11" font-family="Segoe UI,PingFang TC,sans-serif">上臂往外側轉</text>
+    <circle cx="110" cy="85" r="9" fill="#2a3544" stroke="#c5d0dc" stroke-width="1.5"/>
+    <line x1="110" y1="94" x2="110" y2="125" stroke="#c5d0dc" stroke-width="5" stroke-linecap="round"/>
+    <line x1="110" y1="85" x2="150" y2="85" stroke="#5a6b7d" stroke-width="5" stroke-linecap="round"/>
+    <line x1="150" y1="85" x2="150" y2="45" stroke="#3d9cf0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M155 70 A22 22 0 0 0 165 95" fill="none" stroke="#e6b450" stroke-width="2"/>
+    <text x="168" y="85" fill="#e6b450" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">往外開</text>
+    <text x="20" y="142" fill="#2dd4a8" font-size="10" font-family="Segoe UI,PingFang TC,sans-serif">棘下＋小圓</text>
+  </g>
+
+  <!-- bottom compare box -->
+  <rect x="24" y="420" width="952" height="276" rx="12" fill="#212b38" stroke="#2d3a4a"/>
+  <text x="44" y="452" fill="#e6b450" font-size="15" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="700">超容易搞混（照鏡子自測）</text>
+  <text x="44" y="480" fill="#e8eef5" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif">• 外展 vs 水平外展：外展＝手臂從垂著往兩側抬（側平舉）；水平外展＝先抬到肩高，再往後打開（反向飛鳥）</text>
+  <text x="44" y="508" fill="#e8eef5" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif">• 內收 vs 水平內收：內收＝從側邊夾回身側；水平內收＝肩高位置往胸前夾（夾胸）</text>
+  <text x="44" y="536" fill="#e8eef5" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif">• 屈曲 vs 外展：屈曲＝往前舉；外展＝往旁邊舉</text>
+  <text x="44" y="564" fill="#e8eef5" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif">• 內轉／外轉 ≠ 前臂旋前／旋後：內外轉轉的是「整條上臂」；旋前旋後轉的是「前臂兩根骨／掌心」</text>
+  <text x="44" y="592" fill="#e8eef5" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif">• 肩關節動作 ≠ 肩帶動作：手臂動＝肩關節；只有肩膀／肩胛在動（聳、沉、夾、推）＝肩帶</text>
+  <text x="44" y="628" fill="#2dd4a8" font-size="13" font-family="Segoe UI,PingFang TC,sans-serif" font-weight="600">口訣：先問「動的是手臂球頭，還是肩胛板？」→ 再選動作名</text>
+  <text x="44" y="656" fill="#8b9bb0" font-size="12" font-family="Segoe UI,PingFang TC,sans-serif">對照圖：肩帶六動作見 shoulder-girdle-6.svg；總對照見 shoulder-girdle-vs-joint.svg</text>
+</svg>

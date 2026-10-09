@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f1419" />
+  <meta name="description" content="World Gym B 級健身教練考試｜解剖體力學離線複習・新手友善" />
+  <title>B 級教練複習站｜新手友善</title>
+  <link rel="stylesheet" href="css/style.css?v=20261009b" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar" id="topbar">
+      <button type="button" class="icon-btn" id="btn-back" title="返回上一頁" aria-label="返回上一頁" hidden>‹</button>
+      <button type="button" class="icon-btn" id="btn-home" title="首頁" aria-label="首頁">⌂</button>
+      <h1 class="topbar-title" id="topbar-title">B 級教練複習站</h1>
+      <div class="topbar-actions">
+        <button type="button" class="icon-btn" id="btn-search" title="搜尋全站" aria-label="搜尋全站">🔍</button>
+        <button type="button" class="icon-btn" id="btn-settings" title="字體大小・主題・使用說明" aria-label="設定：字體大小、主題、使用說明">Aa</button>
+      </div>
+      <div class="read-progress" id="read-progress" hidden><i id="read-progress-fill"></i></div>
+    </header>
+
+    <!-- HOME -->
+    <main id="view-home" class="view active">
+      <section class="home-hello">
+        <p class="home-hi" id="home-hi">嗨！今天也一起前進一點點 💪</p>
+        <div class="home-progress">
+          <div class="home-ring" id="home-ring" style="--p:0"><span id="home-pct">0%</span></div>
+          <div class="home-progress-text">
+            <div><strong id="home-done">0</strong> / <span id="home-total">24</span> 關完成</div>
+            <div class="muted">今天學了 <strong id="home-today">0</strong> 項</div>
+          </div>
+        </div>
+      </section>
+
+      <button type="button" class="continue-cta" id="btn-continue">
+        <span class="continue-kicker" id="continue-kicker">從第一關開始</span>
+        <span class="continue-title">▶ 繼續學習</span>
+        <span class="continue-desc" id="continue-desc">身體方位與三個平面</span>
+      </button>
+
+      <section class="today-plan">
+        <div class="today-plan-head">⏱️ 建議每天 15 分鐘</div>
+        <ol class="today-steps">
+          <li><span>① 讀 1 關課文</span><small>約 8 分</small></li>
+          <li><span>② 做本關小測驗</span><small>約 3 分</small></li>
+          <li><span>③ 翻 10 張學過的卡</span><small>約 4 分</small></li>
+        </ol>
+        <button type="button" class="text-link" id="btn-open-onboarding">第一次來？看 30 秒使用說明</button>
+      </section>
+
+      <p class="section-label">其他功能</p>
+      <nav class="mode-grid home-grid">
+        <button type="button" class="mode-card" data-go="path"><span class="mode-icon">🗺️</span><span class="mode-name">學習路徑</span><span class="mode-desc">7 個單元・看進度</span></button>
+        <button type="button" class="mode-card" data-go="practice"><span class="mode-icon">✏️</span><span class="mode-name">練習</span><span class="mode-desc">選擇題・翻卡・錯題</span></button>
+        <button type="button" class="mode-card" data-go="figures"><span class="mode-icon">🖼️</span><span class="mode-name">圖解庫</span><span class="mode-desc">解剖圖・動作動畫</span></button>
+        <button type="button" class="mode-card" data-go="glossary"><span class="mode-icon">📘</span><span class="mode-name">名詞辭典</span><span class="mode-desc">看不懂的詞查這裡</span></button>
+        <button type="button" class="mode-card" data-go="exam-focus"><span class="mode-icon">🎯</span><span class="mode-name">考過的人這樣說</span><span class="mode-desc">必背重點</span></button>
+        <button type="button" class="mode-card" data-go="search"><span class="mode-icon">🔍</span><span class="mode-name">搜尋全站</span><span class="mode-desc">課文・名詞・卡片</span></button>
+      </nav>
+      <p class="footer-note">進度只存在這台裝置的瀏覽器裡，不用登入。看不懂任何字，點底線的詞或右下角「問教練」。</p>
+    </main>
+
+    <!-- GUIDED PATH OVERVIEW -->
+    <main id="view-path" class="view">
+      <div class="panel-head">
+        <h2>學習路徑</h2>
+        <p class="muted">7 個單元，由簡單到困難。每關：讀課文 → 做 3～6 題小測驗。可以跳著看，但建議照順序。</p>
+      </div>
+      <div class="path-progress-summary" id="path-progress-summary"></div>
+      <div class="path-units" id="path-units"></div>
+      <ol class="path-steps" id="path-steps" hidden></ol>
+      <div class="form-block">
+        <button type="button" class="btn primary" id="btn-path-continue">繼續下一關</button>
+        <button type="button" class="btn ghost danger-text" id="btn-path-reset">重設學習進度</button>
+      </div>
+    </main>
+
+    <!-- PRACTICE HUB -->
+    <main id="view-practice" class="view">
+      <div class="panel-head">
+        <h2>練習</h2>
+        <p class="muted">不知道選哪個？新手先用 <strong>①</strong>，考前再用 <strong>②</strong>。</p>
+      </div>
+      <div class="practice-list">
+        <button type="button" class="practice-card rec" data-go="study"><span class="pc-num">①</span><span class="pc-body"><span class="pc-title">🃏 翻卡複習</span><span class="pc-desc">看題目 → 自己想 → 翻面看答案。預設只出你學過的課。</span></span></button>
+        <button type="button" class="practice-card" data-go="quiz"><span class="pc-num">②</span><span class="pc-body"><span class="pc-title">📝 選擇題練習</span><span class="pc-desc">模擬考題。答錯會告訴你為什麼，並帶你回課文那一段。</span></span></button>
+        <button type="button" class="practice-card" data-go="wrong"><span class="pc-num">③</span><span class="pc-body"><span class="pc-title">📕 錯題本 <span class="pc-badge" id="pc-wrong-count"></span></span><span class="pc-desc">答錯過的題目都在這，再練到會為止。</span></span></button>
+        <button type="button" class="practice-card" data-go="srs"><span class="pc-num">④</span><span class="pc-body"><span class="pc-title">🔁 間隔重複 <span class="pc-badge" id="pc-due-count"></span></span><span class="pc-desc">系統依你熟不熟，自動安排哪天再看哪張卡。</span></span></button>
+        <button type="button" class="practice-card" data-go="mnemonics"><span class="pc-num">⑤</span><span class="pc-body"><span class="pc-title">💡 速記口訣</span><span class="pc-desc">口訣、聯想、對照表，幫你記得牢。</span></span></button>
+        <button type="button" class="practice-card" data-go="exam-focus"><span class="pc-num">⑥</span><span class="pc-body"><span class="pc-title">🎯 考過的人這樣說</span><span class="pc-desc">考過的人建議必背的重點。</span></span></button>
+        <button type="button" class="practice-card" data-go="lessons"><span class="pc-num">⑦</span><span class="pc-body"><span class="pc-title">📖 全部課文</span><span class="pc-desc">不照路徑，直接挑一課看。</span></span></button>
+        <button type="button" class="practice-card" data-go="chapters"><span class="pc-num">⑧</span><span class="pc-body"><span class="pc-title">📚 依章節翻卡</span><span class="pc-desc">照講義章節挑卡片。</span></span></button>
+      </div>
+    </main>
+
+    <!-- SEARCH -->
+    <main id="view-search" class="view">
+      <div class="panel-head">
+        <h2>搜尋全站</h2>
+        <p class="muted">課文、名詞、速記、卡片一起找。</p>
+      </div>
+      <div class="form-block">
+        <input type="search" id="global-search" class="input input-lg" placeholder="例如：內旋、側平舉、心率、肩峰…" enterkeyhint="search" />
+        <div class="chip-row" id="search-suggest"></div>
+      </div>
+      <div id="search-results" class="search-results"></div>
+    </main>
+
+
+    <!-- EXAM FOCUS -->
+    <main id="view-exam-focus" class="view">
+      <div class="panel-head">
+        <h2>考過的人這樣說</h2>
+        <p class="muted">綜合公開心得改寫的高頻著重點（非官方考題原文）。可依優先順序看，點進去連課文／速記。</p>
+      </div>
+      <div class="form-block">
+        <label class="field-label">優先順序</label>
+        <div class="chip-row single" id="exam-focus-priority-chips">
+          <button type="button" class="chip active" data-priority="all">全部</button>
+          <button type="button" class="chip" data-priority="高">只看「高」</button>
+          <button type="button" class="chip" data-priority="中">只看「中」</button>
+        </div>
+      </div>
+      <div class="exam-focus-list" id="exam-focus-list"></div>
+      <p class="footer-note" id="exam-focus-source-note"></p>
+    </main>
+
+    <!-- EXAM FOCUS DETAIL -->
+    <main id="view-exam-focus-detail" class="view">
+      <div class="panel-head">
+        <div class="chapter-badge" id="ef-badge">🎯 必背</div>
+        <h2 id="ef-title"></h2>
+        <p class="muted" id="ef-why"></p>
+      </div>
+      <div id="ef-pitfalls" class="pitfall-box hidden"></div>
+      <div class="section-label">相關課文</div>
+      <div id="ef-lessons" class="link-chip-row"></div>
+      <div class="section-label">相關速記</div>
+      <div id="ef-mnemonics" class="mnemonic-inline-list"></div>
+      <div class="section-label">參考心得（公開連結）</div>
+      <ul class="source-list" id="ef-sources"></ul>
+      <div class="form-block">
+        <button type="button" class="btn ghost" id="btn-ef-back">返回必背列表</button>
+      </div>
+    </main>
+
+    <!-- LESSON LIST -->
+    <main id="view-lessons" class="view">
+      <div class="panel-head">
+        <h2>全部課文</h2>
+        <p class="muted">每個主題：白話 3～8 句＋生活比喻＋必記關鍵詞。</p>
+      </div>
+      <div class="lesson-list" id="lesson-list"></div>
+    </main>
+
+    <!-- LESSON READ -->
+    <main id="view-lesson" class="view">
+      <div class="panel-head">
+        <div class="chapter-badge" id="lesson-badge"></div>
+        <h2 id="lesson-title"></h2>
+        <p class="lesson-meta muted" id="lesson-meta"></p>
+      </div>
+      <div class="keypoint-box" id="lesson-keypoint">
+        <div class="keypoint-label">⭐ 一句話重點</div>
+        <p id="lesson-keypoint-text"></p>
+      </div>
+      <div class="prereq-box hidden" id="lesson-prereq">
+        <div class="prereq-label">📘 先懂這些詞 <small>（點一下看白話解釋）</small></div>
+        <div class="link-chip-row" id="lesson-prereq-chips"></div>
+      </div>
+      <nav class="lesson-toc hidden" id="lesson-toc" aria-label="本課目錄"></nav>
+      <article class="lesson-body" id="lesson-body"></article>
+      <div id="lesson-tables" class="lesson-tables" hidden></div>
+      <div id="lesson-figures" class="lesson-figures" hidden></div>
+      <div id="lesson-pitfalls" class="pitfall-box hidden"></div>
+      <div id="lesson-mnemonics" class="mnemonic-inline-list"></div>
+      <div class="section-label lesson-gloss-label hidden" id="lesson-gloss-label">本課關鍵名詞（點一下看解釋）</div>
+      <div class="link-chip-row" id="lesson-glossary-chips"></div>
+      <div class="keyword-row hidden" id="lesson-keywords"></div>
+      <section class="lesson-end" id="lesson-end">
+        <div class="lesson-end-q">讀完了，你覺得呢？</div>
+        <div class="lesson-end-btns">
+          <button type="button" class="btn primary" id="btn-lesson-ok">✅ 我懂了，做小測驗</button>
+          <button type="button" class="btn" id="btn-lesson-confused">🤔 還不懂</button>
+        </div>
+        <div class="confused-help hidden" id="lesson-confused-help"></div>
+        <button type="button" class="btn ghost" id="btn-lesson-practice" hidden>做小練習</button>
+        <button type="button" class="btn ghost" id="btn-lesson-cards">🃏 翻這課的基礎卡</button>
+      </section>
+      <div class="lesson-pager">
+        <button type="button" class="btn ghost" id="btn-lesson-prev">‹ 上一課</button>
+        <button type="button" class="btn ghost" id="btn-lesson-next">下一課 ›</button>
+      </div>
+      <button type="button" class="btn ghost hidden" id="btn-lesson-back">返回</button>
+    </main>
+
+
+
+    <!-- FIGURE GALLERY -->
+    <main id="view-figures" class="view">
+      <div class="panel-head">
+        <h2>🖼️ 圖解庫</h2>
+        <p class="muted">依部位分組。<strong>動畫</strong>：淡灰＝起始姿勢、彩色箭頭＝動的方向，下方寫關節・平面・主力肌；<strong>真實解剖</strong>：橘字＝這一課重點。點圖可放大。</p>
+      </div>
+      <div class="chip-row" id="figures-kind-chips"></div>
+      <div id="figures-gallery" class="figures-gallery"></div>
+      <p class="footer-note">解剖底圖：OpenStax《Anatomy &amp; Physiology》(CC BY 4.0)、BodyParts3D／Anatomography (CC BY-SA 2.1 JP)，經 Wikimedia Commons；中文標註為本站加註。動畫為本站自製。</p>
+    </main>
+
+    <!-- GLOSSARY LIST -->
+    <main id="view-glossary" class="view">
+      <div class="panel-head">
+        <h2>名詞小辭典</h2>
+        <p class="muted">給完全沒學過的人：一句話白話＋生活例子。可搜尋或依分類篩選。</p>
+      </div>
+      <div class="form-block">
+        <input type="search" id="glossary-search" class="input" placeholder="搜尋：例如 側平舉、內旋、矢狀面、縫匠肌…" />
+        <label class="field-label">分類</label>
+        <div class="chip-row" id="glossary-category-chips"></div>
+      </div>
+      <div class="glossary-list" id="glossary-list"></div>
+      <p class="footer-note" id="glossary-count-note"></p>
+    </main>
+
+    <!-- GLOSSARY DETAIL -->
+    <main id="view-glossary-term" class="view">
+      <div class="panel-head">
+        <div class="chapter-badge" id="glossary-term-badge">📘 名詞</div>
+        <h2 id="glossary-term-title"></h2>
+        <p class="muted" id="glossary-term-aliases"></p>
+        <p class="glossary-oneliner" id="glossary-term-oneliner"></p>
+      </div>
+      <div id="glossary-term-figure" class="lesson-figures" hidden></div>
+      <article class="lesson-body" id="glossary-term-explain"></article>
+      <div class="glossary-example-box" id="glossary-term-example-box">
+        <div class="mnemonic-label">生活／訓練例子</div>
+        <p id="glossary-term-example"></p>
+      </div>
+      <div class="section-label">相關名詞</div>
+      <div class="link-chip-row" id="glossary-term-related"></div>
+      <div class="section-label">相關課文</div>
+      <div class="link-chip-row" id="glossary-term-lessons"></div>
+      <div class="section-label">相關速記</div>
+      <div class="mnemonic-inline-list" id="glossary-term-mnemonics"></div>
+      <div class="form-block">
+        <button type="button" class="btn ghost" id="btn-glossary-back">返回名詞列表</button>
+      </div>
+    </main>
+
+    <!-- MNEMONICS LIST -->
+    <main id="view-mnemonics" class="view">
+      <div class="panel-head">
+        <h2>速記法</h2>
+        <p class="muted">口訣／諧音／身體聯想／對照表。可搜尋或依章節篩選。</p>
+      </div>
+      <div class="form-block">
+        <input type="search" id="mnemonic-search" class="input" placeholder="搜尋：例如 SITS、平面、交叉、四四九…" />
+        <label class="field-label">章節</label>
+        <div class="chip-row" id="mnemonic-chapter-chips"></div>
+      </div>
+      <div class="mnemonic-list" id="mnemonic-list"></div>
+    </main>
+
+    <!-- MNEMONIC DETAIL -->
+    <main id="view-mnemonic" class="view">
+      <div class="panel-head">
+        <div class="chapter-badge" id="mnemonic-badge">💡 速記</div>
+        <h2 id="mnemonic-title"></h2>
+      </div>
+      <div class="mnemonic-box featured" id="mnemonic-trick-box">
+        <div class="mnemonic-label">💡 速記口訣</div>
+        <p class="mnemonic-trick" id="mnemonic-trick"></p>
+      </div>
+      <article class="lesson-body" id="mnemonic-detail"></article>
+      <div class="keyword-row" id="mnemonic-tags"></div>
+      <div class="form-block">
+        <button type="button" class="btn ghost" id="btn-mnemonic-back">返回速記列表</button>
+      </div>
+    </main>
+
+    <!-- CHAPTERS -->
+    <main id="view-chapters" class="view">
+      <div class="panel-head">
+        <h2>章節一覽</h2>
+        <p class="muted">點章節進入學習；可先看該章課文（若有）。</p>
+      </div>
+      <div class="chapter-grid" id="chapter-grid"></div>
+    </main>
+
+    <!-- STUDY SETUP -->
+    <main id="view-study-setup" class="view">
+      <div class="panel-head">
+        <h2>翻卡複習</h2>
+        <p class="muted">建議新手先勾「只抽基礎卡」；進階再含考試向起止點。</p>
+      </div>
+      <div class="form-block">
+        <label class="field-label">難度</label>
+        <div class="chip-row single" id="study-level-chips">
+          <button type="button" class="chip active" data-level="basic">只抽基礎卡</button>
+          <button type="button" class="chip" data-level="all">全部（含考試向）</button>
+        </div>
+        <label class="field-label">章節篩選</label>
+        <div class="chip-row" id="study-chapter-chips"></div>
+        <label class="check-row"><input type="checkbox" id="study-learned" checked /> 只出我學過的課（建議）</label>
+        <p class="muted small" id="study-learned-note"></p>
+        <label class="check-row"><input type="checkbox" id="study-shuffle" checked /> 隨機順序</label>
+        <button type="button" class="btn primary" id="btn-start-study">開始翻卡</button>
+        <p class="muted small">怎麼用：先看題目自己想答案 → 點卡片翻面對答案 → 下一張。</p>
+      </div>
+    </main>
+
+    <!-- STUDY / SRS CARD -->
+    <main id="view-card" class="view">
+      <div class="card-progress">
+        <div class="progress-bar"><div class="progress-fill" id="card-progress-fill"></div></div>
+        <span class="progress-text" id="card-progress-text">0 / 0</span>
+      </div>
+      <div class="chapter-badge" id="card-chapter-badge"></div>
+      <button type="button" class="flashcard" id="flashcard" aria-label="點擊翻面">
+        <div class="flashcard-inner" id="flashcard-inner">
+          <div class="flashcard-face front">
+            <span class="face-label">問</span>
+            <p class="face-text" id="card-q"></p>
+            <span class="hint">點擊翻面</span>
+          </div>
+          <div class="flashcard-face back">
+            <span class="face-label">答</span>
+            <p class="face-text" id="card-a"></p>
+            <p class="face-plain" id="card-plain"></p>
+            <div class="mnemonic-box compact hidden" id="card-mnemonic">
+              <div class="mnemonic-label">💡 速記</div>
+              <p class="mnemonic-trick" id="card-mnemonic-text"></p>
+            </div>
+            <div class="card-gloss-hints hidden" id="card-gloss-hints"></div>
+          </div>
+        </div>
+      </button>
+      <div class="card-nav" id="study-nav">
+        <button type="button" class="btn ghost" id="btn-prev">上一張</button>
+        <button type="button" class="btn" id="btn-flip">翻面</button>
+        <button type="button" class="btn ghost" id="btn-next">下一張</button>
+      </div>
+      <div class="srs-nav hidden" id="srs-nav">
+        <button type="button" class="btn srs again" data-grade="again">再看</button>
+        <button type="button" class="btn srs hard" data-grade="hard">吃力</button>
+        <button type="button" class="btn srs good" data-grade="good">還行</button>
+        <button type="button" class="btn srs easy" data-grade="easy">簡單</button>
+      </div>
+    </main>
+
+    <!-- SRS SETUP -->
+    <main id="view-srs-setup" class="view">
+      <div class="panel-head">
+        <h2>間隔重複</h2>
+        <p class="muted">依熟悉度安排下次複習；可只排基礎卡。</p>
+      </div>
+      <div class="form-block">
+        <div class="stat-row compact">
+          <div class="stat"><span class="stat-num" id="srs-due-count">0</span><span class="stat-label">今日到期</span></div>
+          <div class="stat"><span class="stat-num" id="srs-new-count">0</span><span class="stat-label">未學習</span></div>
+        </div>
+        <label class="field-label">難度</label>
+        <div class="chip-row single" id="srs-level-chips">
+          <button type="button" class="chip active" data-level="basic">只抽基礎卡</button>
+          <button type="button" class="chip" data-level="all">全部</button>
+        </div>
+        <label class="field-label">章節（可全選）</label>
+        <div class="chip-row" id="srs-chapter-chips"></div>
+        <label class="check-row"><input type="checkbox" id="srs-learned" checked /> 只排我學過的課</label>
+        <label class="field-label">本輪張數上限</label>
+        <input type="number" id="srs-limit" class="input" min="5" max="100" value="20" />
+        <button type="button" class="btn primary" id="btn-start-srs">開始複習</button>
+        <button type="button" class="btn ghost danger-text" id="btn-reset-srs">重設間隔進度</button>
+      </div>
+    </main>
+
+    <!-- QUIZ SETUP -->
+    <main id="view-quiz-setup" class="view">
+      <div class="panel-head">
+        <h2>選擇題練習</h2>
+        <p class="muted">新手建議用「練習模式」：可看提示、答錯立刻看白話解析。</p>
+      </div>
+      <div class="form-block">
+        <label class="field-label">模式</label>
+        <div class="chip-row single" id="quiz-mode-chips">
+          <button type="button" class="chip active" data-qmode="practice">小練習（建議）</button>
+          <button type="button" class="chip" data-qmode="exam">正式計分考</button>
+        </div>
+        <label class="field-label">題庫</label>
+        <div class="chip-row single" id="quiz-source-chips">
+          <button type="button" class="chip active" data-source="exam">模擬選擇題</button>
+          <button type="button" class="chip" data-source="cards">由基礎卡出題</button>
+        </div>
+        <label class="field-label">題數</label>
+        <input type="number" id="quiz-count" class="input" min="5" max="50" value="10" />
+        <label class="check-row"><input type="checkbox" id="quiz-learned" checked /> 只出我學過的課（建議）</label>
+        <p class="muted small" id="quiz-learned-note"></p>
+        <label class="check-row"><input type="checkbox" id="quiz-random" checked /> 隨機抽題</label>
+        <button type="button" class="btn primary" id="btn-start-quiz">開始</button>
+      </div>
+    </main>
+
+    <!-- QUIZ PLAY -->
+    <main id="view-quiz" class="view">
+      <div class="card-progress">
+        <div class="progress-bar"><div class="progress-fill" id="quiz-progress-fill"></div></div>
+        <span class="progress-text" id="quiz-progress-text">0 / 0</span>
+      </div>
+      <p class="quiz-mode-tag" id="quiz-mode-tag"></p>
+      <p class="quiz-q" id="quiz-q"></p>
+      <button type="button" class="btn ghost hint-btn hidden" id="btn-quiz-hint">看提示</button>
+      <p class="hint-text hidden" id="quiz-hint-text"></p>
+      <div class="options" id="quiz-options"></div>
+      <div class="explain-box hidden" id="quiz-explain"></div>
+      <div class="mnemonic-box compact hidden" id="quiz-mnemonic">
+        <div class="mnemonic-label">💡 速記</div>
+        <p class="mnemonic-trick" id="quiz-mnemonic-text"></p>
+      </div>
+      <div class="card-nav">
+        <button type="button" class="btn primary" id="btn-quiz-next" disabled>下一題</button>
+      </div>
+    </main>
+
+    <!-- QUIZ RESULT -->
+    <main id="view-quiz-result" class="view">
+      <div class="panel-head center">
+        <div class="result-score" id="result-score">0%</div>
+        <h2 id="result-title">練習結束</h2>
+        <p class="muted" id="result-detail"></p>
+      </div>
+      <div class="form-block">
+        <button type="button" class="btn primary hidden" id="btn-quiz-nextstep">下一關</button>
+        <button type="button" class="btn" id="btn-quiz-retry">再練一次</button>
+        <button type="button" class="btn" id="btn-quiz-wrong">查看錯題本</button>
+        <button type="button" class="btn ghost" id="btn-quiz-home">回首頁</button>
+      </div>
+    </main>
+
+    <!-- WRONG BOOK -->
+    <main id="view-wrong" class="view">
+      <div class="panel-head">
+        <h2>錯題本</h2>
+        <p class="muted">來自測驗答錯的題目。</p>
+      </div>
+      <div class="form-block">
+        <button type="button" class="btn primary" id="btn-wrong-quiz" disabled>從錯題再練</button>
+        <button type="button" class="btn ghost danger-text" id="btn-clear-wrong">清空錯題本</button>
+      </div>
+      <ul class="wrong-list" id="wrong-list"></ul>
+    </main>
+  </div>
+
+
+
+  <nav class="bottom-nav" id="bottom-nav" aria-label="主要選單">
+    <button type="button" data-tab="home"><span>🏠</span>首頁</button>
+    <button type="button" data-tab="path"><span>🗺️</span>學習路徑</button>
+    <button type="button" data-tab="practice"><span>✏️</span>練習</button>
+    <button type="button" data-tab="figures"><span>🖼️</span>圖解</button>
+    <button type="button" data-tab="glossary"><span>📘</span>辭典</button>
+  </nav>
+
+  <div class="gpop-backdrop" id="gpop-backdrop" hidden></div>
+  <div class="gpop" id="gpop" role="dialog" aria-modal="true" aria-labelledby="gpop-title" hidden>
+    <div class="gpop-head"><span class="gpop-cat" id="gpop-cat"></span><button type="button" class="icon-btn" id="gpop-close" aria-label="關閉">✕</button></div>
+    <h3 id="gpop-title"></h3>
+    <p class="gpop-line" id="gpop-line"></p>
+    <div class="gpop-fig" id="gpop-fig"></div>
+    <p class="gpop-ex" id="gpop-ex"></p>
+    <div class="gpop-actions">
+      <button type="button" class="btn" id="gpop-more">看完整解釋</button>
+      <button type="button" class="btn primary" id="gpop-ok">懂了</button>
+    </div>
+  </div>
+
+  <div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" hidden></div>
+
+  <!-- 站內教練聊天 -->
+  <button type="button" id="coach-fab" class="coach-fab" aria-label="問教練" aria-expanded="false" title="問教練">
+    <span class="coach-fab-icon" aria-hidden="true">🏋️</span>
+    <span class="coach-fab-label">問教練</span>
+  </button>
+
+  <div id="coach-panel" class="coach-panel" role="dialog" aria-labelledby="coach-title" aria-hidden="true">
+    <header class="coach-header">
+      <div class="coach-header-text">
+        <h2 id="coach-title">健身教練（站內）</h2>
+        <p class="coach-sub">用站內辭典・課文・卡片・速記回答</p>
+      </div>
+      <button type="button" class="icon-btn" id="coach-close" aria-label="關閉">✕</button>
+    </header>
+    <div id="coach-messages" class="coach-messages" aria-live="polite"></div>
+    <div id="coach-chips" class="coach-chips" aria-label="建議問題"></div>
+    <div class="coach-compose">
+      <textarea id="coach-input" class="coach-input" rows="1" placeholder="例如：縫匠肌是什麼？" enterkeyhint="send"></textarea>
+      <button type="button" class="btn primary coach-send" id="coach-send">送出</button>
+    </div>
+    <p class="coach-footer-note">用站內辭典・課文・卡片・速記回答。更難的問題可回 Grok Bot 找健身🏋️。</p>
+  </div>
+
+  <script src="js/sm2.js?v=20261009b"></script>
+  <script src="js/storage.js?v=20261009b"></script>
+  <script src="js/figures.js?v=20261009b"></script>
+  <script src="js/app.js?v=20261009b"></script>
+  <script src="js/coach-chat.js?v=20261009b"></script>
+  <script src="js/ux.js?v=20261009b"></script>
+</body>
+</html>
